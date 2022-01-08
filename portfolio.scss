@@ -1,0 +1,561 @@
+/* <------- Import RFS -------> */
+@import "node_modules/rfs/scss.scss";
+
+/* <------- Variables -------> */
+$primary-color : #424b54;
+$secondary-color: #ffe3af;
+$details-color: #fa3333;
+$primary-text-color: #3b3735;
+$secondary-text-color: #FFFFFF;
+$primay_font : 'Open Sans', sans-serif;
+$secondary_font : 'Montserrat', sans-serif;
+$center-container-width: 1400px;
+$border-radius-button: 45px;
+$border-radius-picture: 5px;
+$border-radius-works: 15px;
+$border-radius-form: 10px;
+$black-white-icon-transition: 0.15s ease-in-out;
+$black-icon-hover: drop-shadow(1px 1px 1px black);
+$white-icon-hover: drop-shadow(2px 2px 2px black);
+$spacing-border: solid 2px $primary-color;
+$transition-icon: transform 0.2s;
+$transition-icon-hover: scale(1.15);
+/* <------ Mixins -------> */
+/* <------- Buttons -------> */
+@mixin button-nav {
+    border: solid 2px $secondary-color;
+    border-radius: $border-radius-button;
+    transition: 0.8s;
+}
+@mixin button-hover-nav {
+    box-shadow: inset 6.5em 0 0 0 $secondary-color;
+    color: $primary-text-color;
+}
+@mixin button-introduction{
+    border: solid 2px $primary-color;
+    border-radius: $border-radius-button;
+    transition: 0.8s;
+    font-size: 18px;
+    color:$secondary-text-color;
+    background-color: $primary-color;
+    font-weight: 600;
+    font-family: $secondary_font;
+}
+@mixin button-hover-introduction{
+    box-shadow: inset 10.5em 0 0 0 #FFFFFF;
+    color: $primary-text-color;
+}
+@mixin button-download-content{
+    border: solid 2px $primary-color;
+    border-radius: $border-radius-button;
+    transition: 0.8s;
+    font-size: 18px;
+    color:$secondary-text-color;
+    background-color: $primary-color;
+    font-weight: 600;
+    font-family: $secondary_font;
+    display: block;
+    width: 305px;
+    text-align: center;
+    @media (max-width: 365px) {
+        width: 266px;
+    }
+}
+@mixin button-download-content-hover{
+    box-shadow: inset 16.8em 0 0 0 #FFFFFF;
+    color: $primary-text-color;
+}
+@mixin button-submit{
+    border: solid 2px $primary-color;
+    border-radius: $border-radius-button;
+    transition: 0.8s;
+    font-size: 18px;
+    color:$secondary-text-color;
+    background-color: $primary-color;
+    font-weight: 600;
+    font-family: $secondary_font;
+    text-align: center;
+}
+@mixin button-submit-hover{
+    box-shadow: inset 10em 0 0 0 #FFFFFF;
+    color: $primary-text-color;
+}
+/* <------- Hover nav-bar ------->*/
+@mixin hover-nav {
+    &:after {
+        content:'';
+        position: absolute;
+        width: 100%;
+        height: 1.5px;
+        bottom: 0;
+        left: 0;
+        background-color: $secondary-color;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.3s;
+    }
+    &:hover {
+        &:after {
+            transform-origin: bottom left;
+            transform: scaleX(1);
+        }
+    }
+}
+@mixin border-title {
+    content:"";
+    position: absolute;
+    border-bottom: 2px solid $details-color;
+    width: 30%;   
+    height: 58%;
+    display: inline;
+    margin-left: 0.5em;
+    @media (max-width: 373px){
+        width: 20%;
+    }
+}
+@mixin description-works{
+    background-color: hsla(0, 0%, 100%, 0.56);
+    border-radius: 15px;
+}
+/* <------- General settings ------->*/
+a{
+    text-decoration: none !important;
+    color: $primary-color;
+}
+button:focus{
+    outline: none;
+}
+button{
+    transition: .3s ease-in-out;
+}
+.navbar-toggler{
+    &:focus, &:hover{
+    box-shadow: 0 0 7px 0.15rem;
+    }
+}
+
+body{
+    color: $primary-text-color;
+    font-family: $primay_font;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: $secondary_font;
+}
+.bold{
+    font-weight: 800;
+}
+.almost-bold{
+    font-weight: 700;
+}
+.semi-bold{
+    font-weight: 600;
+}
+.light-bold{
+    font-weight: 500;
+}
+.light-italic{
+    font-style: italic;
+    font-weight: 300;
+}
+.light-bold-italic{
+    font-style: italic;
+    font-weight: 400;
+}
+h1{
+    @include font-size(43px);
+}
+.red{
+    color: $details-color;
+}
+.no-arrow {
+  -moz-appearance: textfield;
+}
+.no-arrow::-webkit-inner-spin-button {
+  display: none;
+}
+.no-arrow::-webkit-outer-spin-button,
+.no-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.active{
+    font-weight: 600;
+}
+/* Default size center container */
+    @media (min-width: 1200px){
+        .container {
+            max-width: $center-container-width;
+    }
+}
+/* <------- Animations ------->  */
+@keyframes fade-in-right {
+    from {
+      opacity: 0;
+      transform: translateX(-15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+.animation-nav {
+    opacity: 0;
+    animation: fade-in-right ease 0.8s forwards;
+  }
+  .animation-nav {
+    animation-delay: 0.25s;
+  }
+
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateX(0px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animation-introduction-1, .animation-introduction-2, .animation-introduction-3, .animation-introduction-4, .animation-introduction-5{
+    opacity: 1;
+    animation: reveal 1.5s cubic-bezier(.215,.61,.355,1) .25s backwards;
+  }
+  .animation-introduction-1 {
+    animation-delay: 0.25s;
+  }
+  .animation-introduction-2 {
+    animation-delay: 0.50s;
+  }
+  /*.animation-introduction-3{
+    animation-delay: 1s;
+  }*/
+  .animation-introduction-4{
+    animation-delay: 0.9s;
+  }
+  .animation-introduction-5{
+    animation-delay: 1.5s;
+  }
+
+/* <------- Start of the settings per sections ------->  */
+/* <------- MENU ------->  */
+#menu{
+    font-family: $secondary_font;
+    font-size: 20px;
+    background-color: $primary-color;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+    & img{
+        height: 120px;
+        width: 120px;
+    }
+
+    & a{
+        color: $secondary-text-color;
+    }
+    & .navbar-toggler{
+        background-color: #FFFFFF;
+        border-radius: $border-radius-button;
+        height: 56px;
+    }
+    & .navbar .navbar-toggler-icon {
+        background-image: url(icones/burger.svg);
+    }
+    .cv{
+        
+        @include button-nav();
+        &:hover{
+            @include button-hover-nav();
+        }
+    }
+    & .simple-link{
+        position: relative;
+        @include hover-nav();
+    }
+}
+/* <------- INTRODUCTION ------->  */
+#introduction{
+    & p{
+        @include font-size(30px);
+        font-family: $secondary_font;
+        animation: reveal .8s cubic-bezier(.215,.61,.355,1) .25s backwards;
+        @media (min-width: 1400px){
+            width: 565px;
+        }
+    }
+    & .row-intro-mt{
+        margin-top: 160px
+    }
+    & a{
+        @include button-introduction();
+        &:hover{
+            @include button-hover-introduction();
+        }
+    }
+
+    & .illustration-welcome-desktop{
+        @media (max-width: 991px) {
+            display: none;
+        }
+    }
+    & .illustration-welcome-mobile{
+        @media (min-width: 992px) {
+            display: none;
+        }
+    }
+    & img{
+        @media (min-width: 768px) and (max-width: 991.5px){
+            width: 500px;
+            display: flex;
+            margin: auto;
+        }
+    }
+    & .resize-name{
+        @media (min-width: 453px) and (max-width:952px){
+            width: 421px;
+        }
+    }
+    & .statut-border{
+        border: solid 2px $primary-color;
+        border-bottom: none;
+        border-radius: $border-radius-button;
+    }
+    & .statut-border p {
+        @include font-size(20px);
+        @media (min-width: 1200px){
+            width: 75%;
+        }
+    }
+    & .card-footer{
+        background-color: $primary-color;
+        border-bottom-right-radius: $border-radius-button;
+        border-bottom-left-radius: $border-radius-button;
+        margin-left: -2px;
+        margin-right: -2px;
+    }
+}
+/* <------- ABOUT ------->  */
+#about{
+    & .container-fluid{
+        background-color: $secondary-color;
+    }
+
+    & h2:after{
+        @include border-title();
+    }
+
+    & .photo-perso{
+        border-radius: $border-radius-picture;
+    }
+    & .linkedin-icon{
+        width: 45px;
+        height: 43px;
+        transition: $black-white-icon-transition;
+        transition: $transition-icon;
+        &:hover{
+            filter: $black-icon-hover;
+            transform: $transition-icon-hover;
+        }
+    }
+    & .mail-icon{
+        width: 50px;
+        height: 49px;
+        transition: $black-white-icon-transition;
+        transition: $transition-icon;
+            &:hover{
+                filter: $black-icon-hover;
+                transform: $transition-icon-hover;
+            }
+    }
+}
+/* <------- SKILLS ------->  */
+#skills {
+    & h2:after{
+        @include border-title();
+    }
+    & .progress-bar{
+        background-color: $details-color;
+    }
+    
+    & .border-bottom{
+        border-bottom: 3px solid $primary-color !important;
+    }
+    & .download-button{
+        @include button-download-content();
+        &:hover{
+            @include button-download-content-hover();
+        }
+    }
+    & .list-icones{
+        & .code-academy{
+            width: 60%;
+            @media (max-width: 991.5px){
+                width: 45%;
+            }
+            @media (max-width: 575px){
+                width: 65%;
+            } 
+        }
+        & .openclassrooms{
+            width: 80%;
+            @media (max-width: 991.5px){
+                width: 70%;
+            }
+            @media (max-width: 575px){
+                width: 85%;
+            } 
+        }
+        & .mimo{
+            width: 50%;
+            @media (max-width: 991.5px){
+                width: 35%;
+            }
+            @media (max-width: 575px){
+                width: 55%;
+            } 
+        }
+        & .sololearn{
+            width: 60%;
+            @media (max-width: 991.5px){
+                width: 45%;
+            }
+            @media (max-width: 575px){
+                width: 65%;
+            } 
+        }
+    }
+}
+/* <------- WORKS ------->  */
+#works{
+    & .container-fluid{
+        background-color: $secondary-color;
+    }
+    & .row-pt{
+        padding-top: 80px;
+    }
+
+    & h2:after{
+        @include border-title();
+    }
+
+    & .description-univers-running{
+        @include description-works();
+        margin-top: 20%;
+        @media (max-width: 991.5px){
+            margin-top: 5%;
+        }
+    }
+    
+    & video{
+        border-radius: $border-radius-works;
+        transform: none !important;
+    }
+
+    & h5{
+        &::after{
+            @include border-title();
+        }
+    }
+
+    & .list-unstyled li{
+        display: inline-block;
+    }
+
+    & .dev-icon{
+        width: 54px;
+        height: 76px;
+    }
+
+    & .graph-icon{
+        width: 61px;
+        height: 61px;
+    }
+    & .git-link{
+        & img{
+            width: 40px;
+            height: 45px;
+            transition: $black-white-icon-transition;
+            transition: $transition-icon;
+
+        &:hover{
+            filter: $black-icon-hover;
+            transform: $transition-icon-hover;
+            }
+        }
+    }
+    & .row-border{
+        border-bottom: $spacing-border;
+        padding-bottom: 80px;
+    }
+    & .php-icon{
+        width: 100px;
+        height: 48px;
+    }
+    & .sql-icon{
+        width: 124px;
+        height: 62px;
+    }
+    & .in-progress{
+        border-radius: $border-radius-works;
+    }
+    & .description-hotel{
+        @include description-works();
+        margin-top: 9%;
+        @media (max-width: 991.5px){
+            margin-top: 5%;
+        }
+    }
+    & .description-imc{
+        @include description-works();
+        margin-top: 18%;
+        @media (max-width: 991.5px){
+            margin-top: 5%;
+        }
+    }
+}
+/* <------- CONTACT ------->  */
+#contact{
+    & .button-submit{
+        @include button-submit();
+        &:hover{
+            @include button-submit-hover();
+        }
+    }
+    & h2{
+        text-decoration: underline $details-color;
+        text-underline-offset: 8px;
+        text-decoration-thickness: 2px;
+    }
+    & .form-control{
+        border: 1px solid $primary-color;
+        border-radius: $border-radius-form;
+        &:focus{
+            box-shadow: 0 0 0 0.25rem rgb(255, 227, 175);
+        }
+    }
+}
+/* <------- FOOTER ------->  */
+#footer{
+    .container-fluid{
+        background-color: $primary-color;
+    }
+    ul img{
+        width: 45px;
+        height: 45px;
+        transition: $black-white-icon-transition;
+        transition: $transition-icon;
+        &:hover{
+            filter: $white-icon-hover;
+            transform: $transition-icon-hover;
+        }
+    }
+
+    .madeby{
+        color: $secondary-text-color;
+    }
+}
