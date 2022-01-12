@@ -8,20 +8,22 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">	
 		<link rel="stylesheet" type="text/css" href="portfolio.css">
-		<title>Dylan Ayache - PortFoli o</title>
-	</head>
+		<link rel="icon" href="icones/logo-title.svg" type="image/icon type">
+		<title>Dylan Ayache - PortFolio</title>
+	</head> 
 	<body>
-		<!------------ Include PHP ------------>
+		<!------------ Includng PHP ------------>
 		<?php
-			// Déclaration Variables
+			// Déclaration Variables.
 			$name = !empty($_POST["name"]) ? $_POST["name"] : NULL;
 			$email = !empty($_POST["email"]) ? $_POST["email"] : NULL;
 			$numero = !empty($_POST["phone"]) ? $_POST["phone"] : NULL;
 			$message = !empty($_POST["message"]) ? $_POST["message"] : NULL;
 			$error = "";
 			$errorNumber = "";
+			$errorMail = "";
 
-			// Récupération des informations du message
+			// Récupération des informations du message pour mise en forme par mail.
 			if(isset($_POST['message'])){
 				$header  = 'MIME-Version: 1.0' . "\r\n";
 				$header .= 'Content-type: text/html; charset=utf-8' . "\r\n";
@@ -35,14 +37,19 @@
 					<b>Message : </b>' . $_POST['message'] . 
 				'</p>';
 			}
-			
 			// Si conditions remplies le mail est envoyé, sinon afficher une erreur
 			if ($_SERVER["REQUEST_METHOD"] === "POST"){
+				// Si le champ téléphone n'est pas vide et que les caractères insérés ne sont pas des chiffres.
 				if ( !empty($_POST['phone']) && !is_numeric($_POST['phone']) ) {
-					$errorNumber = '<p class="red almost-bold mt-2">Veuillez insérez uniquement des chiffres.</p>';
+					$errorNumber = '<p class="red almost-bold mt-2">Veuillez insérer uniquement des chiffres.</p>';
+				// Sinon Si le champ mail n'est pas vide et que le mail inséré n'est pas valide.
+				} else if ( !empty($_POST["email"]) && !filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) ) {
+					$errorMail = '<p class="red almost-bold mt-2">Veuillez insérer un email valide.</p>';
+				// Sinon Si les champs name, email et messages ne sont pas vides afficher une alerte message envoyé.
 				} else if ( !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["message"]) ){
 					echo '<script>alert("Votre message a bien été envoyé, je vous répondrai sous peu.")</script>';
-					$retour = mail('dylanccicampus@gmail.com', 'Mail du PortFolio', $message, $header);
+					//$retour = mail('dylanccicampus@gmail.com', 'Mail du PortFolio', $message, $header);
+				//Sinon afficher un message d'erreur.
 				} else {
 					$error = '<p class="red almost-bold mt-2">Veuillez remplir tous les champs requis.</p>';
 				}
@@ -147,6 +154,8 @@
 									donné envie de découvrir le Développement Web. Je me suis donc inscrit à la formation de 
 									Développeur Web à la CCI de Colmar que j'ai commencé le 11 Octobre 2021.</p>
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
+									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
+									<p><span class="bold">Espagnol</span> : Niveau B1 (Intermédiaire)</p>
 									<a href="https://www.linkedin.com/" target="_blank">
 										<img src="icones/linkedin.svg" class="linkedin-icon me-2" alt="icon linkedin">
 									</a>
@@ -156,7 +165,7 @@
 								</div>
 							</div>
 							<div class="col-10 col-md-9 col-lg-5 col-xl-4 d-flex">
-								<img class="img-fluid photo-personelle" src="images/photo-personelle.svg" alt="photo de moi">
+								<img class="img-fluid photo-personelle" src="images/photo-personnelle.svg" alt="photo de moi">
 							</div>
 							<div id="ancre-skills"></div>
 						</div>
@@ -286,11 +295,9 @@
 						<div class="row pt-5 justify-content-lg-between justify-content-md-center row-border">
 							<div class="col-12 col-md-11 col-lg-6">
 								<h2 class="position-relative bold">Mes Réalisations</h2>
-								<a href="https://www.dylan.devcolmar.xyz/" target="_blank">
 									<video  controls controlsList="nofullscreen" playsinline preload autoplay muted loop width="100%" class="univers-running mt-4">
 										<source src="images/univers-running.mp4" type="video/mp4">
 									</video>
-								</a>
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled">
 									<li>
@@ -316,11 +323,11 @@
 							<div class="col-12 col-md-9 col-lg-5 ">
 								<div class="description-univers-running px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Univers-Running</h4>
-									<p>Site réalisé dans le cadre d'un premier projet lors de ma formation à la CCI. Il était demandé de réaliser un site vitrine statique, une charte graphique et les maquettes du site. Le projet a été ensuite présenté à l'oral aux formateurs.</p>
-									<p>C'est un site sur l'Univers de la course à pied, on y retrouve des conseils, des informations et des actualités.</p>
+									<p>Site réalisé dans le cadre d'un premier projet lors de ma formation à la CCI. Il m'était demandé de réaliser un site vitrine statique, une charte graphique ainsi que les maquettes du site. Le projet a été ensuite présenté à l'oral aux formateurs.</p>
+									<p>C'est un site sur l'univers de la course à pied, on y retrouve des conseils, des informations et des actualités.</p>
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
-									<a href="https://github.com/DLn68/Univers-Running" target="_blank">
+									<a href="https://github.com/Dylan-Ay/Univers-Running" target="_blank">
 										<img src="icones/github.svg" alt="icon github" class="me-2">
 									</a>
 									<a href="https://www.dylan.devcolmar.xyz/" target="_blank">
@@ -354,10 +361,9 @@
 							</div>
 							<div class="col-12 col-md-9 col-lg-5">
 								<div class="description-hotel px-4 py-4">
-									<h4 class="almost-bold">Site d'un Hôtel</h4>
-									<p>Site en cours de réalisation en groupe de 4 dans le cadre de ma formation.
-										Il nous est demandé de réaliser un site dynamique en PHP ainsi que de créer la base de données du site.</p>
-									<p>C'est un site de réservation de chambres d'hôtels avec création de compte, réservations d'excursions. </p>
+									<h4 class="almost-bold">Bloc-notes en ligne</h4>
+									<p>Projet personnel en cours de réalisation, le but de ce site est de pouvoir écrire des notes et de les conserver via un compte personnel.
+									<p>Il y a donc la possibilité de créer un compte, de sauvegarder et de modifier ses notes.</p>
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 										<img src="icones/github.svg" alt="icon github" class="me-2">
@@ -388,16 +394,16 @@
 							<div class="col-12 col-md-9 col-lg-5 ">
 								<div class="description-imc px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Calculateur IMC</h4>
-									<p>Projet Personnel, calculateur d'IMC en PHP.</p>
-									<p>C'est un site qui permet de calculer son IMC.</p>
+									<p>Projet Personnel, c'est un calculateur d'IMC en PHP, il y intègre un calculateur et grâce à une formule, celui-ci vous permet de calculer votre indice de masse graisseuse ainsi que votre poids idéal.</p>
+									<p>Pour l'instant ce projet est fini mais une suite lui sera donnée plus tard, en y intégrant d'autres calculateurs santé.</p>
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
-									<!--<a href="https://github.com/DLn68/Univers-Running" target="_blank">-->
+									<a href="https://github.com/Dylan-Ay/Calculateur-IMC" target="_blank">
 										<img src="icones/github.svg" alt="icon github" class="me-2">
-									<!--</a>-->
-									<!--<a href="https://www.dylan.devcolmar.xyz/" target="_blank">-->
+									</a>
+									<a href="https://calculateur-imc.com/" target="_blank">
 										<img src="icones/extern-link.svg" alt="icon link">
-									<!--</a>-->
+									</a>
 								</div>
 							</div>
 							<div id="ancre-contact"></div>
@@ -420,13 +426,14 @@
 								<div class="col-lg-4">
 									<label for="email" class="form-label light-bold">Adresse mail <span class="red">*</span></label>
 									<input type="email" name="email" class="form-control py-3" id="email" required="required">
+								<?php echo $errorMail; ?>
 								</div>
 							</div>
 							<div class="row mt-4 justify-content-center">	
 								<div class="col-lg-4">			
 									<label for="phone" class="form-label light-bold">Téléphone</label>
 									<input dir="ltr" name="phone" type="text" class="form-control py-3 no-arrow" >
-									<?php echo $errorNumber;?>
+									<?php echo $errorNumber; ?>
 								</div>
 								<div class="col-lg-4">
 								</div>
@@ -439,7 +446,7 @@
 							</div>
 							<div class="row justify-content-center">
 								<div class=" col-lg-3">
-									<?php echo $error;?>
+									<?php echo $error; ?>
 									<p class="mt-3 ms-1 almost-bold">Champs requis <span class="red">*</span></p>
 								</div>
 								<div class="col-lg-5">
@@ -467,7 +474,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="https://github.com/DLn68" target="_blank">
+								<a href="https://github.com/Dylan-Ay" target="_blank">
 									<img src="icones/github-white.svg" alt="icone github" class="mx-3">
 								</a>
 							</li>

@@ -512,7 +512,7 @@ h1{
     }
     & .description-imc{
         @include description-works();
-        margin-top: 18%;
+        margin-top: 11%;
         @media (max-width: 991.5px){
             margin-top: 5%;
         }
