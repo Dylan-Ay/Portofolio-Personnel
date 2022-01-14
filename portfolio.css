@@ -574,8 +574,6 @@ h1 {
 
 #works video {
   border-radius: 15px;
-  -webkit-transform: none !important;
-          transform: none !important;
 }
 
 #works h5::after {
@@ -641,8 +639,19 @@ h1 {
   height: 62px;
 }
 
-#works .in-progress {
+#works .works-preview {
   border-radius: 15px;
+  -webkit-transition: -webkit-box-shadow 200ms ease,-webkit-transform 200ms ease;
+  transition: -webkit-box-shadow 200ms ease,-webkit-transform 200ms ease;
+  transition: box-shadow 200ms ease,transform 200ms ease;
+  transition: box-shadow 200ms ease,transform 200ms ease,-webkit-box-shadow 200ms ease,-webkit-transform 200ms ease;
+}
+
+#works .works-preview:hover {
+  -webkit-transform: translate(4px, -4px);
+          transform: translate(4px, -4px);
+  -webkit-box-shadow: -8px 8px 0 #424b54;
+          box-shadow: -8px 8px 0 #424b54;
 }
 
 #works .description-hotel {

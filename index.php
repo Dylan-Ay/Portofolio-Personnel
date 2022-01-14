@@ -295,7 +295,7 @@
 						<div class="row pt-5 justify-content-lg-between justify-content-md-center row-border">
 							<div class="col-12 col-md-11 col-lg-6">
 								<h2 class="position-relative bold">Mes Réalisations</h2>
-									<video  controls controlsList="nofullscreen" playsinline preload autoplay muted loop width="100%" class="univers-running mt-4">
+									<video  controls controlsList="nofullscreen" playsinline preload autoplay muted loop width="100%" class="univers-running works-preview mt-4">
 										<source src="images/univers-running.mp4" type="video/mp4">
 									</video>
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
@@ -339,7 +339,7 @@
 						<!------------  Second row ----------->
 						<div class="row justify-content-lg-between justify-content-md-center row-border row-pt">
 							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1">
-									<img src="images/in-progress.svg" class="in-progress" alt="in progress">
+									<img src="images/in-progress.svg" class="works-preview img-fluid" alt="in progress">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
 									<li>
@@ -374,7 +374,7 @@
 						<!------------  Third row ----------->
 						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
 							<div class="col-12 col-md-11 col-lg-6">
-								<img src="images/in-progress.svg" alt="in progress" class="in-progress">
+								<img src="images/calculateur-imc.jpg" alt="calculateur imc" class="works-preview img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled">
 									<li>
