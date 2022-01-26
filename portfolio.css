@@ -251,10 +251,10 @@ h1 {
           transform: scaleX(0);
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
 #menu .simple-link:hover:after {
@@ -280,7 +280,7 @@ h1 {
 
 @media (min-width: 1400px) {
   #introduction p {
-    width: 565px;
+    width: 630px;
   }
 }
 
@@ -288,7 +288,7 @@ h1 {
   margin-top: 160px;
 }
 
-#introduction a {
+#introduction .btn-contact {
   border: solid 2px #424b54;
   border-radius: 45px;
   -webkit-transition: 0.8s;
@@ -300,10 +300,40 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
-#introduction a:hover {
+#introduction .btn-contact:hover {
   -webkit-box-shadow: inset 10.5em 0 0 0 #FFFFFF;
           box-shadow: inset 10.5em 0 0 0 #FFFFFF;
   color: #3b3735;
+}
+
+#introduction .codecademy {
+  position: relative;
+  color: #3b3735;
+}
+
+#introduction .codecademy:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  bottom: -3px;
+  left: 0;
+  background-color: #424b54;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+#introduction .codecademy:hover:after {
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 @media (max-width: 991px) {
@@ -519,18 +549,18 @@ h1 {
   }
 }
 
-#skills .list-icones .sololearn {
+#skills .list-icones .codewars {
   width: 60%;
 }
 
 @media (max-width: 991.5px) {
-  #skills .list-icones .sololearn {
+  #skills .list-icones .codewars {
     width: 45%;
   }
 }
 
 @media (max-width: 575px) {
-  #skills .list-icones .sololearn {
+  #skills .list-icones .codewars {
     width: 65%;
   }
 }

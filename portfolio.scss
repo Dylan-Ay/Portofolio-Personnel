@@ -92,7 +92,27 @@ $transition-icon-hover: scale(1.15);
         background-color: $secondary-color;
         transform: scaleX(0);
         transform-origin: bottom right;
-        transition: transform 0.3s;
+        transition: transform 0.4s;
+    }
+    &:hover {
+        &:after {
+            transform-origin: bottom left;
+            transform: scaleX(1);
+        }
+    }
+}
+@mixin hover-codecademy {
+    &:after {
+        content:'';
+        position: absolute;
+        width: 100%;
+        height: 1.5px;
+        bottom: -3px;
+        left: 0;
+        background-color: $primary-color;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.4s;
     }
     &:hover {
         &:after {
@@ -292,17 +312,22 @@ h1{
         font-family: $secondary_font;
         animation: reveal .8s cubic-bezier(.215,.61,.355,1) .25s backwards;
         @media (min-width: 1400px){
-            width: 565px;
+            width: 630px;
         }
     }
     & .row-intro-mt{
         margin-top: 160px
     }
-    & a{
+    & .btn-contact{
         @include button-introduction();
         &:hover{
             @include button-hover-introduction();
         }
+    }
+    & .codecademy{
+        position: relative;
+        color: $primary-text-color;
+        @include hover-codecademy();
     }
 
     & .illustration-welcome-desktop{
@@ -426,7 +451,7 @@ h1{
                 width: 55%;
             } 
         }
-        & .sololearn{
+        & .codewars{
             width: 60%;
             @media (max-width: 991.5px){
                 width: 45%;

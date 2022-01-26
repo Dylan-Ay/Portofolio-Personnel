@@ -9,7 +9,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">	
 		<link rel="stylesheet" type="text/css" href="portfolio.css">
 		<link rel="icon" href="icones/logo-title.svg" type="image/icon type">
-		<title>Dylan Ayache - PortFolio</title>
+		<title>Dylan Ayache Développeur Web - PortFolio</title>
 	</head> 
 	<body>
 		<!------------ Includng PHP ------------>
@@ -48,7 +48,7 @@
 				// Sinon Si les champs name, email et messages ne sont pas vides afficher une alerte message envoyé.
 				} else if ( !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["message"]) ){
 					echo '<script>alert("Votre message a bien été envoyé, je vous répondrai sous peu.")</script>';
-					//$retour = mail('dylanccicampus@gmail.com', 'Mail du PortFolio', $message, $header);
+					$retour = mail('dylan.ayache.68@gmail.com', 'Mail du PortFolio', $message, $header);
 				//Sinon afficher un message d'erreur.
 				} else {
 					$error = '<p class="red almost-bold mt-2">Veuillez remplir tous les champs requis.</p>';
@@ -56,6 +56,7 @@
 			}
 		?>
 		<header>
+			<div id="ancre-welcome"></div>
 			<div id="menu">
 				<!------------  Navbar ----------->
 				<div class="container ">
@@ -69,7 +70,10 @@
 						<div class="collapse navbar-collapse navigation col-xs-6 justify-content-end" id="navbarTogglerDemo02">
 							<ul class="navbar-nav animation-nav col-lg-3 col-lg-12 col-xl-auto justify-content-around justify-content-xl-end align-items-center align-items-lg-start">
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link active" href="#ancre-about">A Propos</a>
+									<a class="nav-link simple-link" href="#ancre-welcome">Accueil</a>
+								</li>
+								<li class="nav-item mx-xl-3">
+									<a class="nav-link simple-link" href="#ancre-about">A Propos</a>
 								</li>
 								<li class="nav-item mx-xl-3">
 									<a class="nav-link simple-link" href="#ancre-skills">Compétences</a>
@@ -98,15 +102,15 @@
 								<h1 class="resize-name"><span class="semi-bold">Bonjour, je m'appelle</span> <span class="bold">Dylan Ayache</span></h1>
 							</div>
 							<div class="animation-introduction-2">
-								<p class="mt-3 mb-4">Je suis actuellement en formation de Développeur Web à la CCI de Colmar.</p>
+								<p class="mt-3 mb-4">Je suis actuellement en autoformation de Développeur Web et je suis disponible pour réaliser vos projets web.</p>
 							</div>
 						</div>
 							<div class="animation-introduction-2">
-								<img class="illustration-welcome-mobile" src="images/illustration-welco-mobile.svg" alt="Une personne en train de coder">
+								<img class="illustration-welcome-mobile" src="images/illustration-welco-mobile.svg" alt="">
 							</div>
 							<div class="animation-introduction-4">
 								<p class="text-center text-lg-start mt-4">
-									<a class="px-4 py-3" href="#ancre-contact">Contactez-moi</a>
+									<a class="px-4 py-3 btn-contact" href="#ancre-contact">Contactez-moi</a>
 								</p>
 							</div>
 						</div>
@@ -119,8 +123,7 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">Je suis à la recherche d'un stage de 6 semaines dans le Développement Web,
-								du 23 Mai 2022 au 01 Juillet 2022 dans le cadre de ma formation. </p>
+							<p class="mx-auto ps-2 pe-2">Je suis à la recherche d'une formation dans le Développement Web, pour consolider mes acquis et me permettre d'étoffer mes compétences. En attendant je consacre mon temps au parcours de formation "Front-End Engineer" de chez <a href ="https://www.codecademy.com/learn/paths/front-end-engineer-career-path"target="_blank"><span class="semi-bold simple-link codecademy">Codecademy</span></a></p>
 								<div id="ancre-about"></div>
 							<div class="card-footer pt-4 pb-3"></div>
 						</div>
@@ -137,8 +140,7 @@
 							<div class="col-12 col-lg-7 mb-4">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
-									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 26 ans et je suis actuellement en formation
-									de Développeur Web à la CCI de Colmar.</p>
+									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 26 ans et je suis actuellement à la recherche d'une formation pour devenir Développeur Web.</p>
 										
 									<p>Mon intérêt pour l'informatique et les nouvelles technologies a commencé depuis jeune. 
 									Après mon bac j'ai commencé à faire des tutoriels sur OpenClassroom puis j'ai monté
@@ -151,15 +153,14 @@
 									J'ai travaillé au total 3 ans en tant que Technicien Informatique.</p>
 										
 									<p>Durant le confinement je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
-									donné envie de découvrir le Développement Web. Je me suis donc inscrit à la formation de 
-									Développeur Web à la CCI de Colmar que j'ai commencé le 11 Octobre 2021.</p>
+									donné envie de découvrir le Développement Web. C'est pour cela qu'aujourd'hui j'aimerais obtenir un diplôme dans ce domaine.</p>
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
 									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
 									<p><span class="bold">Espagnol</span> : Niveau B1 (Intermédiaire)</p>
 									<a href="https://www.linkedin.com/" target="_blank">
 										<img src="icones/linkedin.svg" class="linkedin-icon me-2" alt="icon linkedin">
 									</a>
-									<a href="mailto:dylanccicampus@gmail.com">
+									<a href="mailto:dylan.ayache.68@gmail.com">
 										<img src="icones/mail.svg" class="mail-icon" alt="icon mail">
 									</a>
 								</div>
@@ -209,17 +210,17 @@
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">PHP <span class="light-italic">(en cours de formation)</span></span>
-									<span class="light-bold">30%</span>
+									<span class="light-bold">40%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">MySQL <span class="light-italic">(en cours de formation)</span></span>
-									<span class="light-bold">25%</span>
+									<span class="light-bold">MySQL, phpMyAdmin<span class="light-italic">(en cours de formation)</span></span>
+									<span class="light-bold">40%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
 								</div>
 							</div>
 							<!------------  Graphism Progress Bars ----------->
@@ -253,17 +254,15 @@
 								<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
 							</div>
 							<p class="light-bold-italic mt-2">(Des nouvelles compétences vont s'ajouter et  les barres de progression vont augmenter au fur et à mesure de ma formation).</p>
-							<p class="semi-bold">Pour voir toutes les compétences que je vais apprendre lors de ma formation,
-								je vous invite à télécharger la grille du contenu de la formation ci-dessous :</p>
-							<a href="contenu-formation.pdf" class="download-button px-4 py-3 mt-5 mx-auto" target="_blank">Télécharger le contenu de la formation</a>
+
 						</div>
 						<!------------  Learning supports ----------->
 						<div class="col-11 col-lg-5 mt-4 mt-lg-3">
 							<h4 class="almost-bold pt-5 mb-3">Supports d'apprentissage :</h4>
-							<p class="mb-5">En plus de mes cours à la CCI je m'autoforme en utilisant les applications ci-dessous:</p>
+							<p class="mb-5">Je m'autoforme en utilisant les applications ci-dessous:</p>
 							<div class="list-icones">
 								<div class="mb-5">
-									<a href="https://www.codecademy.com/" target="_blank">
+									<a href="https://www.codecademy.com/profiles/Dylan68" target="_blank">
 										<img src="icones/codeacademy.svg" class="code-academy" alt="icone site code academy">
 									</a>
 								</div>
@@ -278,8 +277,8 @@
 									</a>
 								</div>
 								<div class="ms-md-5">
-									<a href="https://www.sololearn.com/" class="ms-5 ps-5" target="_blank">
-										<img src="icones/icon-sololearn.svg" class="sololearn" alt="icone site sololearn">
+									<a href="https://www.codewars.com/users/Dylan-Ay/stats" class="ms-5 ps-5" target="_blank">
+										<img src="icones/icon-codewars.svg" class="codewars" alt="icone site codewars">
 									</a>
 								</div>
 							</div>
@@ -323,14 +322,14 @@
 							<div class="col-12 col-md-9 col-lg-5 ">
 								<div class="description-univers-running px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Univers-Running</h4>
-									<p>Site réalisé dans le cadre d'un premier projet lors de ma formation à la CCI. Il m'était demandé de réaliser un site vitrine statique, une charte graphique ainsi que les maquettes du site. Le projet a été ensuite présenté à l'oral aux formateurs.</p>
+									<p>Voici mon premier projet, j'ai décidé de réaliser un site vitrine statique, une charte graphique ainsi que les maquettes du site.</p>
 									<p>C'est un site sur l'univers de la course à pied, on y retrouve des conseils, des informations et des actualités.</p>
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/Univers-Running" target="_blank">
 										<img src="icones/github.svg" alt="icon github" class="me-2">
 									</a>
-									<a href="https://www.dylan.devcolmar.xyz/" target="_blank">
+									<a href="https://univers-running.go.yj.fr/" target="_blank">
 										<img src="icones/extern-link.svg" alt="icon link">
 									</a>
 								</div>
@@ -401,7 +400,7 @@
 									<a href="https://github.com/Dylan-Ay/Calculateur-IMC" target="_blank">
 										<img src="icones/github.svg" alt="icon github" class="me-2">
 									</a>
-									<a href="https://calculateur-imc.com/" target="_blank">
+									<a href="https://calculateur-imc.go.yo.fr/" target="_blank">
 										<img src="icones/extern-link.svg" alt="icon link">
 									</a>
 								</div>
@@ -479,7 +478,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="mailto:dylanccicampus@gmail.com" target="_blank">
+								<a href="mailto:dylan.ayache.68@gmail.com" target="_blank">
 									<img src="icones/mail-white.svg" alt="icone mail">
 								</a>
 							</li>
