@@ -492,6 +492,10 @@
 				</div>
 			</div>
 		</footer>
+		<!---------------------- BOUTON RETOUR HAUT DE PAGE ---------------------->
+	    <button type="button" class="btn btn-floating btn-sm" id="btn-back-to-top">
+	  		<img src="icones/back-to-top.svg" alt="icone retour haut de page">
+		</button>
 		<script src="bootstrap.bundle.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 		 <script>
@@ -506,6 +510,28 @@
 						$(this).addClass('active');
 					});
 				});
+				//Bouton retour haut de page
+			let mybutton = document.getElementById("btn-back-to-top");
+
+			// Quand l'utilisateur scroll vers le bas de 200px, le bouton s'affiche
+			window.onscroll = function () {
+			scrollFunction();
+			};
+
+			function scrollFunction() {
+			if ( document.body.scrollTop > 4900 || document.documentElement.scrollTop > 4900 ) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+			}
+			// Quand l'utilisateur clique sur le bouton, ça le renvoit en haut de la page
+			mybutton.addEventListener("click", backToTop);
+
+			function backToTop() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+			}
 		</script>
 	</body>
 </html>

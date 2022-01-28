@@ -90,6 +90,11 @@ h1 {
   font-weight: 600;
 }
 
+.btn-check:focus + .btn, .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 /* Default size center container */
 @media (min-width: 1200px) {
   .container {
@@ -316,7 +321,7 @@ h1 {
   position: absolute;
   width: 100%;
   height: 1.5px;
-  bottom: -3px;
+  bottom: -2px;
   left: 0;
   background-color: #424b54;
   -webkit-transform: scaleX(0);
@@ -770,5 +775,27 @@ h1 {
 
 #footer .madeby {
   color: #FFFFFF;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  display: none;
+  width: 60px;
+  opacity: 0.5;
+  padding: 0px;
+}
+
+#btn-back-to-top:hover {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+@media (max-width: 698px) {
+  #btn-back-to-top {
+    width: 45px;
+  }
 }
 /*# sourceMappingURL=portfolio.css.map */
