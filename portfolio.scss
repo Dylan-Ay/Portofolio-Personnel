@@ -101,6 +101,9 @@ $transition-icon-hover: scale(1.15);
         }
     }
 }
+//@mixin active{
+//        font-weight: 600;
+//}
 @mixin hover-codecademy {
     &:after {
         content:'';
@@ -141,7 +144,7 @@ $transition-icon-hover: scale(1.15);
     transition: box-shadow 200ms ease,transform 200ms ease;
     &:hover{
         transform: translate(4px, -4px);
-        box-shadow: -8px 8px 0 $primary-color;
+        box-shadow: -8px 8px 0 #655f5f;
     }
 }
 @mixin btn-back-to-top{
@@ -221,9 +224,9 @@ h1{
   -webkit-appearance: none;
   margin: 0;
 }
-.active{
-    font-weight: 600;
-}
+//.active{
+//    @include active();
+//}
 .btn-check:focus+.btn, .btn:focus{
     box-shadow: none;
 }
@@ -283,7 +286,9 @@ h1{
   .animation-introduction-5{
     animation-delay: 1.5s;
   }
-
+  #btn-back-to-top{
+    @include btn-back-to-top();
+}
 /* <------- Start of the settings per sections ------->  */
 /* <------- MENU ------->  */
 #menu{
@@ -547,6 +552,10 @@ h1{
         width: 100px;
         height: 48px;
     }
+    & .sass-icon{
+        width: 84px;
+        height: 63px;
+    }
     & .sql-icon{
         width: 124px;
         height: 62px;
@@ -609,7 +618,4 @@ h1{
     .madeby{
         color: $secondary-text-color;
     }
-}
-#btn-back-to-top{
-    @include btn-back-to-top();
 }

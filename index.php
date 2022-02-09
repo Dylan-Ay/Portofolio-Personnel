@@ -4,17 +4,28 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="robots" content="index,follow">
+		<meta name="description" content="Développeur Web situé en Alsace, disponible pour la création de vos sites vitrines. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEPWV5WQT0"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-WEPWV5WQT0');
+        </script>
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">	
 		<link rel="stylesheet" type="text/css" href="portfolio.css">
-		<link rel="icon" href="icones/logo-title.svg" type="image/icon type">
-		<title>Dylan Ayache Développeur Web - PortFolio</title>
+		<link rel="icon" href="icones/logo-title.ico" type="image/icon type">
+		<title>Dylan Ayache Développeur Web, Création de Site vitrine - Portfolio</title>
 	</head> 
 	<body>
 		<!------------ Includng PHP ------------>
 		<?php
-			// Déclaration Variables.
+			// Déclaration des variables
 			$name = !empty($_POST["name"]) ? $_POST["name"] : NULL;
 			$email = !empty($_POST["email"]) ? $_POST["email"] : NULL;
 			$numero = !empty($_POST["phone"]) ? $_POST["phone"] : NULL;
@@ -56,13 +67,13 @@
 			}
 		?>
 		<header>
-			<div id="ancre-welcome"></div>
+			<div id="Accueil"></div>
 			<div id="menu">
 				<!------------  Navbar ----------->
 				<div class="container ">
 					<nav class="navbar py-0 px-0 navbar-expand-lg">
-						<a href="index.php">
-							<img src="icones/logo.svg" class="animation-nav" alt="Logo PortFolio">
+						<a href="https://dylanayache.com/">
+							<img src="icones/logo.svg" class="animation-nav" alt="Logo Portfolio Développeur Web">
 						</a>
 						<button class="navbar-toggler animation-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
@@ -70,19 +81,19 @@
 						<div class="collapse navbar-collapse navigation col-xs-6 justify-content-end" id="navbarTogglerDemo02">
 							<ul class="navbar-nav animation-nav col-lg-3 col-lg-12 col-xl-auto justify-content-around justify-content-xl-end align-items-center align-items-lg-start">
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link" href="#ancre-welcome">Accueil</a>
+									<a class="nav-link simple-link" href="#Accueil">Accueil</a>
 								</li>
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link" href="#ancre-about">A Propos</a>
+									<a class="nav-link simple-link" href="#A-Propos">A Propos</a>
 								</li>
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link" href="#ancre-skills">Compétences</a>
+									<a class="nav-link simple-link" href="#Compétences">Compétences</a>
 								</li>
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link" href="#ancre-works">Réalisations</a>
+									<a class="nav-link simple-link" href="#Réalisations">Réalisations</a>
 								</li>
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link  pb-0 pb-lg-2" href="#ancre-contact">Contact</a>
+									<a class="nav-link simple-link  pb-0 pb-lg-2" href="#Contact">Contact</a>
 								</li>
 								<li class="nav-item mx-xl-3">
 									<a class="nav-link cv mx-2 mx-lg-0 px-4 px-lg-4 my-3 my-lg-0" href="cv.pdf" target="_blank" download>Mon CV</a>
@@ -106,17 +117,17 @@
 							</div>
 						</div>
 							<div class="animation-introduction-2">
-								<img class="illustration-welcome-mobile" src="images/illustration-welco-mobile.svg" alt="">
+								<img class="illustration-welcome-mobile" src="images/illustration-welco-mobile.svg" alt="Développeur Web en train de créer un site web">
 							</div>
 							<div class="animation-introduction-4">
 								<p class="text-center text-lg-start mt-4">
-									<a class="px-4 py-3 btn-contact" href="#ancre-contact">Contactez-moi</a>
+									<a class="px-4 py-3 btn-contact" href="#Contact">Contactez-moi</a>
 								</p>
 							</div>
 						</div>
 						<div class="col-12 col-md-10 col-lg-5">
 							<div class="animation-introduction-2">
-								<img class="illustration-welcome-desktop" src="images/illustration-welco.svg" alt="Une personne en train de coder">
+								<img class="illustration-welcome-desktop" src="images/illustration-welco.svg" alt="Développeur Web en train de créer un site web">
 							</div>
 						</div>
 					</div>
@@ -124,7 +135,7 @@
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
 							<p class="mx-auto ps-2 pe-2">Je suis à la recherche d'une formation dans le Développement Web, pour consolider mes acquis et me permettre d'étoffer mes compétences. En attendant je consacre mon temps au parcours de formation "Front-End Engineer" de chez <a href ="https://www.codecademy.com/learn/paths/front-end-engineer-career-path"target="_blank"><span class="semi-bold simple-link codecademy">Codecademy</span></a></p>
-								<div id="ancre-about"></div>
+								<div id="A-Propos"></div>
 							<div class="card-footer pt-4 pb-3"></div>
 						</div>
 					</div>	
@@ -157,18 +168,18 @@
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
 									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
 									<p><span class="bold">Espagnol</span> : Niveau B1 (Intermédiaire)</p>
-									<a href="https://www.linkedin.com/" target="_blank">
+									<!-- <a href="https://www.linkedin.com/" target="_blank"> -->
 										<img src="icones/linkedin.svg" class="linkedin-icon me-2" alt="icon linkedin">
-									</a>
-									<a href="mailto:dylan.ayache.68@gmail.com">
+									<!-- </a> -->
+									<a href="#Contact">
 										<img src="icones/mail.svg" class="mail-icon" alt="icon mail">
 									</a>
 								</div>
 							</div>
 							<div class="col-10 col-md-9 col-lg-5 col-xl-4 d-flex">
-								<img class="img-fluid photo-personelle" src="images/photo-personnelle.svg" alt="photo de moi">
+								<img class="img-fluid photo-personelle" src="images/photo-personnelle.svg" alt="Création de site web par un développeur">
 							</div>
-							<div id="ancre-skills"></div>
+							<div id="Compétences"></div>
 						</div>
 					</div>
 				</div>
@@ -283,11 +294,12 @@
 								</div>
 							</div>
 						</div>
-						<div id="ancre-works"></div>
+						<div id="Réalisations"></div>
 					</div>
 				</div>
 			</section>
 			<!------------  Works ----------->
+			<!------------  First row Univers-Running ----------->
 			<section id="works">
 				<div class="container-fluid">
 					<div class="container py-5">
@@ -335,8 +347,84 @@
 								</div>
 							</div>
 						</div>
-						<!------------  Second row ----------->
-						<div class="row justify-content-lg-between justify-content-md-center row-border row-pt">
+						<!------------  Second row Calculateur d'IMC ----------->
+						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 row-border">
+							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1">
+								<img src="images/calculateur-imc.jpg" alt="calculateur imc" class="works-preview img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+									</li>
+									<li>
+										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon me-3 mt-2">
+									</li>
+								</ul>
+							</div>
+							<div class="col-12 col-md-9 col-lg-5 ">
+								<div class="description-imc px-4 py-4 text-lg-end">
+									<h4 class="almost-bold">Calculateur IMC</h4>
+									<p>Projet Personnel, c'est un calculateur d'IMC en PHP, il y intègre un calculateur et grâce à une formule, celui-ci vous permet de calculer votre indice de masse graisseuse ainsi que votre poids idéal.</p>
+									<p>Pour l'instant ce projet est fini mais une suite lui sera donnée plus tard, en y intégrant d'autres calculateurs santé.</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/Calculateur-IMC" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<a href="https://calculateur-imc.go.yo.fr/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icon link">
+									</a>
+								</div>
+							</div>
+						</div>
+						<!------------  Third row Jeu du plus ou moins ----------->		
+						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 row-border">
+							<div class="col-12 col-md-11 col-lg-6">
+								<img src="images/plus-ou-moins.jpg" alt="jeu du plus ou moins" class="works-preview img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+									</li>
+									<li>
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+									</li>
+									
+									<li>
+										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon me-3 mt-2">
+									</li>
+								</ul>
+							</div>
+							<div class="col-12 col-md-9 col-lg-5 ">
+								<div class="description-imc px-4 py-4 text-lg-end">
+									<h4 class="almost-bold">Jeu du Plus ou Moins</h4>
+									<p>Projet Personnel, c'est un jeu en JavaScript, le but est de trouver un nombre entre 1 et 100 généré par l'ordinateur en dix tentatives. Le joueur marque 1 point pour chaque nombre qu'il a trouvé, si il échoue l'ordinateur marque 1 point.</p>
+									<p>Il y a plusieurs parties du jeu qui sont dynamiques, l'objectif était de réaliser un projet pour travailler sur les aspects du DOM en JavaScript.</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/Plus-ou-moins" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<a href="https://jeu-plus-ou-moins.netlify.app/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icon link">
+									</a>
+								</div>
+							</div>
+						</div>
+						<!------------  Fourth row Bloc-notes en ligne ----------->
+						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
 							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1">
 									<img src="images/in-progress.svg" class="works-preview img-fluid" alt="in progress">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
@@ -370,50 +458,14 @@
 								</div>
 							</div>
 						</div>
-						<!------------  Third row ----------->
-						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
-							<div class="col-12 col-md-11 col-lg-6">
-								<img src="images/calculateur-imc.jpg" alt="calculateur imc" class="works-preview img-fluid">
-								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled">
-									<li>
-										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
-									</li>
-									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
-									</li>
-									<li>
-										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
-									</li>
-									<li>
-										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon me-3 mt-2">
-									</li>
-								</ul>
-							</div>
-							<div class="col-12 col-md-9 col-lg-5 ">
-								<div class="description-imc px-4 py-4 text-lg-end">
-									<h4 class="almost-bold">Calculateur IMC</h4>
-									<p>Projet Personnel, c'est un calculateur d'IMC en PHP, il y intègre un calculateur et grâce à une formule, celui-ci vous permet de calculer votre indice de masse graisseuse ainsi que votre poids idéal.</p>
-									<p>Pour l'instant ce projet est fini mais une suite lui sera donnée plus tard, en y intégrant d'autres calculateurs santé.</p>
-								</div>
-								<div class="git-link me-3 mt-2 text-end">
-									<a href="https://github.com/Dylan-Ay/Calculateur-IMC" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-									<a href="https://calculateur-imc.go.yo.fr/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
-									</a>
-								</div>
-							</div>
-							<div id="ancre-contact"></div>
-						</div>
+						<span id="Contact"></span>
 					</div>
 				</div>
 			</section>
 			<!------------  Contact ----------->
 			<section id=contact>
 			<div class="container py-5">
-				<div class="row pt-4 pb-5 justify-content-center">
+				<div class="row py-5 justify-content-center">
 					<div class="col-11 col-sm-10 col-md-9 col-lg-12">
 						<h2 class="bold text-center">Contactez-moi</h2>
 						<form method="post" name="contact-form" action="index.php">
@@ -466,20 +518,15 @@
 			<div class="container-fluid py-3">
 				<div class="row justify-content-center">
 					<div class="col-lg-2">
-						<ul class="list-unstyled d-flex pt-5 justify-content-center">
+						<ul class="list-unstyled d-flex pt-5 justify-content-center ps-4">
 							<li>
-								<a href="https://www.linkedin.com/" target="_blank">
+								<!-- <a href="https://www.linkedin.com/" target="_blank"> -->
 									<img src="icones/linkedin-white.svg" alt="icone linkedin">
-								</a>
+								<!-- </a> -->
 							</li>
 							<li>
 								<a href="https://github.com/Dylan-Ay" target="_blank">
 									<img src="icones/github-white.svg" alt="icone github" class="mx-3">
-								</a>
-							</li>
-							<li>
-								<a href="mailto:dylan.ayache.68@gmail.com" target="_blank">
-									<img src="icones/mail-white.svg" alt="icone mail">
 								</a>
 							</li>
 						</ul>
@@ -513,7 +560,7 @@
 				//Bouton retour haut de page
 			let mybutton = document.getElementById("btn-back-to-top");
 
-			// Quand l'utilisateur scroll vers le bas de 200px, le bouton s'affiche
+			// Quand l'utilisateur scroll vers le bas de 4900px, le bouton s'affiche
 			window.onscroll = function () {
 			scrollFunction();
 			};
