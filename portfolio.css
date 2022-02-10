@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* <------- Import RFS -------> */
 /* <------- Variables -------> */
 /* <------ Mixins -------> */
@@ -86,6 +87,29 @@ h1 {
   margin: 0;
 }
 
+.navbar-nav {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+@media (max-width: 422px) {
+  .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .btn-check:focus + .btn, .btn:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -126,8 +150,8 @@ h1 {
 
 .animation-nav {
   opacity: 0;
-  -webkit-animation: fade-in-right ease 0.8s forwards;
-          animation: fade-in-right ease 0.8s forwards;
+  -webkit-animation: fade-in-right ease 1s forwards;
+          animation: fade-in-right ease 1s forwards;
 }
 
 .animation-nav {
@@ -135,62 +159,64 @@ h1 {
           animation-delay: 0.25s;
 }
 
-@-webkit-keyframes reveal {
-  from {
+@-webkit-keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
     opacity: 0;
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
   }
-  to {
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
   }
 }
 
-@keyframes reveal {
-  from {
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
     opacity: 0;
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
   }
-  to {
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
   }
 }
 
 .animation-introduction-1, .animation-introduction-2, .animation-introduction-3, .animation-introduction-4, .animation-introduction-5 {
   opacity: 1;
-  -webkit-animation: reveal 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.25s backwards;
-          animation: reveal 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.25s backwards;
+  -webkit-animation: fade-in-top 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-top 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .animation-introduction-1 {
-  -webkit-animation-delay: 0.25s;
-          animation-delay: 0.25s;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
 }
 
 .animation-introduction-2 {
-  -webkit-animation-delay: 0.50s;
-          animation-delay: 0.50s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 /*.animation-introduction-3{
     animation-delay: 1s;
   }*/
 .animation-introduction-4 {
-  -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
+  -webkit-animation-delay: 2.3s;
+          animation-delay: 2.3s;
 }
 
 .animation-introduction-5 {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 #btn-back-to-top {
+  -webkit-animation: fade-in-bottom 1s ease-in-out both;
+          animation: fade-in-bottom 1s ease-in-out both;
   position: fixed;
   bottom: 5%;
   right: 5%;
@@ -228,7 +254,6 @@ h1 {
 
 #menu img {
   height: 120px;
-  width: 120px;
 }
 
 #menu a {
@@ -432,8 +457,14 @@ h1 {
   }
 }
 
-#about .photo-perso {
-  border-radius: 5px;
+#about .photo-personelle {
+  margin-bottom: 119px;
+}
+
+@media (max-width: 992px) {
+  #about .photo-personelle {
+    margin-bottom: 0px;
+  }
 }
 
 #about .linkedin-icon {
@@ -524,24 +555,42 @@ h1 {
   color: #3b3735;
 }
 
-#skills .list-icones .code-academy {
+#skills .list-icones .code-cademy {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
   width: 60%;
 }
 
+#skills .list-icones .code-cademy:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 @media (max-width: 991.5px) {
-  #skills .list-icones .code-academy {
+  #skills .list-icones .code-cademy {
     width: 45%;
   }
 }
 
 @media (max-width: 575px) {
-  #skills .list-icones .code-academy {
+  #skills .list-icones .code-cademy {
     width: 65%;
   }
 }
 
 #skills .list-icones .openclassrooms {
   width: 80%;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+#skills .list-icones .openclassrooms:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media (max-width: 991.5px) {
@@ -558,6 +607,15 @@ h1 {
 
 #skills .list-icones .mimo {
   width: 50%;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+#skills .list-icones .mimo:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media (max-width: 991.5px) {
@@ -574,6 +632,15 @@ h1 {
 
 #skills .list-icones .codewars {
   width: 60%;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+#skills .list-icones .codewars:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media (max-width: 991.5px) {
@@ -659,6 +726,10 @@ h1 {
   height: 61px;
 }
 
+#works .bootstrap-icon {
+  width: 76px;
+}
+
 #works .git-link img {
   width: 40px;
   height: 45px;
@@ -727,7 +798,7 @@ h1 {
 #works .description-imc {
   background-color: rgba(255, 255, 255, 0.56);
   border-radius: 15px;
-  margin-top: 11%;
+  margin-top: 4%;
 }
 
 @media (max-width: 991.5px) {
@@ -798,5 +869,109 @@ h1 {
 
 #footer .madeby {
   color: #FFFFFF;
+}
+
+/* <------- Animations des éléments de la page  ------->  */
+.js-scroll {
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+.scrolled.fade-in-bottom {
+  -webkit-animation: fade-in-bottom 1s ease-in-out both;
+          animation: fade-in-bottom 1s ease-in-out both;
+}
+
+.scrolled.slide-left {
+  -webkit-animation: slide-in-left 1s ease-in-out both;
+          animation: slide-in-left 1s ease-in-out both;
+}
+
+.scrolled.slide-right {
+  -webkit-animation: slide-in-right 1s ease-in-out both;
+          animation: slide-in-right 1s ease-in-out both;
+}
+
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=portfolio.css.map */

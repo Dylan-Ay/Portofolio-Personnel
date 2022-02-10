@@ -23,7 +23,7 @@
 		<title>Dylan Ayache Développeur Web, Création de Site vitrine - Portfolio</title>
 	</head> 
 	<body>
-		<!------------ Includng PHP ------------>
+		<!------------ Includng PHP for contact section ------------>
 		<?php
 			// Déclaration des variables
 			$name = !empty($_POST["name"]) ? $_POST["name"] : NULL;
@@ -78,8 +78,8 @@
 						<button class="navbar-toggler animation-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
-						<div class="collapse navbar-collapse navigation col-xs-6 justify-content-end" id="navbarTogglerDemo02">
-							<ul class="navbar-nav animation-nav col-lg-3 col-lg-12 col-xl-auto justify-content-around justify-content-xl-end align-items-center align-items-lg-start">
+						<div class="collapse navbar-collapse navigation justify-content-end" id="navbarTogglerDemo02">
+							<ul class="navbar-nav animation-nav col-12 col-xl-auto justify-content-evenly justify-content-xl-end align-items-center align-items-lg-start">
 								<li class="nav-item mx-xl-3">
 									<a class="nav-link simple-link" href="#Accueil">Accueil</a>
 								</li>
@@ -93,10 +93,10 @@
 									<a class="nav-link simple-link" href="#Réalisations">Réalisations</a>
 								</li>
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link  pb-0 pb-lg-2" href="#Contact">Contact</a>
+									<a class="nav-link simple-link  pb-2" href="#Contact">Contact</a>
 								</li>
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link cv mx-2 mx-lg-0 px-4 px-lg-4 my-3 my-lg-0" href="cv.pdf" target="_blank" download>Mon CV</a>
+									<a class="nav-link cv px-4 px-lg-4 my-3 my-lg-0" href="cv.pdf" target="_blank" download>Mon CV</a>
 								</li>
 							</ul>
 						</div>
@@ -108,14 +108,14 @@
 				<div class="container py-4">
 					<div class="row row-intro-mt justify-content-md-center">
 						<div class="col-12 col-md-10 col-lg-7 mt-xl-5 pt-lg-5 ps-xl-5 ps-xxl-0">
-						<div class="ms-md-4 ms-lg-0">	
-							<div class="animation-introduction-1">
-								<h1 class="resize-name"><span class="semi-bold">Bonjour, je m'appelle</span> <span class="bold">Dylan Ayache</span></h1>
+							<div class="ms-md-4 ms-lg-0">	
+								<div class="animation-introduction-1">
+									<h1 class="resize-name"><span class="semi-bold">Bonjour, je m'appelle</span> <span class="bold">Dylan Ayache</span></h1>
+								</div>
+								<div class="animation-introduction-2">
+									<p class="mt-3 mb-4">Je suis actuellement en autoformation de Développeur Web et je suis disponible pour réaliser vos projets web.</p>
+								</div>
 							</div>
-							<div class="animation-introduction-2">
-								<p class="mt-3 mb-4">Je suis actuellement en autoformation de Développeur Web et je suis disponible pour réaliser vos projets web.</p>
-							</div>
-						</div>
 							<div class="animation-introduction-2">
 								<img class="illustration-welcome-mobile" src="images/illustration-welco-mobile.svg" alt="Développeur Web en train de créer un site web">
 							</div>
@@ -148,7 +148,7 @@
 				<div class="container-fluid mt-2">
 					<div class="container py-5">
 						<div class="row py-5 justify-content-center justify-content-lg-between">
-							<div class="col-12 col-lg-7 mb-4">
+							<div class="col-12 col-lg-7 mb-4 js-scroll fade-in-bottom">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
 									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 26 ans et je suis actuellement à la recherche d'une formation pour devenir Développeur Web.</p>
@@ -164,7 +164,7 @@
 									J'ai travaillé au total 3 ans en tant que Technicien Informatique.</p>
 										
 									<p>Durant le confinement je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
-									donné envie de découvrir le Développement Web. C'est pour cela qu'aujourd'hui j'aimerais obtenir un diplôme dans ce domaine.</p>
+									donné envie de découvrir le Développement Web. C'est pour cela qu'aujourd'hui j'aimerais obtenir un diplôme dans ce domaine. Je m'autoforme au métier de Développeur Web depuis Octobre 2021, je suis plus attiré par le front-end, mais je me forme au back-end également.</p>
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
 									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
 									<p><span class="bold">Espagnol</span> : Niveau B1 (Intermédiaire)</p>
@@ -176,7 +176,7 @@
 									</a>
 								</div>
 							</div>
-							<div class="col-10 col-md-9 col-lg-5 col-xl-4 d-flex">
+							<div class="col-10 col-md-8 col-lg-5 col-xl-4 d-flex js-scroll fade-in-bottom">
 								<img class="img-fluid photo-personelle" src="images/photo-personnelle.svg" alt="Création de site web par un développeur">
 							</div>
 							<div id="Compétences"></div>
@@ -188,7 +188,7 @@
 			<section id="skills">
 				<div class="container py-5">
 					<div class="row py-5 justify-content-center justify-content-lg-around justify-content-xxl-between px-1">
-						<div class="col-12 col-lg-6">
+						<div class="col-12 col-lg-6 js-scroll fade-in-bottom">
 							<h2 class="position-relative bold">Mes Compétences</h2>
 							<p class="mt-4">Certaines de mes compétences de développeur sont en cours d'apprentissage.
 								J'ai réalisé un premier projet, qui est un site vitrine statique en HTML, CSS. 
@@ -200,10 +200,10 @@
 							<div class="border-bottom pb-5">
 								<div class="language-percentage d-flex justify-content-between">
 									<span class="light-bold">HTML5, CSS3, Bootstrap <span class="light-italic"></span></span>
-									<span class="light-bold">80%</span>
+									<span class="light-bold">85%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">Sass <span class="light-italic">(en cours de formation)</span></span>
@@ -213,18 +213,18 @@
 									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">JavaScript, jQuery <span class="light-italic">(en cours de formation)</span></span>
-									<span class="light-bold">40%</span>
+									<span class="light-bold">JavaScript <span class="light-italic">(en cours de formation)</span></span>
+									<span class="light-bold">60%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">PHP <span class="light-italic">(en cours de formation)</span></span>
-									<span class="light-bold">40%</span>
+									<span class="light-bold">45%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">MySQL, phpMyAdmin<span class="light-italic">(en cours de formation)</span></span>
@@ -235,46 +235,54 @@
 								</div>
 							</div>
 							<!------------  Graphism Progress Bars ----------->
-							<h4 class="almost-bold pt-5 mb-3">Graphisme :</h4>
-							<div class="language-percentage d-flex justify-content-between mt-2">
-								<span class="light-bold">Adobe XD</span>
-								<span class="light-bold">90%</span>
+							<div class="js-scroll fade-in-bottom">
+								<h4 class="almost-bold pt-5 mb-3">Graphisme et SEO :</h4>
+								<div class="language-percentage d-flex justify-content-between mt-2">
+									<span class="light-bold">Adobe XD</span>
+									<span class="light-bold">90%</span>
+								</div>
+								<div class="progress mt-1">
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+								</div>
+								<div class="language-percentage d-flex justify-content-between mt-2">
+									<span class="light-bold">Photoshop</span>
+									<span class="light-bold">60%</span>
+								</div>
+								<div class="progress mt-1">
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+								</div>
+								<div class="language-percentage d-flex justify-content-between mt-2">
+										<span class="light-bold">SEO <span class="light-italic"></span></span>
+										<span class="light-bold">50%</span>
+									</div>
+									<div class="progress mt-1">
+										<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+									</div>
+								<div class="language-percentage d-flex justify-content-between mt-2">
+									<span class="light-bold">InDesign</span>
+									<span class="light-bold">40%</span>
+								</div>
+								<div class="progress mt-1">
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+								</div>
+								<div class="language-percentage d-flex justify-content-between mt-2">
+									<span class="light-bold">Illustrator</span>
+									<span class="light-bold">40%</span>
+								</div>
+								<div class="progress mt-1">
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+								</div>
+								<p class="light-bold-italic mt-2">(Des nouvelles compétences vont s'ajouter et  les barres de progression vont augmenter au fur et à mesure de ma formation).</p>
 							</div>
-							<div class="progress mt-1">
-								<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
-							</div>
-							<div class="language-percentage d-flex justify-content-between mt-2">
-								<span class="light-bold">Photoshop</span>
-								<span class="light-bold">60%</span>
-							</div>
-							<div class="progress mt-1">
-								<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
-							</div>
-							<div class="language-percentage d-flex justify-content-between mt-2">
-								<span class="light-bold">InDesign</span>
-								<span class="light-bold">40%</span>
-							</div>
-							<div class="progress mt-1">
-								<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
-							</div>
-							<div class="language-percentage d-flex justify-content-between mt-2">
-								<span class="light-bold">Illustrator</span>
-								<span class="light-bold">40%</span>
-							</div>
-							<div class="progress mt-1">
-								<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
-							</div>
-							<p class="light-bold-italic mt-2">(Des nouvelles compétences vont s'ajouter et  les barres de progression vont augmenter au fur et à mesure de ma formation).</p>
-
 						</div>
 						<!------------  Learning supports ----------->
-						<div class="col-11 col-lg-5 mt-4 mt-lg-3">
+						<div class="col-11 col-lg-5 mt-4 mt-lg-3 js-scroll fade-in-bottom">
 							<h4 class="almost-bold pt-5 mb-3">Supports d'apprentissage :</h4>
 							<p class="mb-5">Je m'autoforme en utilisant les applications ci-dessous:</p>
 							<div class="list-icones">
 								<div class="mb-5">
 									<a href="https://www.codecademy.com/profiles/Dylan68" target="_blank">
-										<img src="icones/codeacademy.svg" class="code-academy" alt="icone site code academy">
+										<img src="icones/codeacademy.svg" class="code-cademy" alt="icone site code academy">
 									</a>
 								</div>
 								<div class="mb-5 ms-md-5">
@@ -302,9 +310,9 @@
 			<!------------  First row Univers-Running ----------->
 			<section id="works">
 				<div class="container-fluid">
-					<div class="container py-5">
+					<div class="container  py-5">
 						<div class="row pt-5 justify-content-lg-between justify-content-md-center row-border">
-							<div class="col-12 col-md-11 col-lg-6">
+							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
 								<h2 class="position-relative bold">Mes Réalisations</h2>
 									<video  controls controlsList="nofullscreen" playsinline preload autoplay muted loop width="100%" class="univers-running works-preview mt-4">
 										<source src="images/univers-running.mp4" type="video/mp4">
@@ -318,7 +326,10 @@
 										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
 									</li>
 									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-3">
+									</li>
+									<li>
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class=" bootstrap-icon mt-2 me-3">
 									</li>
 									<li>
 										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon me-3 mt-2">
@@ -331,11 +342,12 @@
 									</li>
 								</ul>
 							</div>
-							<div class="col-12 col-md-9 col-lg-5 ">
+							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom">
 								<div class="description-univers-running px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Univers-Running</h4>
 									<p>Voici mon premier projet, j'ai décidé de réaliser un site vitrine statique, une charte graphique ainsi que les maquettes du site.</p>
 									<p>C'est un site sur l'univers de la course à pied, on y retrouve des conseils, des informations et des actualités.</p>
+									<p class="semi-bold text-end">Novembre 2021</p>
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/Univers-Running" target="_blank">
@@ -349,7 +361,7 @@
 						</div>
 						<!------------  Second row Calculateur d'IMC ----------->
 						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 row-border">
-							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1">
+							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1 js-scroll slide-right">
 								<img src="images/calculateur-imc.jpg" alt="calculateur imc" class="works-preview img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled">
@@ -367,11 +379,12 @@
 									</li>
 								</ul>
 							</div>
-							<div class="col-12 col-md-9 col-lg-5 ">
-								<div class="description-imc px-4 py-4 text-lg-end">
+							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom">
+								<div class="description-imc px-4 py-4">
 									<h4 class="almost-bold">Calculateur IMC</h4>
 									<p>Projet Personnel, c'est un calculateur d'IMC en PHP, il y intègre un calculateur et grâce à une formule, celui-ci vous permet de calculer votre indice de masse graisseuse ainsi que votre poids idéal.</p>
 									<p>Pour l'instant ce projet est fini mais une suite lui sera donnée plus tard, en y intégrant d'autres calculateurs santé.</p>
+									<p class="semi-bold text-end">Janvier 2022</p>							
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/Calculateur-IMC" target="_blank">
@@ -385,7 +398,7 @@
 						</div>
 						<!------------  Third row Jeu du plus ou moins ----------->		
 						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 row-border">
-							<div class="col-12 col-md-11 col-lg-6">
+							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
 								<img src="images/plus-ou-moins.jpg" alt="jeu du plus ou moins" class="works-preview img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled">
@@ -407,11 +420,12 @@
 									</li>
 								</ul>
 							</div>
-							<div class="col-12 col-md-9 col-lg-5 ">
+							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom">
 								<div class="description-imc px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Jeu du Plus ou Moins</h4>
 									<p>Projet Personnel, c'est un jeu en JavaScript, le but est de trouver un nombre entre 1 et 100 généré par l'ordinateur en dix tentatives. Le joueur marque 1 point pour chaque nombre qu'il a trouvé, si il échoue l'ordinateur marque 1 point.</p>
 									<p>Il y a plusieurs parties du jeu qui sont dynamiques, l'objectif était de réaliser un projet pour travailler sur les aspects du DOM en JavaScript.</p>
+									<p class="semi-bold text-end">Février 2022</p>
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/Plus-ou-moins" target="_blank">
@@ -425,7 +439,7 @@
 						</div>
 						<!------------  Fourth row Bloc-notes en ligne ----------->
 						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
-							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1">
+							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1 js-scroll slide-right">
 									<img src="images/in-progress.svg" class="works-preview img-fluid" alt="in progress">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
@@ -446,7 +460,7 @@
 									</li>
 								</ul>
 							</div>
-							<div class="col-12 col-md-9 col-lg-5">
+							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom">
 								<div class="description-hotel px-4 py-4">
 									<h4 class="almost-bold">Bloc-notes en ligne</h4>
 									<p>Projet personnel en cours de réalisation, le but de ce site est de pouvoir écrire des notes et de les conserver via un compte personnel.
@@ -466,7 +480,7 @@
 			<section id=contact>
 			<div class="container py-5">
 				<div class="row py-5 justify-content-center">
-					<div class="col-11 col-sm-10 col-md-9 col-lg-12">
+					<div class="col-11 col-sm-10 col-md-9 col-lg-12 js-scroll fade-in-bottom">
 						<h2 class="bold text-center">Contactez-moi</h2>
 						<form method="post" name="contact-form" action="index.php">
 							<div class="row mt-5 justify-content-center">
@@ -540,45 +554,11 @@
 			</div>
 		</footer>
 		<!---------------------- BOUTON RETOUR HAUT DE PAGE ---------------------->
-	    <button type="button" class="btn btn-floating btn-sm" id="btn-back-to-top">
+	    <button type="button" class="btn btn-floating btn-sm fade-in-bottom" id="btn-back-to-top">
 	  		<img src="icones/back-to-top.svg" alt="icone retour haut de page">
 		</button>
 		<script src="bootstrap.bundle.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-		 <script>
-			$(document).ready(function(){
-				$('.nav-link').on('click',function() {
-					$('.navbar-collapse').collapse('hide');
-				});
-
-				//Active class on click
-					$('.nav-link').click(function(){
-						$('.nav-link').removeClass('active');
-						$(this).addClass('active');
-					});
-				});
-				//Bouton retour haut de page
-			let mybutton = document.getElementById("btn-back-to-top");
-
-			// Quand l'utilisateur scroll vers le bas de 4900px, le bouton s'affiche
-			window.onscroll = function () {
-			scrollFunction();
-			};
-
-			function scrollFunction() {
-			if ( document.body.scrollTop > 4900 || document.documentElement.scrollTop > 4900 ) {
-				mybutton.style.display = "block";
-			} else {
-				mybutton.style.display = "none";
-			}
-			}
-			// Quand l'utilisateur clique sur le bouton, ça le renvoit en haut de la page
-			mybutton.addEventListener("click", backToTop);
-
-			function backToTop() {
-			document.body.scrollTop = 0;
-			document.documentElement.scrollTop = 0;
-			}
-		</script>
+		 <script src="website.js"></script>
 	</body>
 </html>

@@ -101,9 +101,6 @@ $transition-icon-hover: scale(1.15);
         }
     }
 }
-//@mixin active{
-//        font-weight: 600;
-//}
 @mixin hover-codecademy {
     &:after {
         content:'';
@@ -148,6 +145,7 @@ $transition-icon-hover: scale(1.15);
     }
 }
 @mixin btn-back-to-top{
+    animation: fade-in-bottom 1s ease-in-out both;
     position: fixed;
     bottom: 5%;
     right: 5%;
@@ -161,6 +159,12 @@ $transition-icon-hover: scale(1.15);
     }
   @media (max-width: 698px){
       width: 45px;
+    }
+}
+@mixin learning-support-common{
+    transition: transform .2s;
+    &:hover{
+        transform: scale(1.2);
     }
 }
 /* <------- General settings ------->*/
@@ -224,9 +228,17 @@ h1{
   -webkit-appearance: none;
   margin: 0;
 }
-//.active{
-//    @include active();
-//}
+.navbar-nav{
+    flex-direction: row;
+    flex-wrap: wrap;
+    & .nav-link{
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    @media (max-width: 422px){
+        flex-direction: column;
+    }
+}
 .btn-check:focus+.btn, .btn:focus{
     box-shadow: none;
 }
@@ -250,41 +262,57 @@ h1{
 
 .animation-nav {
     opacity: 0;
-    animation: fade-in-right ease 0.8s forwards;
+    animation: fade-in-right ease 1s forwards;
   }
   .animation-nav {
     animation-delay: 0.25s;
   }
 
-  @keyframes reveal {
-    from {
+  @-webkit-keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
       opacity: 0;
-      transform: translateX(0px);
     }
-    to {
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
       opacity: 1;
-      transform: translateX(0);
+    }
+  }
+  @keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
     }
   }
 
   .animation-introduction-1, .animation-introduction-2, .animation-introduction-3, .animation-introduction-4, .animation-introduction-5{
     opacity: 1;
-    animation: reveal 1.5s cubic-bezier(.215,.61,.355,1) .25s backwards;
+    //animation: reveal 2s cubic-bezier(.215,.61,.355,1) .25s backwards;
+    -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   }
   .animation-introduction-1 {
-    animation-delay: 0.25s;
+    animation-delay: 0.8s;
   }
   .animation-introduction-2 {
-    animation-delay: 0.50s;
+    animation-delay: 1.5s;
   }
   /*.animation-introduction-3{
     animation-delay: 1s;
   }*/
   .animation-introduction-4{
-    animation-delay: 0.9s;
+    animation-delay: 2.3s;
   }
   .animation-introduction-5{
-    animation-delay: 1.5s;
+    animation-delay: 2.5s;
   }
   #btn-back-to-top{
     @include btn-back-to-top();
@@ -303,7 +331,7 @@ h1{
 
     & img{
         height: 120px;
-        width: 120px;
+        //width: 120px;
     }
 
     & a{
@@ -405,8 +433,11 @@ h1{
         @include border-title();
     }
 
-    & .photo-perso{
-        border-radius: $border-radius-picture;
+    & .photo-personelle{
+        margin-bottom: 119px;
+        @media (max-width: 992px){
+            margin-bottom: 0px;  
+        }
     }
     & .linkedin-icon{
         width: 45px;
@@ -448,7 +479,8 @@ h1{
         }
     }
     & .list-icones{
-        & .code-academy{
+        & .code-cademy{
+            @include learning-support-common();
             width: 60%;
             @media (max-width: 991.5px){
                 width: 45%;
@@ -459,6 +491,7 @@ h1{
         }
         & .openclassrooms{
             width: 80%;
+            @include learning-support-common();
             @media (max-width: 991.5px){
                 width: 70%;
             }
@@ -468,6 +501,7 @@ h1{
         }
         & .mimo{
             width: 50%;
+            @include learning-support-common();
             @media (max-width: 991.5px){
                 width: 35%;
             }
@@ -477,6 +511,7 @@ h1{
         }
         & .codewars{
             width: 60%;
+            @include learning-support-common();
             @media (max-width: 991.5px){
                 width: 45%;
             }
@@ -531,6 +566,9 @@ h1{
         width: 61px;
         height: 61px;
     }
+    & .bootstrap-icon{
+        width: 76px;
+    }
     & .git-link{
         & img{
             width: 40px;
@@ -573,7 +611,7 @@ h1{
     }
     & .description-imc{
         @include description-works();
-        margin-top: 11%;
+        margin-top: 4%;
         @media (max-width: 991.5px){
             margin-top: 5%;
         }
@@ -619,3 +657,62 @@ h1{
         color: $secondary-text-color;
     }
 }
+
+/* <------- Animations des éléments de la page  ------->  */
+.js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+   
+  .js-scroll.scrolled {
+    opacity: 1;
+  }
+
+  .scrolled.fade-in-bottom {
+    animation: fade-in-bottom 1s ease-in-out both;
+  }
+  .scrolled.slide-left {
+    animation: slide-in-left 1s ease-in-out both;
+  }
+  .scrolled.slide-right {
+    animation: slide-in-right 1s ease-in-out both;
+  }
+
+  @keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(50px);
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-100px);
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(100px);
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
