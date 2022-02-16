@@ -19,7 +19,7 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">	
 		<link rel="stylesheet" type="text/css" href="portfolio.css">
-		<link rel="icon" href="icones/logo-title.ico" type="image/icon type">
+		<link rel="icon" href="icones/logo-title.ico" type="image/icon">
 		<title>Dylan Ayache Développeur Web, Création de Site vitrine - Portfolio</title>
 	</head> 
 	<body>
@@ -134,7 +134,7 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">Je suis à la recherche d'une formation dans le Développement Web, pour consolider mes acquis et me permettre d'étoffer mes compétences. En attendant je consacre mon temps au parcours de formation "Front-End Engineer" de chez <a href ="https://www.codecademy.com/learn/paths/front-end-engineer-career-path"target="_blank"><span class="semi-bold simple-link codecademy">Codecademy</span></a></p>
+							<p class="mx-auto ps-2 pe-2">Je suis à la recherche d'une formation dans le Développement Web, pour consolider mes acquis et me permettre d'étoffer mes compétences. En attendant je consacre mon temps au parcours de formation "Front-End Engineer" de chez <a href ="https://www.codecademy.com/learn/paths/front-end-engineer-career-path" target="_blank"><span class="semi-bold simple-link codecademy">Codecademy</span></a></p>
 								<div id="A-Propos"></div>
 							<div class="card-footer pt-4 pb-3"></div>
 						</div>
@@ -478,51 +478,50 @@
 			</section>
 			<!------------  Contact ----------->
 			<section id=contact>
-			<div class="container py-5">
-				<div class="row py-5 justify-content-center">
-					<div class="col-11 col-sm-10 col-md-9 col-lg-12 js-scroll fade-in-bottom">
-						<h2 class="bold text-center">Contactez-moi</h2>
-						<form method="post" name="contact-form" action="index.php">
-							<div class="row mt-5 justify-content-center">
-								<div class="col-lg-4 mb-4">
-									<label for="name" class="form-label light-bold">Nom et Prénom <span class="red">*</span></label>
-									<input type="text" name="name" class="form-control py-3" id="my-field" required="required">
+				<div class="container py-5">
+					<div class="row py-5 justify-content-center">
+						<div class="col-11 col-sm-10 col-md-9 col-lg-12 js-scroll fade-in-bottom">
+							<h2 class="bold text-center">Contactez-moi</h2>
+							<form method="post" name="contact-form" action="index.php">
+								<div class="row mt-5 justify-content-center">
+									<div class="col-lg-4 mb-4">
+										<label for="name" class="form-label light-bold">Nom et Prénom <span class="red">*</span></label>
+										<input type="text" name="name" class="form-control py-3" id="name" required="required">
+									</div>
+									<div class="col-lg-4">
+										<label for="email" class="form-label light-bold">Adresse mail <span class="red">*</span></label>
+										<input type="email" name="email" class="form-control py-3" id="email" required="required">
+									<?php echo $errorMail; ?>
+									</div>
 								</div>
-								<div class="col-lg-4">
-									<label for="email" class="form-label light-bold">Adresse mail <span class="red">*</span></label>
-									<input type="email" name="email" class="form-control py-3" id="email" required="required">
-								<?php echo $errorMail; ?>
+								<div class="row mt-4 justify-content-center">	
+									<div class="col-lg-4">			
+										<label for="phone" class="form-label light-bold">Téléphone</label>
+										<input dir="ltr" name="phone" type="number" id="phone" class="form-control py-3 no-arrow" >
+										<?php echo $errorNumber; ?>
+									</div>
+									<div class="col-lg-4"></div>
 								</div>
-							</div>
-							<div class="row mt-4 justify-content-center">	
-								<div class="col-lg-4">			
-									<label for="phone" class="form-label light-bold">Téléphone</label>
-									<input dir="ltr" name="phone" type="text" class="form-control py-3 no-arrow" >
-									<?php echo $errorNumber; ?>
+								<div class="row mt-4 justify-content-center">
+									<div class="col-lg-8">
+										<label for="message" class="form-label light-bold">Message <span class="red">*</span></label>
+										<textarea class="form-control" name="message" id="message" rows="7" required="required"></textarea>	
+									</div>
 								</div>
-								<div class="col-lg-4">
+								<div class="row justify-content-center">
+									<div class=" col-lg-3">
+										<?php echo $error; ?>
+										<p class="mt-3 ms-1 almost-bold">Champs requis <span class="red">*</span></p>
+									</div>
+									<div class="col-lg-5"></div>
 								</div>
-							</div>
-							<div class="row mt-4 justify-content-center">
-								<div class="col-lg-8">
-									<label for="message" class="form-label light-bold">Message <span class="red">*</span></label>
-									<textarea class="form-control" name="message" id="message" rows="7" required="required"></textarea>	
+								<div class="row mt-4 justify-content-center">
+									<div class="col-lg-2 d-flex justify-content-center">
+										<button type="submit" class="button-submit btn px-5 py-3" role="button">Envoyer</button>
+									</div>
 								</div>
-							</div>
-							<div class="row justify-content-center">
-								<div class=" col-lg-3">
-									<?php echo $error; ?>
-									<p class="mt-3 ms-1 almost-bold">Champs requis <span class="red">*</span></p>
-								</div>
-								<div class="col-lg-5">
-								</div>
-							</div>
-							<div class="row mt-4 justify-content-center">
-								<div class="col-lg-2 d-flex justify-content-center">
-									<button type="submit" class="button-submit btn px-5 py-3" role="button">Envoyer</button>
-								</div>
-							</div>
-						</form>
+							</form>
+						</div>
 					</div>
 				</div>
 			</section>
