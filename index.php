@@ -120,7 +120,7 @@
 								<img class="illustration-welcome-mobile" src="images/illustration-welco-mobile.svg" alt="Développeur Web en train de créer un site web">
 							</div>
 							<div class="animation-introduction-4">
-								<p class="text-center text-lg-start mt-4">
+								<p class="text-center text-lg-start mt-4 margin-contact">
 									<a class="px-4 py-3 btn-contact" href="#Contact">Contactez-moi</a>
 								</p>
 							</div>

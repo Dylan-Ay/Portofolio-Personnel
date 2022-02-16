@@ -316,8 +316,6 @@ h1 {
 #introduction p {
   font-size: calc(1.3125rem + 0.75vw);
   font-family: "Montserrat", sans-serif;
-  -webkit-animation: reveal 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0.25s backwards;
-          animation: reveal 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0.25s backwards;
 }
 
 @media (min-width: 1200px) {
@@ -329,6 +327,12 @@ h1 {
 @media (min-width: 1400px) {
   #introduction p {
     width: 630px;
+  }
+}
+
+@media (min-width: 992px) {
+  #introduction .margin-contact {
+    margin-left: 19px;
   }
 }
 
