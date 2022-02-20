@@ -222,14 +222,12 @@ h1 {
   right: 5%;
   display: none;
   width: 60px;
-  opacity: 0.5;
+  opacity: 0.8 !important;
   padding: 0px;
 }
 
 #btn-back-to-top:hover {
-  opacity: 1;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  opacity: 1 !important;
 }
 
 @media (max-width: 698px) {
@@ -316,6 +314,8 @@ h1 {
 #introduction p {
   font-size: calc(1.3125rem + 0.75vw);
   font-family: "Montserrat", sans-serif;
+  -webkit-animation: reveal 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0.25s backwards;
+          animation: reveal 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0.25s backwards;
 }
 
 @media (min-width: 1200px) {
@@ -772,7 +772,7 @@ h1 {
   height: 62px;
 }
 
-#works .works-preview {
+#works .works-preview-right {
   border-radius: 15px;
   -webkit-transition: -webkit-box-shadow 200ms ease,-webkit-transform 200ms ease;
   transition: -webkit-box-shadow 200ms ease,-webkit-transform 200ms ease;
@@ -780,11 +780,26 @@ h1 {
   transition: box-shadow 200ms ease,transform 200ms ease,-webkit-box-shadow 200ms ease,-webkit-transform 200ms ease;
 }
 
-#works .works-preview:hover {
+#works .works-preview-right:hover {
   -webkit-transform: translate(4px, -4px);
           transform: translate(4px, -4px);
   -webkit-box-shadow: -8px 8px 0 #655f5f;
           box-shadow: -8px 8px 0 #655f5f;
+}
+
+#works .works-preview-left {
+  border-radius: 15px;
+  -webkit-transition: -webkit-box-shadow 200ms ease,-webkit-transform 200ms ease;
+  transition: -webkit-box-shadow 200ms ease,-webkit-transform 200ms ease;
+  transition: box-shadow 200ms ease,transform 200ms ease;
+  transition: box-shadow 200ms ease,transform 200ms ease,-webkit-box-shadow 200ms ease,-webkit-transform 200ms ease;
+}
+
+#works .works-preview-left:hover {
+  -webkit-transform: translate(4px, -4px);
+          transform: translate(4px, -4px);
+  -webkit-box-shadow: 8px 8px 0 #655f5f;
+          box-shadow: 8px 8px 0 #655f5f;
 }
 
 #works .description-hotel {

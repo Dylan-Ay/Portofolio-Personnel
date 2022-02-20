@@ -314,7 +314,7 @@
 						<div class="row pt-5 justify-content-lg-between justify-content-md-center row-border">
 							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
 								<h2 class="position-relative bold">Mes Réalisations</h2>
-									<video  controls controlsList="nofullscreen" playsinline preload autoplay muted loop width="100%" class="univers-running works-preview mt-4">
+									<video  controls controlsList="nofullscreen" playsinline preload autoplay muted loop width="100%" class="univers-running works-preview-right mt-4">
 										<source src="images/univers-running.mp4" type="video/mp4">
 									</video>
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
@@ -362,7 +362,7 @@
 						<!------------  Second row Calculateur d'IMC ----------->
 						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 row-border">
 							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1 js-scroll slide-right">
-								<img src="images/calculateur-imc.jpg" alt="calculateur imc" class="works-preview img-fluid">
+								<img src="images/calculateur-imc.jpg" alt="calculateur imc" class="works-preview-left img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled">
 									<li>
@@ -399,7 +399,7 @@
 						<!------------  Third row Jeu du plus ou moins ----------->		
 						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 row-border">
 							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
-								<img src="images/plus-ou-moins.jpg" alt="jeu du plus ou moins" class="works-preview img-fluid">
+								<img src="images/plus-ou-moins.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled">
 									<li>
@@ -440,7 +440,7 @@
 						<!------------  Fourth row Bloc-notes en ligne ----------->
 						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
 							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1 js-scroll slide-right">
-									<img src="images/in-progress.svg" class="works-preview img-fluid" alt="in progress">
+									<img src="images/in-progress.svg" class="works-preview-left img-fluid" alt="in progress">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
 									<li>
@@ -553,7 +553,7 @@
 			</div>
 		</footer>
 		<!---------------------- BOUTON RETOUR HAUT DE PAGE ---------------------->
-	    <button type="button" class="btn btn-floating btn-sm fade-in-bottom" id="btn-back-to-top">
+	    <button type="button" id="btn-back-to-top" class="btn btn-floating btn-sm fade-in-bottom">
 	  		<img src="icones/back-to-top.svg" alt="icone retour haut de page">
 		</button>
 		<script src="bootstrap.bundle.min.js"></script>

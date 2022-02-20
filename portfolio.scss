@@ -137,11 +137,18 @@ $transition-icon-hover: scale(1.15);
     background-color: hsla(0, 0%, 100%, 0.56);
     border-radius: 15px;
 }
-@mixin works-preview{
+@mixin works-preview-right{
     transition: box-shadow 200ms ease,transform 200ms ease;
     &:hover{
         transform: translate(4px, -4px);
         box-shadow: -8px 8px 0 #655f5f;
+    }
+}
+@mixin works-preview-left{
+    transition: box-shadow 200ms ease,transform 200ms ease;
+    &:hover{
+        transform: translate(4px, -4px);
+        box-shadow: 8px 8px 0 #655f5f;
     }
 }
 @mixin btn-back-to-top{
@@ -151,11 +158,10 @@ $transition-icon-hover: scale(1.15);
     right: 5%;
     display: none;
     width: 60px;
-    opacity: 0.5;
+    opacity: 0.8 !important;
     padding: 0px;
     &:hover{
-        opacity: 1;
-        transition: all 0.3s ease-in-out 0s;
+        opacity: 1 !important;
     }
   @media (max-width: 698px){
       width: 45px;
@@ -365,6 +371,11 @@ h1{
         animation: reveal .8s cubic-bezier(.215,.61,.355,1) .25s backwards;
         @media (min-width: 1400px){
             width: 630px;
+        }
+    }
+    & .margin-contact{
+        @media (min-width: 992px){
+            margin-left: 19px;
         }
     }
     & .row-intro-mt{
@@ -598,9 +609,13 @@ h1{
         width: 124px;
         height: 62px;
     }
-    & .works-preview{
+    & .works-preview-right{
         border-radius: $border-radius-works;
-        @include works-preview();
+        @include works-preview-right();
+    }
+    & .works-preview-left{
+        border-radius: $border-radius-works;
+        @include works-preview-left();
     }
     & .description-hotel{
         @include description-works();
