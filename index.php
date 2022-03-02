@@ -113,7 +113,7 @@
 									<h1 class="resize-name"><span class="semi-bold">Bonjour, je m'appelle</span> <span class="bold">Dylan Ayache</span></h1>
 								</div>
 								<div class="animation-introduction-2">
-									<p class="mt-3 mb-4">Je suis actuellement en autoformation de Développeur Web et je suis disponible pour réaliser vos projets web.</p>
+									<p class="mt-3 mb-4">Je suis actuellement en formation de Développeur Web et je suis disponible pour réaliser vos projets web.</p>
 								</div>
 							</div>
 							<div class="animation-introduction-2">
@@ -134,7 +134,7 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">Je suis à la recherche d'une formation dans le Développement Web, pour consolider mes acquis et me permettre d'étoffer mes compétences. En attendant je consacre mon temps au parcours de formation "Front-End Engineer" de chez <a href ="https://www.codecademy.com/learn/paths/front-end-engineer-career-path" target="_blank"><span class="semi-bold simple-link codecademy">Codecademy</span></a></p>
+							<p class="mx-auto ps-2 pe-2">Je suis en formation de Développeur Web pour obtenir un Bac +2 dans ce domaine, ce qui me permettra de consolider mes acquis et d'étoffer mes compétences. En parallèle je réalise des projets personnels et je suis disponible pour réaliser vos <strong class="regular">sites vitrines</strong>.</p>
 								<div id="A-Propos"></div>
 							<div class="card-footer pt-4 pb-3"></div>
 						</div>
@@ -151,7 +151,7 @@
 							<div class="col-12 col-lg-7 mb-4 js-scroll fade-in-bottom">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
-									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 26 ans et je suis actuellement à la recherche d'une formation pour devenir Développeur Web.</p>
+									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 26 ans et je suis actuellement en formation de Développeur Web et Web Mobile en vue d'obtenir un Bac +2.</p>
 										
 									<p>Mon intérêt pour l'informatique et les nouvelles technologies a commencé depuis jeune. 
 									Après mon bac j'ai commencé à faire des tutoriels sur OpenClassroom puis j'ai monté
@@ -164,7 +164,7 @@
 									J'ai travaillé au total 3 ans en tant que Technicien Informatique.</p>
 										
 									<p>Durant le confinement je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
-									donné envie de découvrir le Développement Web. C'est pour cela qu'aujourd'hui j'aimerais obtenir un diplôme dans ce domaine. Je m'autoforme au métier de Développeur Web depuis Octobre 2021, je suis plus attiré par le front-end, mais je me forme au back-end également.</p>
+									donné envie de redécouvrir le Développement Web. C'est pour cela qu'aujourd'hui j'aimerais obtenir un diplôme dans ce domaine. Je m'autoforme au métier de Développeur Web depuis Octobre 2021, j'ai déjà quelques <a href="#Réalisations" class="semi-bold simple-link codecademy">projets à mon actif.</a> Je suis plus attiré par le front-end, mais je me forme également au back-end.</p>
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
 									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
 									<p><span class="bold">Espagnol</span> : Niveau B1 (Intermédiaire)</p>
@@ -191,10 +191,9 @@
 						<div class="col-12 col-lg-6 js-scroll fade-in-bottom">
 							<h2 class="position-relative bold">Mes Compétences</h2>
 							<p class="mt-4">Certaines de mes compétences de développeur sont en cours d'apprentissage.
-								J'ai réalisé un premier projet, qui est un site vitrine statique en HTML, CSS. 
-								Il a été réalisé avec une base Bootstrap et il y a également quelques lignes de JavaScript.</p>
+								J'ai déjà réalisé plusieurs projets, mon but est de réaliser à chaque fois un nouveau projet pour valider ce que j'ai pu apprendre.</p>
 
-							<p>Voici un aperçu des connaissances déjà acquises et de celles en cours d'apprentissage :</p>
+							<p>Voici un aperçu de mon niveau, pour chaque compétence que j'ai pu apprendre :</p>
 							<h4 class="almost-bold mt-4 mb-3">Développement :</h4>
 							<!------------  Developpement Progress Bars ----------->
 							<div class="border-bottom pb-5">
@@ -206,28 +205,28 @@
 									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">Sass <span class="light-italic">(en cours de formation)</span></span>
+									<span class="light-bold">Sass</span>
 									<span class="light-bold">70%</span>
 								</div>
 								<div class="progress mt-1">
 									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">JavaScript <span class="light-italic">(en cours de formation)</span></span>
+									<span class="light-bold">JavaScript</span>
 									<span class="light-bold">60%</span>
 								</div>
 								<div class="progress mt-1">
 									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">PHP <span class="light-italic">(en cours de formation)</span></span>
+									<span class="light-bold">PHP</span>
 									<span class="light-bold">45%</span>
 								</div>
 								<div class="progress mt-1">
 									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">MySQL, phpMyAdmin<span class="light-italic">(en cours de formation)</span></span>
+									<span class="light-bold">MySQL, phpMyAdmin</span>
 									<span class="light-bold">40%</span>
 								</div>
 								<div class="progress mt-1">
@@ -291,8 +290,8 @@
 									</a>
 								</div>
 								<div class="mb-5">
-									<a href="https://getmimo.com/" target="_blank">
-										<img src="icones/mimo.svg" class="mimo" alt="icone application mimo">
+									<a href="https://www.frontendmentor.io/profile/Dylan-Ay" target="_blank">
+										<img src="icones/mentor.svg" class="mentor" alt="icone application frond-end mentor">
 									</a>
 								</div>
 								<div class="ms-md-5">
@@ -318,7 +317,7 @@
 										<source src="images/univers-running.mp4" type="video/mp4">
 									</video>
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled">
+								<ul class="list-unstyled text-center text-md-start">
 									<li>
 										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
 									</li>
@@ -364,7 +363,7 @@
 							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1 js-scroll slide-right">
 								<img src="images/calculateur-imc.jpg" alt="calculateur imc" class="works-preview-left img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled">
+								<ul class="list-unstyled text-center text-md-start">
 									<li>
 										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
 									</li>
@@ -401,7 +400,7 @@
 							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
 								<img src="images/plus-ou-moins.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled">
+								<ul class="list-unstyled text-center text-md-start">
 									<li>
 										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
 									</li>
@@ -437,10 +436,50 @@
 								</div>
 							</div>
 						</div>
-						<!------------  Fourth row Bloc-notes en ligne ----------->
+						<!------------ Fourth row Landing page ----------->
+						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 row-border">
+						<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom order-1 order-lg-0">
+								<div class="description-imc px-4 py-4 text-lg-end">
+									<h4 class="almost-bold">Page d'accueil</h4>
+									<p>Projet Personnel, c'est une page d'accueil que j'ai réalisé comme premier projet du site Frontend Mentor.</p>
+									<p>L'objectif était de réaliser une page ayant des éléments à superposer et d'utiliser mes acquis en JavaScript pour créer les animations de la barre de navigation.</p>
+									<p class="semi-bold text-end">Février 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/Blogr-landing-page-Front-end-Mentor" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<a href="https://landing-page-frontend-mentor-challenge.netlify.app/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icon link">
+									</a>
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
+								<img src="images/landing-page.jpg" alt="jeu du plus ou moins" class="works-preview-left img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+									</li>
+									<li>
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+									</li>
+									<li>
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class=" bootstrap-icon mt-2 me-3">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!------------  Fifth row Bloc-notes en ligne ----------->
 						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
-							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1 js-scroll slide-right">
-									<img src="images/in-progress.svg" class="works-preview-left img-fluid" alt="in progress">
+							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-right">
+									<img src="images/in-progress.svg" class="works-preview-right img-fluid" alt="in progress">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
 									<li>

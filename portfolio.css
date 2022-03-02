@@ -10,6 +10,10 @@ a {
   color: #424b54;
 }
 
+a:hover {
+  color: #3b3735;
+}
+
 button:focus {
   outline: none;
 }
@@ -47,6 +51,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .light-bold {
   font-weight: 500;
+}
+
+.regular {
+  font-weight: 400;
 }
 
 .light-italic {
@@ -120,6 +128,65 @@ h1 {
   .container {
     max-width: 1400px;
   }
+}
+
+.simple-link {
+  position: relative;
+}
+
+.simple-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffe3af;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+.simple-link:hover:after {
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.codecademy {
+  position: relative;
+  color: #3b3735;
+}
+
+.codecademy:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  bottom: -2px;
+  left: 0;
+  background-color: #424b54;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+.codecademy:hover:after {
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 /* <------- Animations ------->  */
@@ -281,35 +348,6 @@ h1 {
   color: #3b3735;
 }
 
-#menu .simple-link {
-  position: relative;
-}
-
-#menu .simple-link:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 1.5px;
-  bottom: 0;
-  left: 0;
-  background-color: #ffe3af;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
-  -webkit-transition: -webkit-transform 0.4s;
-  transition: -webkit-transform 0.4s;
-  transition: transform 0.4s;
-  transition: transform 0.4s, -webkit-transform 0.4s;
-}
-
-#menu .simple-link:hover:after {
-  -webkit-transform-origin: bottom left;
-          transform-origin: bottom left;
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-}
-
 /* <------- INTRODUCTION ------->  */
 #introduction p {
   font-size: calc(1.3125rem + 0.75vw);
@@ -356,36 +394,6 @@ h1 {
   -webkit-box-shadow: inset 10.5em 0 0 0 #FFFFFF;
           box-shadow: inset 10.5em 0 0 0 #FFFFFF;
   color: #3b3735;
-}
-
-#introduction .codecademy {
-  position: relative;
-  color: #3b3735;
-}
-
-#introduction .codecademy:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 1.5px;
-  bottom: -2px;
-  left: 0;
-  background-color: #424b54;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
-  -webkit-transition: -webkit-transform 0.4s;
-  transition: -webkit-transform 0.4s;
-  transition: transform 0.4s;
-  transition: transform 0.4s, -webkit-transform 0.4s;
-}
-
-#introduction .codecademy:hover:after {
-  -webkit-transform-origin: bottom left;
-          transform-origin: bottom left;
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
 }
 
 @media (max-width: 991px) {
@@ -609,28 +617,28 @@ h1 {
   }
 }
 
-#skills .list-icones .mimo {
-  width: 50%;
+#skills .list-icones .mentor {
+  width: 65%;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
   transition: transform .2s;
   transition: transform .2s, -webkit-transform .2s;
 }
 
-#skills .list-icones .mimo:hover {
+#skills .list-icones .mentor:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
 @media (max-width: 991.5px) {
-  #skills .list-icones .mimo {
-    width: 35%;
+  #skills .list-icones .mentor {
+    width: 55%;
   }
 }
 
 @media (max-width: 575px) {
-  #skills .list-icones .mimo {
-    width: 55%;
+  #skills .list-icones .mentor {
+    width: 74%;
   }
 }
 

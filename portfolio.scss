@@ -177,6 +177,9 @@ $transition-icon-hover: scale(1.15);
 a{
     text-decoration: none !important;
     color: $primary-color;
+    &:hover{
+        color: $primary-text-color;
+    }
 }
 button:focus{
     outline: none;
@@ -208,6 +211,9 @@ h1, h2, h3, h4, h5, h6{
 }
 .light-bold{
     font-weight: 500;
+}
+.regular{
+    font-weight: 400;
 }
 .light-italic{
     font-style: italic;
@@ -254,6 +260,16 @@ h1{
             max-width: $center-container-width;
     }
 }
+.simple-link{
+    position: relative;
+    @include hover-nav();
+}
+.codecademy{
+    position: relative;
+    color: $primary-text-color;
+    @include hover-codecademy();
+}
+
 /* <------- Animations ------->  */
 @keyframes fade-in-right {
     from {
@@ -358,10 +374,6 @@ h1{
             @include button-hover-nav();
         }
     }
-    & .simple-link{
-        position: relative;
-        @include hover-nav();
-    }
 }
 /* <------- INTRODUCTION ------->  */
 #introduction{
@@ -387,12 +399,6 @@ h1{
             @include button-hover-introduction();
         }
     }
-    & .codecademy{
-        position: relative;
-        color: $primary-text-color;
-        @include hover-codecademy();
-    }
-
     & .illustration-welcome-desktop{
         @media (max-width: 991px) {
             display: none;
@@ -510,14 +516,14 @@ h1{
                 width: 85%;
             } 
         }
-        & .mimo{
-            width: 50%;
+        & .mentor{
+            width: 65%;
             @include learning-support-common();
             @media (max-width: 991.5px){
-                width: 35%;
+                width: 55%;
             }
             @media (max-width: 575px){
-                width: 55%;
+                width: 74%;
             } 
         }
         & .codewars{
