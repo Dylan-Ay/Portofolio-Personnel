@@ -477,7 +477,7 @@
 							</div>
 						</div>
 						<!------------  Fifth row Bloc-notes en ligne ----------->
-						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
+						<!--<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
 							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-right">
 									<img src="images/in-progress.svg" class="works-preview-right img-fluid" alt="in progress">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
@@ -510,7 +510,7 @@
 										<img src="icones/extern-link.svg" alt="icon link">
 								</div>
 							</div>
-						</div>
+						</div>-->
 						<span id="Contact"></span>
 					</div>
 				</div>
