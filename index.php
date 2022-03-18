@@ -438,7 +438,7 @@
 						</div>
 						<!------------ Fourth row Landing page ----------->
 						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 row-border">
-						<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom order-1 order-lg-0">
+							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom order-1 order-lg-0">
 								<div class="description-imc px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Page d'accueil</h4>
 									<p>Projet Personnel, c'est une page d'accueil que j'ai réalisé comme premier projet du site Frontend Mentor.</p>
@@ -454,7 +454,7 @@
 									</a>
 								</div>
 							</div>	
-							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
+							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-right">
 								<img src="images/landing-page.jpg" alt="jeu du plus ou moins" class="works-preview-left img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
@@ -476,8 +476,45 @@
 								</ul>
 							</div>
 						</div>
+						<!------------ Fifth row Landing page ----------->
+						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
+							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom order-1 order-lg-1">
+								<div class="description-imc px-4 py-4 text-lg-end">
+									<h4 class="almost-bold">Calculateur de tip</h4>
+									<p>Projet Personnel, c'est un calculateur de tip, c'est un projet du site Frontend Mentor.</p>
+									<p>L'objectif était de réaliser un calculateur de tip (pourboire) en JavaScript. Il permet de calculer le montant d'un tip par personne ainsi que le montant total (facture + tip) par personne. Il y a des pourcentages de tips prédéfinis, on a également la possibilité de calculer un pourcentage au choix.</p>
+									<p class="semi-bold text-end">Mars 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/Tip-calculator-app-Front-end-Mentor" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<a href="https://tip-calculator-frontend-mentor-challenge.netlify.app/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icon link">
+									</a>
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
+								<img src="images/calculateur-tip.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+									</li>
+									<li>
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+									</li>
+								</ul>
+							</div>
+						</div>
 						<!------------  Fifth row Bloc-notes en ligne ----------->
-						<!--<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
+					<!--<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
 							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-right">
 									<img src="images/in-progress.svg" class="works-preview-right img-fluid" alt="in progress">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
