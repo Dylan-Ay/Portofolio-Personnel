@@ -269,7 +269,12 @@ h1{
     color: $primary-text-color;
     @include hover-codecademy();
 }
-
+.btn-contact{
+    @include button-introduction();
+    &:hover{
+        @include button-hover-introduction();
+    }
+}
 /* <------- Animations ------->  */
 @keyframes fade-in-right {
     from {
@@ -392,12 +397,6 @@ h1{
     }
     & .row-intro-mt{
         margin-top: 160px
-    }
-    & .btn-contact{
-        @include button-introduction();
-        &:hover{
-            @include button-hover-introduction();
-        }
     }
     & .illustration-welcome-desktop{
         @media (max-width: 991px) {
@@ -603,6 +602,11 @@ h1{
         border-bottom: $spacing-border;
         padding-bottom: 80px;
     }
+    & .row-border-top{
+        border-top: $spacing-border;
+        padding-top: 80px;
+    }
+        
     & .php-icon{
         width: 100px;
         height: 48px;
@@ -636,6 +640,9 @@ h1{
         @media (max-width: 991.5px){
             margin-top: 5%;
         }
+    }
+    & .show-more{
+        display: none;
     }
 }
 /* <------- CONTACT ------->  */

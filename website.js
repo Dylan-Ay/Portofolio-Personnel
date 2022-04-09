@@ -7,11 +7,11 @@ $(document).ready(function(){
 
 
 //Ajout de la classe active quand on clique
-       $('.nav-link').click(function(){
-           $('.nav-link').removeClass('active');
-           $(this).addClass('active');
-       });
-   });
+    $('.nav-link').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).addClass('active');
+    });
+});
 
 // Quand l'utilisateur scroll vers le bas de 4900px, le bouton s'affiche
 window.onscroll = function () {
@@ -77,3 +77,30 @@ const handleScrollAnimation = () => {
 window.addEventListener("scroll", () => { 
   handleScrollAnimation();
 });
+
+// Button show-more
+let btnShowMore = document.getElementById('show-more-btn');
+let moreContent = document.querySelectorAll('.show-more');
+let isDisplayed = false;
+
+moreContent.forEach(element => {
+  element.style.display = "none";
+});
+
+function displayContent(){
+  if (isDisplayed === false){
+    moreContent.forEach(element => {
+      element.style.display = "flex";
+      btnShowMore.innerHTML = "Afficher Moins";
+    });
+    isDisplayed = true;
+  }else if (isDisplayed === true){
+    moreContent.forEach(element => {
+      element.style.display = "none";
+      btnShowMore.innerHTML = "Afficher Plus";
+    });
+    isDisplayed = false;
+  }
+}
+
+btnShowMore.addEventListener('click', displayContent);

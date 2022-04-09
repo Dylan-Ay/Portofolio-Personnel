@@ -24,48 +24,7 @@
 	</head> 
 	<body>
 		<!------------ Includng PHP for contact section ------------>
-		<?php
-			// Déclaration des variables
-			$name = !empty($_POST["name"]) ? $_POST["name"] : NULL;
-			$email = !empty($_POST["email"]) ? $_POST["email"] : NULL;
-			$numero = !empty($_POST["phone"]) ? $_POST["phone"] : NULL;
-			$message = !empty($_POST["message"]) ? $_POST["message"] : NULL;
-			$error = "";
-			$errorNumber = "";
-			$errorMail = "";
-
-			// Récupération des informations du message pour mise en forme par mail.
-			if(isset($_POST['message'])){
-				$header  = 'MIME-Version: 1.0' . "\r\n";
-				$header .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-				$header .= 'From: ' . $_POST['email'] . "\r\n";
-
-				$message = '<h1>Message envoyé depuis la page contact de dylanayache.com</h1>
-				<p>
-					<b>Nom : </b>' . $_POST['name'] . '<br>
-					<b>Téléphone : </b>' . $_POST['phone'] . '<br>
-					<b>Destinataire : </b>' . $_POST['email'] . '<br>
-					<b>Message : </b>' . $_POST['message'] . 
-				'</p>';
-			}
-			// Si conditions remplies le mail est envoyé, sinon afficher une erreur
-			if ($_SERVER["REQUEST_METHOD"] === "POST"){
-				// Si le champ téléphone n'est pas vide et que les caractères insérés ne sont pas des chiffres.
-				if ( !empty($_POST['phone']) && !is_numeric($_POST['phone']) ) {
-					$errorNumber = '<p class="red almost-bold mt-2">Veuillez insérer uniquement des chiffres.</p>';
-				// Sinon Si le champ mail n'est pas vide et que le mail inséré n'est pas valide.
-				} else if ( !empty($_POST["email"]) && !filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) ) {
-					$errorMail = '<p class="red almost-bold mt-2">Veuillez insérer un email valide.</p>';
-				// Sinon Si les champs name, email et messages ne sont pas vides afficher une alerte message envoyé.
-				} else if ( !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["message"]) ){
-					echo '<script>alert("Votre message a bien été envoyé, je vous répondrai sous peu.")</script>';
-					$retour = mail('dylan.ayache.68@gmail.com', 'Mail du PortFolio', $message, $header);
-				//Sinon afficher un message d'erreur.
-				} else {
-					$error = '<p class="red almost-bold mt-2">Veuillez remplir tous les champs requis.</p>';
-				}
-			}
-		?>
+		<?php include('form-treatement.php');?>
 		<header>
 			<div id="Accueil"></div>
 			<div id="menu">
@@ -73,7 +32,7 @@
 				<div class="container ">
 					<nav class="navbar py-0 px-0 navbar-expand-lg">
 						<a href="https://dylanayache.com/">
-							<img src="icones/logo.svg" class="animation-nav" alt="Logo Portfolio Développeur Web">
+							<img src="icones/logo.svg" class="animation-nav" alt="Logo Portfolio Dylan Ayache Développeur Web">
 						</a>
 						<button class="navbar-toggler animation-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
@@ -134,7 +93,7 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">Je suis en formation de Développeur Web pour obtenir un Bac +2 dans ce domaine, ce qui me permettra de consolider mes acquis et d'étoffer mes compétences. En parallèle je réalise des projets personnels et je suis disponible pour réaliser vos <strong class="regular">sites vitrines</strong>.</p>
+							<p class="mx-auto ps-2 pe-2">Dans le cadre de ma formation de Développeur Web, <span class="bold">je suis à la recherche d'un stage<br> du 05 Septembre 2022 au 21 Octobre 2022 inclus.</span> En parallèle je réalise des projets personnels et je suis disponible pour réaliser vos <strong class="regular">sites vitrines</strong>.</p>
 								<div id="A-Propos"></div>
 							<div class="card-footer pt-4 pb-3"></div>
 						</div>
@@ -151,7 +110,7 @@
 							<div class="col-12 col-lg-7 mb-4 js-scroll fade-in-bottom">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
-									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 26 ans et je suis actuellement en formation de Développeur Web et Web Mobile en vue d'obtenir un Bac +2.</p>
+									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 27 ans et je suis actuellement en formation de Développeur Web et Web Mobile en vue d'obtenir un Bac +2.</p>
 										
 									<p>Mon intérêt pour l'informatique et les nouvelles technologies a commencé depuis jeune. 
 									Après mon bac j'ai commencé à faire des tutoriels sur OpenClassroom puis j'ai monté
@@ -167,10 +126,10 @@
 									donné envie de redécouvrir le Développement Web. C'est pour cela qu'aujourd'hui j'aimerais obtenir un diplôme dans ce domaine. Je m'autoforme au métier de Développeur Web depuis Octobre 2021, j'ai déjà quelques <a href="#Réalisations" class="semi-bold simple-link codecademy">projets à mon actif.</a> Je suis plus attiré par le front-end, mais je me forme également au back-end.</p>
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
 									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
-									<p><span class="bold">Espagnol</span> : Niveau B1 (Intermédiaire)</p>
-									<!-- <a href="https://www.linkedin.com/" target="_blank"> -->
-										<img src="icones/linkedin.svg" class="linkedin-icon me-2" alt="icon linkedin">
-									<!-- </a> -->
+									<p><span class="bold">Espagnol</span> : Niveau B2 (Avancé)</p>
+									<a href="https://www.linkedin.com/in/dylan-ayache/" target="_blank">
+										<img src="icones/linkedin.svg" class="linkedin-icon me-2" alt="linkedin dylan ayache">
+									</a>
 									<a href="#Contact">
 										<img src="icones/mail.svg" class="mail-icon" alt="icon mail">
 									</a>
@@ -350,7 +309,7 @@
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/Univers-Running" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
+										<img src="icones/github.svg" alt="github dylan ayache" class="me-2">
 									</a>
 									<a href="https://univers-running.go.yj.fr/" target="_blank">
 										<img src="icones/extern-link.svg" alt="icon link">
@@ -476,7 +435,7 @@
 								</ul>
 							</div>
 						</div>
-						<!------------ Fifth row Landing page ----------->
+						<!------------ Fifth row Calculateur Tip ----------->
 						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
 							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom order-1 order-lg-1">
 								<div class="description-imc px-4 py-4 text-lg-end">
@@ -511,6 +470,83 @@
 										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
 									</li>
 								</ul>
+							</div>
+						</div>
+						<!------------ Gallery JS Vanilla ----------->
+						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 show-more row-border-top">
+							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom order-1 order-lg-0">
+								<div class="description-imc px-4 py-4 text-lg-end">
+									<h4 class="almost-bold">Galerie Photo</h4>
+									<p>Projet Personnel, c'est une galerie photo effectuée en JS Vanilla.</p>
+									<p>Cette galerie comporte plusieurs fonctionalités, dans un premier temps il y a un filtre qui affiche les photos selon une catégorie sélectionée. Ensuite il y a une modal qui permet d'afficher la photo en grand quand on clique dessus. Enfin il y a un slider qui permet de naviguer entre les différentes photos.</p>
+									<p class="semi-bold text-end">Mars 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/Gallery" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<a href="https://pictures-gallery-js.netlify.app/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icon link">
+									</a>
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-right">
+								<img src="images/gallery.jpg" alt="pictures gallery javascript" class="works-preview-left img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!------------ Projet PHP ----------->
+						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 show-more row-border-top">
+							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom order-1 order-lg-1">
+								<div class="description-imc px-4 py-4 text-lg-end">
+									<h4 class="almost-bold">Projet PHP</h4>
+									<p>Projet Personnel, c'est un projet qui est en cours de réalisation.</p>
+									<p>Ce projet intègre déjà un système de "Panier" ainsi qu'une page qui récapitule le contenu du panier.</p>
+									<p class="semi-bold text-end">Avril 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/App--Ajout-de-produit--PHP" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<!--<a href="https://pictures-gallery-js.netlify.app/" target="_blank">-->
+										<img src="icones/extern-link.svg" alt="icon link">
+									<!--</a>-->
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
+								<img src="images/panier.jpg" alt="projet d'un panier en php" class="works-preview-right img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
+									</li>
+									<li>
+										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!------------ Bouton 'afficher plus' ----------->
+						<div class="row">
+							<div class="col-12 text-center">
+								<button id="show-more-btn" class="btn-contact px-4 py-3">Afficher Plus</button>
 							</div>
 						</div>
 						<!------------  Fifth row Bloc-notes en ligne ----------->
@@ -609,13 +645,13 @@
 					<div class="col-lg-2">
 						<ul class="list-unstyled d-flex pt-5 justify-content-center ps-4">
 							<li>
-								<!-- <a href="https://www.linkedin.com/" target="_blank"> -->
-									<img src="icones/linkedin-white.svg" alt="icone linkedin">
-								<!-- </a> -->
+								<a href="https://www.linkedin.com/in/dylan-ayache/" target="_blank">
+									<img src="icones/linkedin-white.svg" alt="linkedin dylan ayache">
+								</a>
 							</li>
 							<li>
 								<a href="https://github.com/Dylan-Ay" target="_blank">
-									<img src="icones/github-white.svg" alt="icone github" class="mx-3">
+									<img src="icones/github-white.svg" alt="github dylan ayache" class="mx-3">
 								</a>
 							</li>
 						</ul>
@@ -634,6 +670,6 @@
 		</button>
 		<script src="bootstrap.bundle.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-		 <script src="website.js"></script>
+		<script src="website.js"></script>
 	</body>
 </html>

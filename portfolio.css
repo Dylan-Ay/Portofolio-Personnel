@@ -189,6 +189,24 @@ h1 {
           transform: scaleX(1);
 }
 
+.btn-contact {
+  border: solid 2px #424b54;
+  border-radius: 45px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #424b54;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-contact:hover {
+  -webkit-box-shadow: inset 10.5em 0 0 0 #FFFFFF;
+          box-shadow: inset 10.5em 0 0 0 #FFFFFF;
+  color: #3b3735;
+}
+
 /* <------- Animations ------->  */
 @-webkit-keyframes fade-in-right {
   from {
@@ -376,24 +394,6 @@ h1 {
 
 #introduction .row-intro-mt {
   margin-top: 160px;
-}
-
-#introduction .btn-contact {
-  border: solid 2px #424b54;
-  border-radius: 45px;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  font-size: 18px;
-  color: #FFFFFF;
-  background-color: #424b54;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-}
-
-#introduction .btn-contact:hover {
-  -webkit-box-shadow: inset 10.5em 0 0 0 #FFFFFF;
-          box-shadow: inset 10.5em 0 0 0 #FFFFFF;
-  color: #3b3735;
 }
 
 @media (max-width: 991px) {
@@ -765,6 +765,11 @@ h1 {
   padding-bottom: 80px;
 }
 
+#works .row-border-top {
+  border-top: solid 2px #424b54;
+  padding-top: 80px;
+}
+
 #works .php-icon {
   width: 100px;
   height: 48px;
@@ -832,6 +837,10 @@ h1 {
   #works .description-imc {
     margin-top: 5%;
   }
+}
+
+#works .show-more {
+  display: none;
 }
 
 /* <------- CONTACT ------->  */
