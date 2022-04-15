@@ -207,6 +207,14 @@ h1 {
   color: #3b3735;
 }
 
+@media screen and (max-width: 425px) {
+  .btn-contact:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: white;
+  }
+}
+
 /* <------- Animations ------->  */
 @-webkit-keyframes fade-in-right {
   from {
@@ -286,9 +294,6 @@ h1 {
           animation-delay: 1.5s;
 }
 
-/*.animation-introduction-3{
-    animation-delay: 1s;
-  }*/
 .animation-introduction-4 {
   -webkit-animation-delay: 2.3s;
           animation-delay: 2.3s;
@@ -908,29 +913,26 @@ h1 {
 }
 
 /* <------- Animations des éléments de la page  ------->  */
-.js-scroll {
+.scroll-in.js-opacity {
   opacity: 0;
-  -webkit-transition: opacity 500ms;
-  transition: opacity 500ms;
 }
 
-.js-scroll.scrolled {
-  opacity: 1;
+.scroll-in.scrolled {
+  -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+          animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
-.scrolled.fade-in-bottom {
-  -webkit-animation: fade-in-bottom 1s ease-in-out both;
-          animation: fade-in-bottom 1s ease-in-out both;
+/*.scroll-in.unscrolled {
+    animation: fade-out-top 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}*/
+.project.scrolled .project-image {
+  -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+          animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-.scrolled.slide-left {
-  -webkit-animation: slide-in-left 1s ease-in-out both;
-          animation: slide-in-left 1s ease-in-out both;
-}
-
-.scrolled.slide-right {
-  -webkit-animation: slide-in-right 1s ease-in-out both;
-          animation: slide-in-right 1s ease-in-out both;
+.project:nth-of-type(even).scrolled .project-image {
+  -webkit-animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+          animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes fade-in-bottom {
@@ -1009,5 +1011,9 @@ h1 {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+form #website {
+  display: none;
 }
 /*# sourceMappingURL=portfolio.css.map */

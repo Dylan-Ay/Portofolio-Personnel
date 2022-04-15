@@ -44,6 +44,10 @@ $transition-icon-hover: scale(1.15);
 @mixin button-hover-introduction{
     box-shadow: inset 10.5em 0 0 0 #FFFFFF;
     color: $primary-text-color;
+    @media screen and  (max-width: 425px){
+        box-shadow: none;
+        color: white;
+    }
 }
 @mixin button-download-content{
     border: solid 2px $primary-color;
@@ -322,7 +326,6 @@ h1{
 
   .animation-introduction-1, .animation-introduction-2, .animation-introduction-3, .animation-introduction-4, .animation-introduction-5{
     opacity: 1;
-    //animation: reveal 2s cubic-bezier(.215,.61,.355,1) .25s backwards;
     -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   }
@@ -332,9 +335,6 @@ h1{
   .animation-introduction-2 {
     animation-delay: 1.5s;
   }
-  /*.animation-introduction-3{
-    animation-delay: 1s;
-  }*/
   .animation-introduction-4{
     animation-delay: 2.3s;
   }
@@ -687,26 +687,28 @@ h1{
 }
 
 /* <------- Animations des éléments de la page  ------->  */
-.js-scroll {
+
+.scroll-in.js-opacity {
     opacity: 0;
-    transition: opacity 500ms;
-  }
-   
-  .js-scroll.scrolled {
-    opacity: 1;
-  }
+}
 
-  .scrolled.fade-in-bottom {
-    animation: fade-in-bottom 1s ease-in-out both;
-  }
-  .scrolled.slide-left {
-    animation: slide-in-left 1s ease-in-out both;
-  }
-  .scrolled.slide-right {
-    animation: slide-in-right 1s ease-in-out both;
-  }
+.scroll-in.scrolled {
+    animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
 
-  @keyframes fade-in-bottom {
+/*.scroll-in.unscrolled {
+    animation: fade-out-top 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}*/
+
+.project.scrolled .project-image {
+    animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.project:nth-of-type(even).scrolled .project-image {
+    animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes fade-in-bottom {
     0% {
       -webkit-transform: translateY(50px);
       transform: translateY(50px);
@@ -717,9 +719,9 @@ h1{
       transform: translateY(0);
       opacity: 1;
     }
-  }
+}
 
-  @keyframes slide-in-left {
+@keyframes slide-in-left {
     0% {
       -webkit-transform: translateX(-100px);
       transform: translateX(-100px);
@@ -730,17 +732,23 @@ h1{
       transform: translateX(0);
       opacity: 1;
     }
-  }
-
-  @keyframes slide-in-right {
+}
+  
+@keyframes slide-in-right {
     0% {
-      -webkit-transform: translateX(100px);
-      transform: translateX(100px);
-      opacity: 0;
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+        opacity: 0;
     }
     100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-      opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
+}
+
+// Pot de miel
+
+form #website{ 
+    display: none; 
+}

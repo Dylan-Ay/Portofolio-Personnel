@@ -31,7 +31,7 @@
         } else if ( !empty($_POST["email"]) && !filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) ) {
             $errorMail = '<p class="red almost-bold mt-2">Veuillez insérer un email valide.</p>';
         // Sinon Si les champs name, email et messages ne sont pas vides afficher une alerte message envoyé.
-        } else if ( !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["message"]) ){
+        } else if ( !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["message"]) && (empty($_POST['website'])) ){
             echo '<script>alert("Votre message a bien été envoyé, je vous répondrai sous peu.")</script>';
             $retour = mail('dylan.ayache.68@gmail.com', 'Mail du PortFolio', $message, $header);
         //Sinon afficher un message d'erreur.

@@ -18,12 +18,13 @@
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">	
+		<!-- Personnal CSS -->
 		<link rel="stylesheet" type="text/css" href="portfolio.css">
 		<link rel="icon" href="icones/logo-title.ico" type="image/icon">
 		<title>Dylan Ayache Développeur Web, Création de Site vitrine - Portfolio</title>
 	</head> 
 	<body>
-		<!------------ Includng PHP for contact section ------------>
+		<!------------ Including PHP for contact section ------------>
 		<?php include('form-treatement.php');?>
 		<header>
 			<div id="Accueil"></div>
@@ -107,7 +108,7 @@
 				<div class="container-fluid mt-2">
 					<div class="container py-5">
 						<div class="row py-5 justify-content-center justify-content-lg-between">
-							<div class="col-12 col-lg-7 mb-4 js-scroll fade-in-bottom">
+							<div class="col-12 col-lg-7 mb-4 scroll-in js-opacity">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
 									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 27 ans et je suis actuellement en formation de Développeur Web et Web Mobile en vue d'obtenir un Bac +2.</p>
@@ -127,7 +128,7 @@
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
 									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
 									<p><span class="bold">Espagnol</span> : Niveau B2 (Avancé)</p>
-									<a href="https://www.linkedin.com/in/dylan-ayache/" target="_blank">
+									<a href="https://www.linkedin.com/in/dylan-ay/" target="_blank">
 										<img src="icones/linkedin.svg" class="linkedin-icon me-2" alt="linkedin dylan ayache">
 									</a>
 									<a href="#Contact">
@@ -135,7 +136,7 @@
 									</a>
 								</div>
 							</div>
-							<div class="col-10 col-md-8 col-lg-5 col-xl-4 d-flex js-scroll fade-in-bottom">
+							<div class="col-10 col-md-8 col-lg-5 col-xl-4 d-flex scroll-in js-opacity">
 								<img class="img-fluid photo-personelle" src="images/photo-personnelle.svg" alt="Création de site web par un développeur">
 							</div>
 							<div id="Compétences"></div>
@@ -147,7 +148,7 @@
 			<section id="skills">
 				<div class="container py-5">
 					<div class="row py-5 justify-content-center justify-content-lg-around justify-content-xxl-between px-1">
-						<div class="col-12 col-lg-6 js-scroll fade-in-bottom">
+						<div class="col-12 col-lg-6 scroll-in js-opacity">
 							<h2 class="position-relative bold">Mes Compétences</h2>
 							<p class="mt-4">Certaines de mes compétences de développeur sont en cours d'apprentissage.
 								J'ai déjà réalisé plusieurs projets, mon but est de réaliser à chaque fois un nouveau projet pour valider ce que j'ai pu apprendre.</p>
@@ -193,7 +194,7 @@
 								</div>
 							</div>
 							<!------------  Graphism Progress Bars ----------->
-							<div class="js-scroll fade-in-bottom">
+							<div class="scroll-in js-opacity">
 								<h4 class="almost-bold pt-5 mb-3">Graphisme et SEO :</h4>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">Adobe XD</span>
@@ -234,7 +235,7 @@
 							</div>
 						</div>
 						<!------------  Learning supports ----------->
-						<div class="col-11 col-lg-5 mt-4 mt-lg-3 js-scroll fade-in-bottom">
+						<div class="col-11 col-lg-5 mt-4 mt-lg-3 scroll-in js-opacity">
 							<h4 class="almost-bold pt-5 mb-3">Supports d'apprentissage :</h4>
 							<p class="mb-5">Je m'autoforme en utilisant les applications ci-dessous:</p>
 							<div class="list-icones">
@@ -269,10 +270,10 @@
 			<section id="works">
 				<div class="container-fluid">
 					<div class="container  py-5">
-						<div class="row pt-5 justify-content-lg-between justify-content-md-center row-border">
-							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
+						<div class="row pt-5 justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-border">
+							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<h2 class="position-relative bold">Mes Réalisations</h2>
-									<video  controls controlsList="nofullscreen" playsinline preload autoplay muted loop width="100%" class="univers-running works-preview-right mt-4">
+									<video controls controlsList="nofullscreen" playsinline preload  muted loop width="100%" class="univers-running works-preview-right mt-4">
 										<source src="images/univers-running.mp4" type="video/mp4">
 									</video>
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
@@ -300,7 +301,7 @@
 									</li>
 								</ul>
 							</div>
-							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity">
 								<div class="description-univers-running px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Univers-Running</h4>
 									<p>Voici mon premier projet, j'ai décidé de réaliser un site vitrine statique, une charte graphique ainsi que les maquettes du site.</p>
@@ -318,8 +319,8 @@
 							</div>
 						</div>
 						<!------------  Second row Calculateur d'IMC ----------->
-						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 row-border">
-							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1 js-scroll slide-right">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border">
+							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1 project-image">
 								<img src="images/calculateur-imc.jpg" alt="calculateur imc" class="works-preview-left img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
@@ -337,7 +338,7 @@
 									</li>
 								</ul>
 							</div>
-							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity">
 								<div class="description-imc px-4 py-4">
 									<h4 class="almost-bold">Calculateur IMC</h4>
 									<p>Projet Personnel, c'est un calculateur d'IMC en PHP, il y intègre un calculateur et grâce à une formule, celui-ci vous permet de calculer votre indice de masse graisseuse ainsi que votre poids idéal.</p>
@@ -355,8 +356,8 @@
 							</div>
 						</div>
 						<!------------  Third row Jeu du plus ou moins ----------->		
-						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 row-border">
-							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border">
+							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/plus-ou-moins.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
@@ -378,7 +379,7 @@
 									</li>
 								</ul>
 							</div>
-							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity">
 								<div class="description-imc px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Jeu du Plus ou Moins</h4>
 									<p>Projet Personnel, c'est un jeu en JavaScript, le but est de trouver un nombre entre 1 et 100 généré par l'ordinateur en dix tentatives. Le joueur marque 1 point pour chaque nombre qu'il a trouvé, si il échoue l'ordinateur marque 1 point.</p>
@@ -396,8 +397,8 @@
 							</div>
 						</div>
 						<!------------ Fourth row Landing page ----------->
-						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 row-border">
-							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom order-1 order-lg-0">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-imc px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Page d'accueil</h4>
 									<p>Projet Personnel, c'est une page d'accueil que j'ai réalisé comme premier projet du site Frontend Mentor.</p>
@@ -413,7 +414,7 @@
 									</a>
 								</div>
 							</div>	
-							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-right">
+							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/landing-page.jpg" alt="jeu du plus ou moins" class="works-preview-left img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
@@ -436,8 +437,8 @@
 							</div>
 						</div>
 						<!------------ Fifth row Calculateur Tip ----------->
-						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
-							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom order-1 order-lg-1">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
 								<div class="description-imc px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Calculateur de tip</h4>
 									<p>Projet Personnel, c'est un calculateur de tip, c'est un projet du site Frontend Mentor.</p>
@@ -453,7 +454,7 @@
 									</a>
 								</div>
 							</div>	
-							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
+							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/calculateur-tip.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
@@ -473,8 +474,8 @@
 							</div>
 						</div>
 						<!------------ Gallery JS Vanilla ----------->
-						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 show-more row-border-top">
-							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom order-1 order-lg-0">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 show-more row-border-top">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-imc px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Galerie Photo</h4>
 									<p>Projet Personnel, c'est une galerie photo effectuée en JS Vanilla.</p>
@@ -490,7 +491,7 @@
 									</a>
 								</div>
 							</div>	
-							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-right">
+							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/gallery.jpg" alt="pictures gallery javascript" class="works-preview-left img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
@@ -507,8 +508,8 @@
 							</div>
 						</div>
 						<!------------ Projet PHP ----------->
-						<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5 show-more row-border-top">
-							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom order-1 order-lg-1">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 show-more row-border-top">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
 								<div class="description-imc px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Projet PHP</h4>
 									<p>Projet Personnel, c'est un projet qui est en cours de réalisation.</p>
@@ -519,12 +520,10 @@
 									<a href="https://github.com/Dylan-Ay/App--Ajout-de-produit--PHP" target="_blank">
 										<img src="icones/github.svg" alt="icon github" class="me-2">
 									</a>
-									<!--<a href="https://pictures-gallery-js.netlify.app/" target="_blank">-->
 										<img src="icones/extern-link.svg" alt="icon link">
-									<!--</a>-->
 								</div>
 							</div>	
-							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-left">
+							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/panier.jpg" alt="projet d'un panier en php" class="works-preview-right img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
@@ -549,41 +548,6 @@
 								<button id="show-more-btn" class="btn-contact px-4 py-3">Afficher Plus</button>
 							</div>
 						</div>
-						<!------------  Fifth row Bloc-notes en ligne ----------->
-					<!--<div class="row justify-content-lg-between justify-content-md-center row-pt pb-5">
-							<div class="col-12 col-md-11 col-lg-6 js-scroll slide-right">
-									<img src="images/in-progress.svg" class="works-preview-right img-fluid" alt="in progress">
-								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
-									<li>
-										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
-									</li>
-									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
-									</li>
-									<li>
-										<img src="icones/icon-xd.svg" alt="icone xd" class="graph-icon mt-2 me-4">
-									</li>
-									<li>
-										<img src="icones/icon-php.svg" alt="icone php" class="php-icon me-3 mt-2">
-									</li>
-									<li>
-										<img src="icones/icon-sql.svg" alt="icone adobe sql " class="sql-icon me-3 mt-2 mb-3">
-									</li>
-								</ul>
-							</div>
-							<div class="col-12 col-md-9 col-lg-5 js-scroll fade-in-bottom">
-								<div class="description-hotel px-4 py-4">
-									<h4 class="almost-bold">Bloc-notes en ligne</h4>
-									<p>Projet personnel en cours de réalisation, le but de ce site est de pouvoir écrire des notes et de les conserver via un compte personnel.
-									<p>Il y a donc la possibilité de créer un compte, de sauvegarder et de modifier ses notes.</p>
-								</div>
-								<div class="git-link me-3 mt-2 text-end">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-										<img src="icones/extern-link.svg" alt="icon link">
-								</div>
-							</div>
-						</div>-->
 						<span id="Contact"></span>
 					</div>
 				</div>
@@ -592,7 +556,7 @@
 			<section id=contact>
 				<div class="container py-5">
 					<div class="row py-5 justify-content-center">
-						<div class="col-11 col-sm-10 col-md-9 col-lg-12 js-scroll fade-in-bottom">
+						<div class="col-11 col-sm-10 col-md-9 col-lg-12 scroll-in js-opacity">
 							<h2 class="bold text-center">Contactez-moi</h2>
 							<form method="post" name="contact-form" action="index.php">
 								<div class="row mt-5 justify-content-center">
@@ -618,6 +582,7 @@
 									<div class="col-lg-8">
 										<label for="message" class="form-label light-bold">Message <span class="red">*</span></label>
 										<textarea class="form-control" name="message" id="message" rows="7" required="required"></textarea>	
+										<input type="text" id="website" name="website"/>
 									</div>
 								</div>
 								<div class="row justify-content-center">
@@ -645,7 +610,7 @@
 					<div class="col-lg-2">
 						<ul class="list-unstyled d-flex pt-5 justify-content-center ps-4">
 							<li>
-								<a href="https://www.linkedin.com/in/dylan-ayache/" target="_blank">
+								<a href="https://www.linkedin.com/in/dylan-ay/" target="_blank">
 									<img src="icones/linkedin-white.svg" alt="linkedin dylan ayache">
 								</a>
 							</li>

@@ -1,17 +1,20 @@
 
 // Quand on clique sur un link de la nav-bar, la navbar se cache sur mobile uniquement
 $(document).ready(function(){
-    $('.nav-link').on('click',function() {
-        $('.navbar-collapse').collapse('hide');
-    });
+  $('.nav-link').on('click',function() {
+      $('.navbar-collapse').collapse('hide');
+  });
 
+//******************************************************
 
 //Ajout de la classe active quand on clique
-    $('.nav-link').click(function(){
-        $('.nav-link').removeClass('active');
-        $(this).addClass('active');
-    });
+  $('.nav-link').click(function(){
+      $('.nav-link').removeClass('active');
+      $(this).addClass('active');
+  });
 });
+
+//******************************************************
 
 // Quand l'utilisateur scroll vers le bas de 4900px, le bouton s'affiche
 window.onscroll = function () {
@@ -19,64 +22,78 @@ scrollFunction();
 };
 
 function scrollFunction() {
-    if ( document.body.scrollTop > 4900 || document.documentElement.scrollTop > 4900 ) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
+  if ( document.body.scrollTop > 4900 || document.documentElement.scrollTop > 4900 ) {
+      mybutton.style.display = "block";
+  } else {
+      mybutton.style.display = "none";
+  }
 }
+
+//******************************************************
 
 // Bouton haut de page
 let mybutton = document.getElementById("btn-back-to-top");
 
 function backToTop() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 mybutton.addEventListener("click", backToTop);
 
+//******************************************************
 
 // Animations d'apparation des éléments de la page
-const scrollElements = document.querySelectorAll(".js-scroll");
+const scrollElements = document.querySelectorAll(".scroll-in");
 
-const elementInView = (el, dividend = 1) => {
+scrollElements.forEach((el) => {
+  el.classList.add('js-opacity');
+})
+
+const elementInViewport = (el, dividend = 1) => {
   const elementTop = el.getBoundingClientRect().top;
-
-  return (
-    elementTop <=
-    (window.innerHeight || document.documentElement.clientHeight) / dividend
-  );
-};
+  return (elementTop <= ((window.innerHeight || document.documentElement.clientHeight) / dividend))
+}
 
 const elementOutofView = (el) => {
   const elementTop = el.getBoundingClientRect().top;
-
-  return (
-    elementTop > (window.innerHeight || document.documentElement.clientHeight)
-  );
-};
+  return (elementTop > (window.innerHeight || document.documentElement.clientHeight))
+}
 
 const displayScrollElement = (element) => {
-  element.classList.add("scrolled");
-};
+  element.classList.add('scrolled')
+}
 
-const hideScrollElement = (element) => {
-  element.classList.remove("scrolled");
-};
+/*const hideScrollElement = (element) => {
+  element.classList.remove('scrolled')
+}*/
 
 const handleScrollAnimation = () => {
   scrollElements.forEach((el) => {
-    if (elementInView(el, 1.25)) {
+    if (elementInViewport(el, 1.25)) {
       displayScrollElement(el);
-    } //else if (elementOutofView(el)) {
-      //hideScrollElement(el)
-    //}
+    } /*else if (elementOutofView(el)) {
+      hideScrollElement(el)
+    }*/
   })
 }
 
-window.addEventListener("scroll", () => { 
-  handleScrollAnimation();
+var throttleTimer;
+
+const throttle = (callback, time) => {
+  if (throttleTimer) return;
+
+  throttleTimer = true;
+  setTimeout(() => {
+    callback();
+    throttleTimer = false;
+  }, time);
+}
+
+window.addEventListener("scroll", () => {
+  throttle(handleScrollAnimation, 250)
 });
+
+//******************************************************
 
 // Button show-more
 let btnShowMore = document.getElementById('show-more-btn');
@@ -104,3 +121,5 @@ function displayContent(){
 }
 
 btnShowMore.addEventListener('click', displayContent);
+
+//******************************************************
