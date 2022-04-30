@@ -700,7 +700,7 @@ h1 {
 #works .description-univers-running {
   background-color: rgba(255, 255, 255, 0.56);
   border-radius: 15px;
-  margin-top: 20%;
+  margin-top: 4%;
 }
 
 @media (max-width: 991.5px) {
@@ -840,6 +840,18 @@ h1 {
 
 @media (max-width: 991.5px) {
   #works .description-imc {
+    margin-top: 5%;
+  }
+}
+
+#works .description-sneakers {
+  background-color: rgba(255, 255, 255, 0.56);
+  border-radius: 15px;
+  margin-top: 15%;
+}
+
+@media (max-width: 991.5px) {
+  #works .description-sneakers {
     margin-top: 5%;
   }
 }

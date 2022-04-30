@@ -5,7 +5,20 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="robots" content="index,follow">
-		<meta name="description" content="Développeur Web situé en Alsace, disponible pour la création de vos sites vitrines. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
+		<meta name="description" content="Développeur Web situé à Colmar, Création de Site internet et Application web. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
+		<!-- Open Graph protocol -->
+		<meta property="og:title" content="Dylan Ayache - Création Site internet Colmar - Portfolio" />
+		<meta property="og:description" content="Développeur Web situé à Colmar, Création de Site internet et Application web. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dylanayache.com/" />
+        <meta property="og:image" content="https://www.dylanayache.com/images/illustration-welco.svg" />
+        <!-- Twitter card tags-->
+        <meta name="twitter:card" content="website" />
+        <meta name="twitter:site" content="@DylanAy_Dev" />
+        <meta name="twitter:title" content="Dylan Ayache - Création Site internet Colmar - Portfolio" />
+        <meta name="twitter:description" content="Développeur Web situé à Colmar, Création de Site internet et Application web. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
+        <meta name="twitter:image" content="https://www.dylanayache.com/images/illustration-welco.svg" />
+
 		<!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEPWV5WQT0"></script>
         <script>
@@ -21,7 +34,7 @@
 		<!-- Personnal CSS -->
 		<link rel="stylesheet" type="text/css" href="portfolio.css">
 		<link rel="icon" href="icones/logo-title.ico" type="image/icon">
-		<title>Dylan Ayache Développeur Web, Création de Site vitrine - Portfolio</title>
+		<title>Dylan Ayache - Création Site internet Colmar et Application web - Portfolio</title>
 	</head> 
 	<body>
 		<!------------ Including PHP for contact section ------------>
@@ -70,10 +83,10 @@
 						<div class="col-12 col-md-10 col-lg-7 mt-xl-5 pt-lg-5 ps-xl-5 ps-xxl-0">
 							<div class="ms-md-4 ms-lg-0">	
 								<div class="animation-introduction-1">
-									<h1 class="resize-name"><span class="semi-bold">Bonjour, je m'appelle</span> <span class="bold">Dylan Ayache</span></h1>
+									<h1 class="resize-name"><span class="semi-bold">Bonjour, je m'appelle</span> <strong>Dylan Ayache</strong></h1>
 								</div>
 								<div class="animation-introduction-2">
-									<p class="mt-3 mb-4">Je suis actuellement en formation de Développeur Web et je suis disponible pour réaliser vos projets web.</p>
+									<p class="mt-3 mb-4">Je suis actuellement en formation de Développeur Web et je suis disponible pour réaliser votre <strong class="regular">site internet</strong>.</p>
 								</div>
 							</div>
 							<div class="animation-introduction-2">
@@ -94,7 +107,7 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">Dans le cadre de ma formation de Développeur Web, <span class="bold">je suis à la recherche d'un stage<br> du 05 Septembre 2022 au 21 Octobre 2022 inclus.</span> En parallèle je réalise des projets personnels et je suis disponible pour réaliser vos <strong class="regular">sites vitrines</strong>.</p>
+							<p class="mx-auto ps-2 pe-2">Dans le cadre de ma formation de Développeur Web, <span class="bold">je suis à la recherche d'un stage<br> du 05 Septembre 2022 au 21 Octobre 2022 inclus.</span> En parallèle je réalise des projets personnels et je suis disponible pour réaliser votre <strong class="regular">site internet</strong>.</p>
 								<div id="A-Propos"></div>
 							<div class="card-footer pt-4 pb-3"></div>
 						</div>
@@ -124,7 +137,7 @@
 									J'ai travaillé au total 3 ans en tant que Technicien Informatique.</p>
 										
 									<p>Durant le confinement je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
-									donné envie de redécouvrir le Développement Web. C'est pour cela qu'aujourd'hui j'aimerais obtenir un diplôme dans ce domaine. Je m'autoforme au métier de Développeur Web depuis Octobre 2021, j'ai déjà quelques <a href="#Réalisations" class="semi-bold simple-link codecademy">projets à mon actif.</a> Je suis plus attiré par le front-end, mais je me forme également au back-end.</p>
+									donné envie de redécouvrir le Développement Web. C'est pour cela qu'aujourd'hui j'aimerais obtenir un diplôme dans ce domaine. Je m'autoforme au métier de Développeur Web depuis Octobre 2021, j'ai déjà quelques <a href="#Réalisations" class="semi-bold simple-link codecademy">projets à mon actif.</a> Mon objectif est de travailler en tant que Développeur Full Stack.</p>
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
 									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
 									<p><span class="bold">Espagnol</span> : Niveau B2 (Avancé)</p>
@@ -159,17 +172,17 @@
 							<div class="border-bottom pb-5">
 								<div class="language-percentage d-flex justify-content-between">
 									<span class="light-bold">HTML5, CSS3, Bootstrap <span class="light-italic"></span></span>
-									<span class="light-bold">85%</span>
+									<span class="light-bold">90%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">Sass</span>
-									<span class="light-bold">70%</span>
+									<span class="light-bold">75%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">JavaScript</span>
@@ -180,29 +193,36 @@
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">PHP</span>
-									<span class="light-bold">45%</span>
+									<span class="light-bold">60%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">MySQL, phpMyAdmin</span>
-									<span class="light-bold">40%</span>
+									<span class="light-bold">60%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
 								</div>
 							</div>
 							<!------------  Graphism Progress Bars ----------->
 							<div class="scroll-in js-opacity">
 								<h4 class="almost-bold pt-5 mb-3">Graphisme et SEO :</h4>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">Adobe XD</span>
-									<span class="light-bold">90%</span>
+									<span class="light-bold">Adobe XD, Figma</span>
+									<span class="light-bold">80%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
 								</div>
+								<div class="language-percentage d-flex justify-content-between mt-2">
+										<span class="light-bold">SEO <span class="light-italic"></span></span>
+										<span class="light-bold">65%</span>
+									</div>
+									<div class="progress mt-1">
+										<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+									</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">Photoshop</span>
 									<span class="light-bold">60%</span>
@@ -211,21 +231,14 @@
 									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-										<span class="light-bold">SEO <span class="light-italic"></span></span>
-										<span class="light-bold">50%</span>
-									</div>
-									<div class="progress mt-1">
-										<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
-									</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">InDesign</span>
-									<span class="light-bold">40%</span>
+									<span class="light-bold">Illustrator</span>
+									<span class="light-bold">60%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">Illustrator</span>
+									<span class="light-bold">InDesign</span>
 									<span class="light-bold">40%</span>
 								</div>
 								<div class="progress mt-1">
@@ -266,16 +279,241 @@
 				</div>
 			</section>
 			<!------------  Works ----------->
-			<!------------  First row Univers-Running ----------->
 			<section id="works">
 				<div class="container-fluid">
 					<div class="container  py-5">
-						<div class="row pt-5 justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-border">
+						<!------------ E-commerce Sneakers ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
+								<div class="description-sneakers px-4 py-4 text-lg-end">
+									<h4 class="almost-bold">Sneakers</h4>
+									<p>Projet Personnel, c'est un projet E-commerce qui est en cours de réalisation.</p>
+									<p>A ce jour le projet contient la création, la suppresion et la connexion de compte d'un utilisateur. Ainsi que la gestion d'un produit dans le panier. Il est réalisé en PHP avec une base de données crée via phpMyAdmin. La faille XSS, l'injection SQL ainsi que l'anti-spam sur les formulaires sont gérés sur ce projet.</p>
+									<p class="semi-bold text-end">Avril 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/App-Ecommerce" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+										<img src="icones/extern-link.svg" alt="icon link">
+								</div>
+							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<h2 class="position-relative bold">Mes Réalisations</h2>
-									<video controls controlsList="nofullscreen" playsinline preload  muted loop width="100%" class="univers-running works-preview-right mt-4">
-										<source src="images/univers-running.mp4" type="video/mp4">
-									</video>
+							<h2 class="position-relative bold">Mes Réalisations</h2>
+								<img src="images/sneakers.jpg" alt="photo projet e-commerce" class="works-preview-right mt-4 img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
+									</li>
+									<li>
+										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+									</li>
+									<li>
+										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon me-4 sql-icon">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!------------ Gallery JS Vanilla ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
+								<div class="description-imc px-4 py-4 text-lg-end">
+									<h4 class="almost-bold">Galerie Photo</h4>
+									<p>Projet Personnel, c'est une galerie photo effectuée en JS Vanilla.</p>
+									<p>Cette galerie comporte plusieurs fonctionalités, dans un premier temps il y a un filtre qui affiche les photos selon une catégorie sélectionée. Ensuite il y a une modal qui permet d'afficher la photo en grand quand on clique dessus. Enfin il y a un slider qui permet de naviguer entre les différentes photos.</p>
+									<p class="semi-bold text-end">Mars 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/Gallery" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<a href="https://pictures-gallery-js.netlify.app/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icon link">
+									</a>
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+								<img src="images/gallery.jpg" alt="pictures gallery javascript" class="works-preview-left img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!------------ Calculateur Tip ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-border-top pb-5">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
+								<div class="description-imc px-4 py-4 text-lg-end">
+									<h4 class="almost-bold">Calculateur de tip</h4>
+									<p>Projet Personnel, c'est un calculateur de tip, c'est un projet du site Frontend Mentor.</p>
+									<p>L'objectif était de réaliser un calculateur de tip (pourboire) en JavaScript. Il permet de calculer le montant d'un tip par personne ainsi que le montant total (facture + tip) par personne. Il y a des pourcentages de tips prédéfinis, on a également la possibilité de calculer un pourcentage au choix.</p>
+									<p class="semi-bold text-end">Mars 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/Tip-calculator-app-Front-end-Mentor" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<a href="https://tip-calculator-frontend-mentor-challenge.netlify.app/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icon link">
+									</a>
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+								<img src="images/calculateur-tip.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+									</li>
+									<li>
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!------------ Landing page ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
+								<div class="description-imc px-4 py-4 text-lg-end">
+									<h4 class="almost-bold">Page d'accueil</h4>
+									<p>Projet Personnel, c'est une page d'accueil que j'ai réalisé comme premier projet du site Frontend Mentor.</p>
+									<p>L'objectif était de réaliser une page ayant des éléments à superposer et d'utiliser mes acquis en JavaScript pour créer les animations de la barre de navigation.</p>
+									<p class="semi-bold text-end">Février 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/Blogr-landing-page-Front-end-Mentor" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<a href="https://landing-page-frontend-mentor-challenge.netlify.app/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icon link">
+									</a>
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+								<img src="images/landing-page.jpg" alt="jeu du plus ou moins" class="works-preview-left img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+									</li>
+									<li>
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+									</li>
+									<li>
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class=" bootstrap-icon mt-2 me-3">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!------------ Jeu du plus ou moins ----------->		
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+								<img src="images/plus-ou-moins.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+									</li>
+									<li>
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+									</li>
+									
+									<li>
+										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon me-3 mt-2">
+									</li>
+								</ul>
+							</div>
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity">
+								<div class="description-imc px-4 py-4 text-lg-end">
+									<h4 class="almost-bold">Jeu du Plus ou Moins</h4>
+									<p>Projet Personnel, c'est un jeu en JavaScript, le but est de trouver un nombre entre 1 et 100 généré par l'ordinateur en dix tentatives. Le joueur marque 1 point pour chaque nombre qu'il a trouvé, si il échoue l'ordinateur marque 1 point.</p>
+									<p>Il y a plusieurs parties du jeu qui sont dynamiques, l'objectif était de réaliser un projet pour travailler sur les aspects du DOM en JavaScript.</p>
+									<p class="semi-bold text-end">Février 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/Plus-ou-moins" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<a href="https://jeu-plus-ou-moins.netlify.app/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icon link">
+									</a>
+								</div>
+							</div>
+						</div>
+						<!------------ Calculateur d'IMC ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 show-more row-border-top">
+							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1 project-image">
+								<img src="images/calculateur-imc.jpg" alt="calculateur imc" class="works-preview-left img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+									</li>
+									<li>
+										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon me-3 mt-2">
+									</li>
+								</ul>
+							</div>
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity">
+								<div class="description-imc px-4 py-4">
+									<h4 class="almost-bold">Calculateur IMC</h4>
+									<p>Projet Personnel, c'est un calculateur d'IMC en PHP, il y intègre un calculateur et grâce à une formule, celui-ci vous permet de calculer votre indice de masse graisseuse ainsi que votre poids idéal.</p>
+									<p>Pour l'instant ce projet est fini mais une suite lui sera donnée plus tard, en y intégrant d'autres calculateurs santé.</p>
+									<p class="semi-bold text-end">Janvier 2022</p>							
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/Calculateur-IMC" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<a href="https://calculateur-imc.go.yo.fr/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icon link">
+									</a>
+								</div>
+							</div>
+						</div>
+						<!------------ Univers-Running ------------>
+						<div class="row pb-5 justify-content-lg-between project scroll-in js-opacity justify-content-md-center show-more row-border-top">
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+										<img src="images/univers-running.png" alt="univers running picture" class="works-preview-right img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
 									<li>
@@ -316,230 +554,6 @@
 										<img src="icones/extern-link.svg" alt="icon link">
 									</a>
 								</div>
-							</div>
-						</div>
-						<!------------  Second row Calculateur d'IMC ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border">
-							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1 project-image">
-								<img src="images/calculateur-imc.jpg" alt="calculateur imc" class="works-preview-left img-fluid">
-								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
-									<li>
-										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
-									</li>
-									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
-									</li>
-									<li>
-										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
-									</li>
-									<li>
-										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon me-3 mt-2">
-									</li>
-								</ul>
-							</div>
-							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity">
-								<div class="description-imc px-4 py-4">
-									<h4 class="almost-bold">Calculateur IMC</h4>
-									<p>Projet Personnel, c'est un calculateur d'IMC en PHP, il y intègre un calculateur et grâce à une formule, celui-ci vous permet de calculer votre indice de masse graisseuse ainsi que votre poids idéal.</p>
-									<p>Pour l'instant ce projet est fini mais une suite lui sera donnée plus tard, en y intégrant d'autres calculateurs santé.</p>
-									<p class="semi-bold text-end">Janvier 2022</p>							
-								</div>
-								<div class="git-link me-3 mt-2 text-end">
-									<a href="https://github.com/Dylan-Ay/Calculateur-IMC" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-									<a href="https://calculateur-imc.go.yo.fr/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
-									</a>
-								</div>
-							</div>
-						</div>
-						<!------------  Third row Jeu du plus ou moins ----------->		
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border">
-							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/plus-ou-moins.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
-								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
-									<li>
-										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
-									</li>
-									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
-									</li>
-									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
-									</li>
-									<li>
-										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
-									</li>
-									
-									<li>
-										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon me-3 mt-2">
-									</li>
-								</ul>
-							</div>
-							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity">
-								<div class="description-imc px-4 py-4 text-lg-end">
-									<h4 class="almost-bold">Jeu du Plus ou Moins</h4>
-									<p>Projet Personnel, c'est un jeu en JavaScript, le but est de trouver un nombre entre 1 et 100 généré par l'ordinateur en dix tentatives. Le joueur marque 1 point pour chaque nombre qu'il a trouvé, si il échoue l'ordinateur marque 1 point.</p>
-									<p>Il y a plusieurs parties du jeu qui sont dynamiques, l'objectif était de réaliser un projet pour travailler sur les aspects du DOM en JavaScript.</p>
-									<p class="semi-bold text-end">Février 2022</p>
-								</div>
-								<div class="git-link me-3 mt-2 text-end">
-									<a href="https://github.com/Dylan-Ay/Plus-ou-moins" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-									<a href="https://jeu-plus-ou-moins.netlify.app/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
-									</a>
-								</div>
-							</div>
-						</div>
-						<!------------ Fourth row Landing page ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border">
-							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
-								<div class="description-imc px-4 py-4 text-lg-end">
-									<h4 class="almost-bold">Page d'accueil</h4>
-									<p>Projet Personnel, c'est une page d'accueil que j'ai réalisé comme premier projet du site Frontend Mentor.</p>
-									<p>L'objectif était de réaliser une page ayant des éléments à superposer et d'utiliser mes acquis en JavaScript pour créer les animations de la barre de navigation.</p>
-									<p class="semi-bold text-end">Février 2022</p>
-								</div>
-								<div class="git-link me-3 mt-2 text-end">
-									<a href="https://github.com/Dylan-Ay/Blogr-landing-page-Front-end-Mentor" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-									<a href="https://landing-page-frontend-mentor-challenge.netlify.app/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
-									</a>
-								</div>
-							</div>	
-							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/landing-page.jpg" alt="jeu du plus ou moins" class="works-preview-left img-fluid">
-								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
-									<li>
-										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
-									</li>
-									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
-									</li>
-									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
-									</li>
-									<li>
-										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
-									</li>
-									<li>
-										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class=" bootstrap-icon mt-2 me-3">
-									</li>
-								</ul>
-							</div>
-						</div>
-						<!------------ Fifth row Calculateur Tip ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5">
-							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
-								<div class="description-imc px-4 py-4 text-lg-end">
-									<h4 class="almost-bold">Calculateur de tip</h4>
-									<p>Projet Personnel, c'est un calculateur de tip, c'est un projet du site Frontend Mentor.</p>
-									<p>L'objectif était de réaliser un calculateur de tip (pourboire) en JavaScript. Il permet de calculer le montant d'un tip par personne ainsi que le montant total (facture + tip) par personne. Il y a des pourcentages de tips prédéfinis, on a également la possibilité de calculer un pourcentage au choix.</p>
-									<p class="semi-bold text-end">Mars 2022</p>
-								</div>
-								<div class="git-link me-3 mt-2 text-end">
-									<a href="https://github.com/Dylan-Ay/Tip-calculator-app-Front-end-Mentor" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-									<a href="https://tip-calculator-frontend-mentor-challenge.netlify.app/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
-									</a>
-								</div>
-							</div>	
-							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/calculateur-tip.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
-								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
-									<li>
-										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
-									</li>
-									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
-									</li>
-									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
-									</li>
-									<li>
-										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
-									</li>
-								</ul>
-							</div>
-						</div>
-						<!------------ Gallery JS Vanilla ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 show-more row-border-top">
-							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
-								<div class="description-imc px-4 py-4 text-lg-end">
-									<h4 class="almost-bold">Galerie Photo</h4>
-									<p>Projet Personnel, c'est une galerie photo effectuée en JS Vanilla.</p>
-									<p>Cette galerie comporte plusieurs fonctionalités, dans un premier temps il y a un filtre qui affiche les photos selon une catégorie sélectionée. Ensuite il y a une modal qui permet d'afficher la photo en grand quand on clique dessus. Enfin il y a un slider qui permet de naviguer entre les différentes photos.</p>
-									<p class="semi-bold text-end">Mars 2022</p>
-								</div>
-								<div class="git-link me-3 mt-2 text-end">
-									<a href="https://github.com/Dylan-Ay/Gallery" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-									<a href="https://pictures-gallery-js.netlify.app/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
-									</a>
-								</div>
-							</div>	
-							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/gallery.jpg" alt="pictures gallery javascript" class="works-preview-left img-fluid">
-								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
-									<li>
-										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
-									</li>
-									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
-									</li>
-									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
-									</li>
-								</ul>
-							</div>
-						</div>
-						<!------------ Projet PHP ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 show-more row-border-top">
-							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
-								<div class="description-imc px-4 py-4 text-lg-end">
-									<h4 class="almost-bold">Projet PHP</h4>
-									<p>Projet Personnel, c'est un projet qui est en cours de réalisation.</p>
-									<p>Ce projet intègre déjà un système de "Panier" ainsi qu'une page qui récapitule le contenu du panier.</p>
-									<p class="semi-bold text-end">Avril 2022</p>
-								</div>
-								<div class="git-link me-3 mt-2 text-end">
-									<a href="https://github.com/Dylan-Ay/App--Ajout-de-produit--PHP" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-										<img src="icones/extern-link.svg" alt="icon link">
-								</div>
-							</div>	
-							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/panier.jpg" alt="projet d'un panier en php" class="works-preview-right img-fluid">
-								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
-									<li>
-										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
-									</li>
-									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon mx-4">
-									</li>
-									<li>
-										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
-									</li>
-									<li>
-										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
-									</li>
-								</ul>
 							</div>
 						</div>
 						<!------------ Bouton 'afficher plus' ----------->
@@ -624,7 +638,7 @@
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-lg-4 d-flex">
-						<p class="light-bold madeby mx-auto">© Réalisé par Dylan Ayache</p>
+						<p class="light-bold madeby mx-auto">© 2022 - Réalisé par Dylan Ayache - Tous droits réservés.</p>
 					</div>
 				</div>
 			</div>
