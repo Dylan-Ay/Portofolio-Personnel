@@ -622,7 +622,7 @@ h1 {
   }
 }
 
-#skills .list-icones .mentor {
+#skills .list-icones .mentor, #skills .list-icones .freecodecamp {
   width: 65%;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
@@ -630,45 +630,20 @@ h1 {
   transition: transform .2s, -webkit-transform .2s;
 }
 
-#skills .list-icones .mentor:hover {
+#skills .list-icones .mentor:hover, #skills .list-icones .freecodecamp:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
 @media (max-width: 991.5px) {
-  #skills .list-icones .mentor {
+  #skills .list-icones .mentor, #skills .list-icones .freecodecamp {
     width: 55%;
   }
 }
 
 @media (max-width: 575px) {
-  #skills .list-icones .mentor {
+  #skills .list-icones .mentor, #skills .list-icones .freecodecamp {
     width: 74%;
-  }
-}
-
-#skills .list-icones .codewars {
-  width: 60%;
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
-}
-
-#skills .list-icones .codewars:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
-@media (max-width: 991.5px) {
-  #skills .list-icones .codewars {
-    width: 45%;
-  }
-}
-
-@media (max-width: 575px) {
-  #skills .list-icones .codewars {
-    width: 65%;
   }
 }
 
@@ -844,16 +819,22 @@ h1 {
   }
 }
 
-#works .description-sneakers {
+#works .description-fiches-films {
   background-color: rgba(255, 255, 255, 0.56);
   border-radius: 15px;
   margin-top: 15%;
 }
 
 @media (max-width: 991.5px) {
-  #works .description-sneakers {
+  #works .description-fiches-films {
     margin-top: 5%;
   }
+}
+
+#works .description-sneakers {
+  background-color: rgba(255, 255, 255, 0.56);
+  border-radius: 15px;
+  margin-top: 5%;
 }
 
 #works .show-more {

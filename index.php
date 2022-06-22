@@ -171,39 +171,39 @@
 							<!------------  Developpement Progress Bars ----------->
 							<div class="border-bottom pb-5">
 								<div class="language-percentage d-flex justify-content-between">
-									<span class="light-bold">HTML5, CSS3, Bootstrap <span class="light-italic"></span></span>
-									<span class="light-bold">90%</span>
+									<span class="light-bold">HTML5, CSS3, Sass, Bootstrap <span class="light-italic"></span></span>
+									<span class="light-bold">85%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">Sass</span>
+									<span class="light-bold">Conceptualisation MCD/MLD</span>
+									<span class="light-bold">80%</span>
+								</div>
+								<div class="progress mt-1">
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+								</div>
+								<div class="language-percentage d-flex justify-content-between mt-2">
+									<span class="light-bold">MySQL, phpMyAdmin</span>
 									<span class="light-bold">75%</span>
 								</div>
 								<div class="progress mt-1">
 									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">JavaScript</span>
-									<span class="light-bold">60%</span>
+									<span class="light-bold">PHP 7</span>
+									<span class="light-bold">70%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">PHP</span>
+									<span class="light-bold">JavaScript, JSON</span>
 									<span class="light-bold">60%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
-								</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">MySQL, phpMyAdmin</span>
-									<span class="light-bold">60%</span>
-								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
 								</div>
 							</div>
 							<!------------  Graphism Progress Bars ----------->
@@ -254,22 +254,22 @@
 							<div class="list-icones">
 								<div class="mb-5">
 									<a href="https://www.codecademy.com/profiles/Dylan68" target="_blank">
-										<img src="icones/codeacademy.svg" class="code-cademy" alt="icone site code academy">
+										<img src="icones/codeacademy.svg" class="code-cademy" alt="icone codecademy">
 									</a>
 								</div>
 								<div class="mb-5 ms-md-5">
 									<a href="https://openclassrooms.com/fr/" class="ms-md-5 ps-5" target="_blank">
-										<img src="icones/openclassrooms.svg" class="openclassrooms" alt="icone site openclassrooms">
+										<img src="icones/openclassrooms.svg" class="openclassrooms" alt="icone openclassrooms">
 									</a>
 								</div>
 								<div class="mb-5">
 									<a href="https://www.frontendmentor.io/profile/Dylan-Ay" target="_blank">
-										<img src="icones/mentor.svg" class="mentor" alt="icone application frond-end mentor">
+										<img src="icones/mentor.svg" class="mentor" alt="icone frond-end mentor">
 									</a>
 								</div>
 								<div class="ms-md-5">
-									<a href="https://www.codewars.com/users/Dylan-Ay/stats" class="ms-5 ps-5" target="_blank">
-										<img src="icones/icon-codewars.svg" class="codewars" alt="icone site codewars">
+									<a href="https://www.freecodecamp.org/learn" class="ms-5 ps-5" target="_blank">
+										<img src="icones/freecodecamp.svg" class="freecodecamp" alt="icone freecodecamp">
 									</a>
 								</div>
 							</div>
@@ -282,13 +282,53 @@
 			<section id="works">
 				<div class="container-fluid">
 					<div class="container  py-5">
-						<!------------ E-commerce Sneakers ----------->
+						<!------------ Fiches-Films ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
+								<div class="description-fiches-films px-4 py-4 text-lg-start">
+									<h4 class="almost-bold">Fiches Films</h4>
+									<p>Projet Personnel, c'est un projet regroupant divers informations sur le Cinéma qui est en cours de réalisation.</p>
+									<p>A ce jour le projet contient la création, la suppresion et la modification d'un film. On peut également consulter les listes d'acteurs, de réalisateurs, de films et de genres. Il est réalisé en PHP POO avec une base de données crée via phpMyAdmin et une architecture MVC.</p>
+									<p class="semi-bold text-end">Juin 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/App-Fiches-films" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+										<img src="icones/extern-link.svg" alt="icon link">
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+							<h2 class="position-relative bold">Mes Réalisations</h2>
+								<img src="images/fiches-films.jpg" alt="photo projet fiches-films" class="works-preview-left mt-4 img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon mx-4">
+									</li>
+									<li>
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
+									</li>
+									<li>
+										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+									</li>
+									<li>
+										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon me-4 sql-icon">
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!------------ E-commerce Sneakers ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
 								<div class="description-sneakers px-4 py-4 text-lg-end">
 									<h4 class="almost-bold">Sneakers</h4>
 									<p>Projet Personnel, c'est un projet E-commerce qui est en cours de réalisation.</p>
-									<p>A ce jour le projet contient la création, la suppresion et la connexion de compte d'un utilisateur. Ainsi que la gestion d'un produit dans le panier. Il est réalisé en PHP avec une base de données crée via phpMyAdmin. La faille XSS, l'injection SQL ainsi que l'anti-spam sur les formulaires sont gérés sur ce projet.</p>
+									<p>A ce jour le projet contient la création, la suppresion et la connexion de compte d'un utilisateur. Ainsi que la gestion d'un produit dans le panier. L'affichage d'un produit en détail et de la liste des produits. Il est réalisé en PHP POO avec une base de données crée via phpMyAdmin et une architecture MVC. La faille XSS, l'injection SQL ainsi que l'anti-spam sur les formulaires sont gérés sur ce projet.</p>
 									<p class="semi-bold text-end">Avril 2022</p>
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
@@ -299,7 +339,6 @@
 								</div>
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
-							<h2 class="position-relative bold">Mes Réalisations</h2>
 								<img src="images/sneakers.jpg" alt="photo projet e-commerce" class="works-preview-right mt-4 img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
@@ -324,7 +363,7 @@
 						<!------------ Gallery JS Vanilla ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
-								<div class="description-imc px-4 py-4 text-lg-end">
+								<div class="description-imc px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">Galerie Photo</h4>
 									<p>Projet Personnel, c'est une galerie photo effectuée en JS Vanilla.</p>
 									<p>Cette galerie comporte plusieurs fonctionalités, dans un premier temps il y a un filtre qui affiche les photos selon une catégorie sélectionée. Ensuite il y a une modal qui permet d'afficher la photo en grand quand on clique dessus. Enfin il y a un slider qui permet de naviguer entre les différentes photos.</p>
@@ -395,7 +434,7 @@
 						<!------------ Landing page ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
-								<div class="description-imc px-4 py-4 text-lg-end">
+								<div class="description-imc px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">Page d'accueil</h4>
 									<p>Projet Personnel, c'est une page d'accueil que j'ai réalisé comme premier projet du site Frontend Mentor.</p>
 									<p>L'objectif était de réaliser une page ayant des éléments à superposer et d'utiliser mes acquis en JavaScript pour créer les animations de la barre de navigation.</p>
@@ -433,7 +472,7 @@
 							</div>
 						</div>
 						<!------------ Jeu du plus ou moins ----------->		
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 show-more row-border-top">
 							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/plus-ou-moins.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
