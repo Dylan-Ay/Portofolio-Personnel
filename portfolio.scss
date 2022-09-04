@@ -633,7 +633,7 @@ h1{
     }
     & .description-fiches-films{
         @include description-works();
-        margin-top: 15%;
+        margin-top: 7%;
         @media (max-width: 991.5px){
             margin-top: 5%;
         }

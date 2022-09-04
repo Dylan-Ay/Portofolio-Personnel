@@ -86,7 +86,7 @@
 									<h1 class="resize-name"><span class="semi-bold">Bonjour, je m'appelle</span> <strong>Dylan Ayache</strong></h1>
 								</div>
 								<div class="animation-introduction-2">
-									<p class="mt-3 mb-4">Je suis actuellement en formation de Développeur Web et je suis disponible pour réaliser votre <strong class="regular">site internet</strong>.</p>
+									<p class="mt-3 mb-4">Je me forme actuellement au métier de Développeur Web et je suis disponible pour réaliser votre <strong class="regular">site internet</strong>.</p>
 								</div>
 							</div>
 							<div class="animation-introduction-2">
@@ -107,8 +107,12 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">Dans le cadre de ma formation de Développeur Web, <span class="bold">je suis à la recherche d'un stage<br> du 05 Septembre 2022 au 21 Octobre 2022 inclus.</span> En parallèle je réalise des projets personnels et je suis disponible pour réaliser votre <strong class="regular">site internet</strong>.</p>
-								<div id="A-Propos"></div>
+							<p class="mx-auto ps-2 pe-2">En formation Bac +2 jusqu'au 22 Décembre 2022, <span class="bold"> je suis à la recherche d'une alternance du 16/01/2023 au 14/06/2024</span> pour préparer un Bac +3 «Concepteur Développeur d'Applications». Je suis également ouvert à d'autres opportunités.
+							<br>					
+							En parallèle je suis disponible pour réaliser votre <strong class="regular">site internet</strong>.
+							</p>
+							
+							<div id="A-Propos"></div>
 							<div class="card-footer pt-4 pb-3"></div>
 						</div>
 					</div>	
@@ -137,7 +141,7 @@
 									J'ai travaillé au total 3 ans en tant que Technicien Informatique.</p>
 										
 									<p>Durant le confinement je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
-									donné envie de redécouvrir le Développement Web. C'est pour cela qu'aujourd'hui j'aimerais obtenir un diplôme dans ce domaine. Je m'autoforme au métier de Développeur Web depuis Octobre 2021, j'ai déjà quelques <a href="#Réalisations" class="semi-bold simple-link codecademy">projets à mon actif.</a> Mon objectif est de travailler en tant que Développeur Full Stack.</p>
+									donné envie de redécouvrir le Développement Web. C'est pour cela qu'aujourd'hui j'aimerais obtenir un diplôme dans ce domaine. Je m'autoforme au métier de Développeur Web depuis Octobre 2021 et j'ai intégré une formation en Mars 2022 pour préparer le diplome de «Développeur Web et Web Mobile» j'ai déjà quelques <a href="#Réalisations" class="semi-bold simple-link codecademy">projets à mon actif.</a> Mon objectif est de travailler en tant que Développeur Full Stack.</p>
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
 									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
 									<p><span class="bold">Espagnol</span> : Niveau B2 (Avancé)</p>
@@ -163,8 +167,8 @@
 					<div class="row py-5 justify-content-center justify-content-lg-around justify-content-xxl-between px-1">
 						<div class="col-12 col-lg-6 scroll-in js-opacity">
 							<h2 class="position-relative bold">Mes Compétences</h2>
-							<p class="mt-4">Certaines de mes compétences de développeur sont en cours d'apprentissage.
-								J'ai déjà réalisé plusieurs projets, mon but est de réaliser à chaque fois un nouveau projet pour valider ce que j'ai pu apprendre.</p>
+							<p class="mt-4">
+							J'ai déjà réalisé plusieurs projets, mon but est de réaliser à chaque fois un nouveau projet pour valider ce que j'ai pu apprendre.</p>
 
 							<p>Voici un aperçu de mon niveau, pour chaque compétence que j'ai pu apprendre :</p>
 							<h4 class="almost-bold mt-4 mb-3">Développement :</h4>
@@ -186,13 +190,20 @@
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">MySQL, phpMyAdmin</span>
-									<span class="light-bold">75%</span>
+									<span class="light-bold">80%</span>
 								</div>
 								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
 								</div>
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">PHP 7</span>
+									<span class="light-bold">75%</span>
+								</div>
+								<div class="progress mt-1">
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+								</div>
+								<div class="language-percentage d-flex justify-content-between mt-2">
+									<span class="light-bold">Symfony 5</span>
 									<span class="light-bold">70%</span>
 								</div>
 								<div class="progress mt-1">
@@ -201,6 +212,13 @@
 								<div class="language-percentage d-flex justify-content-between mt-2">
 									<span class="light-bold">JavaScript, JSON</span>
 									<span class="light-bold">60%</span>
+								</div>
+								<div class="progress mt-1">
+									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+								</div>
+								<div class="language-percentage d-flex justify-content-between mt-2">
+									<span class="light-bold">Laravel 9 (Dans le cadre de mon stage)</span>
+									<span class="light-bold">En cours..</span>
 								</div>
 								<div class="progress mt-1">
 									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
@@ -282,13 +300,110 @@
 			<section id="works">
 				<div class="container-fluid">
 					<div class="container  py-5">
-						<!------------ Fiches-Films ----------->
+						<!------------ App-Entreprise ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5">
+						<h2 class="position-relative bold">Mes Réalisations</h2>
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
+								<div class="description-fiches-films px-4 py-4 text-lg-start">
+									<h4 class="almost-bold">App Centre de Formation</h4>
+									<p>Projet de formation, c'est un intranet de gestion de tâches administratives d'un centre de formation.</p>
+									<p>Le projet permet à un centre de formation de gérer les stagiaires inscrits et les sessions de formations. Les fonctionalités sont :</p>
+
+									<ul class="d-flex gap-3 flex-column">
+										<li>Plusieurs pages contenant les listings des stagiaires, formations, sessions, modules et catégories des cours</li>
+										<li>CRUD des différentes données</li>
+										<li>Authentification et inscription d'un utilisateur, utilisation d'une regex pour le mot de passe en suivant les consignes d'<a class="bold" href="https://owasp.org/">OWASP</a> et d'un captcha pour contrer l'attaque par force brute</li>
+										<li>Rôle admin et user, pour répartir l'accès aux différentes pages de l'application</li>
+										<li>Système de messagerie interne pour que les utilisateurs inscrits puissent communiquer entre eux</li>
+										<li>Plusieurs failles sont gérées: (SQL, CSRF, XSS)</li>
+									</ul>
+
+									<p class="semi-bold text-end">Aout 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/App-Symfony-Gestion-Centre-de-Formation" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+										<img src="icones/extern-link.svg" alt="icon link">
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+								<img src="images/app-centre-formation.jpg" alt="photo projet fiches-films" class="works-preview-left mt-4 img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/symfony-icon.svg" alt="icone symfony" class="dev-icon mx-3">
+									</li>
+									<li>
+										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+									</li>
+									<li>
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
+									</li>
+									<li>
+										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon me-4 sql-icon">
+									</li>
+									<li>
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!------------ App Forum ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
+								<div class="description-sneakers px-4 py-4">
+									<h4 class="almost-bold">App Forum</h4>
+									<p>Projet de formation, c'est un Forum de discussion.</p>
+									<p class="pb-4">Le projet a été réalisé avec un Framework maison, basé sur Symfony avec un design pattern en MVC. La base de données est en SQL et faite avec phpMyAdmin. Les fonctionalités sont :</p>
+
+									<ul class="d-flex gap-3 flex-column">
+										<li>Créer un nouveau sujet de discussion dans une catégorie avec un titre et un message</li>
+										<li>N'importe quel user peut rajouter une réponse dans le sujet</li>
+										<li>Il y a un login qui permet de s'incrire et de s'authentifier</li>
+										<li>Il y a un rôle admin et user, en tant qu'admin on peut supprimer un sujet et on peut voir la liste des users</li>
+										<li>On peut modifier son mot de passe ainsi que ses informations personnelles et on y retrouve la liste de ses derniers messages postés</li>
+										<li>Injection SQL gerée grâce aux requêtes préparées, XSS géré grâce aux fonctions d'échappement des données, Password protégé par un hash</li>
+									</ul>
+									
+									<p class="semi-bold text-end">Juillet 2022</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/App-Forum" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+										<img src="icones/extern-link.svg" alt="icon link">
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+								<img src="images/app-forum.jpg" alt="photo projet Le-commerce" class="works-preview-right mt-4 img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 mx-3">
+									</li>
+									<li>
+										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+									</li>
+									<li>
+										<img src="icones/icon-sql.svg" alt="icone mysql" class=" dev-icon me-4 sql-icon">
+									</li>
+									<li>
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!------------ Fiches-Films ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5 row-border-top">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-fiches-films px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">Fiches Films</h4>
-									<p>Projet Personnel, c'est un projet regroupant divers informations sur le Cinéma qui est en cours de réalisation.</p>
-									<p>A ce jour le projet contient la création, la suppresion et la modification d'un film. On peut également consulter les listes d'acteurs, de réalisateurs, de films et de genres. Il est réalisé en PHP POO avec une base de données crée via phpMyAdmin et une architecture MVC.</p>
+									<p>Projet de formation, c'est un projet regroupant divers informations sur le Cinéma.</p>
+									<p>Le projet contient la création, la suppresion et la modification d'un film. On peut également consulter les listes d'acteurs, de réalisateurs, de films et de genres. Il est réalisé en PHP POO avec une base de données crée via phpMyAdmin et une architecture MVC.</p>
 									<p class="semi-bold text-end">Juin 2022</p>
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
@@ -299,7 +414,6 @@
 								</div>
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
-							<h2 class="position-relative bold">Mes Réalisations</h2>
 								<img src="images/fiches-films.jpg" alt="photo projet fiches-films" class="works-preview-left mt-4 img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
@@ -325,9 +439,9 @@
 						<!------------ E-commerce Sneakers ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
-								<div class="description-sneakers px-4 py-4 text-lg-end">
+								<div class="description-sneakers px-4 py-4">
 									<h4 class="almost-bold">Sneakers</h4>
-									<p>Projet Personnel, c'est un projet E-commerce qui est en cours de réalisation.</p>
+									<p>Projet Personnel, c'est un projet E-commerce qui est en pause.</p>
 									<p>A ce jour le projet contient la création, la suppresion et la connexion de compte d'un utilisateur. Ainsi que la gestion d'un produit dans le panier. L'affichage d'un produit en détail et de la liste des produits. Il est réalisé en PHP POO avec une base de données crée via phpMyAdmin et une architecture MVC. La faille XSS, l'injection SQL ainsi que l'anti-spam sur les formulaires sont gérés sur ce projet.</p>
 									<p class="semi-bold text-end">Avril 2022</p>
 								</div>
@@ -339,7 +453,7 @@
 								</div>
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/sneakers.jpg" alt="photo projet e-commerce" class="works-preview-right mt-4 img-fluid">
+								<img src="images/sneakers.jpg" alt="photo projet Le-commerce" class="works-preview-right mt-4 img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
 									<li>
@@ -397,7 +511,7 @@
 						<!------------ Calculateur Tip ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-border-top pb-5">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
-								<div class="description-imc px-4 py-4 text-lg-end">
+								<div class="description-imc px-4 py-4">
 									<h4 class="almost-bold">Calculateur de tip</h4>
 									<p>Projet Personnel, c'est un calculateur de tip, c'est un projet du site Frontend Mentor.</p>
 									<p>L'objectif était de réaliser un calculateur de tip (pourboire) en JavaScript. Il permet de calculer le montant d'un tip par personne ainsi que le montant total (facture + tip) par personne. Il y a des pourcentages de tips prédéfinis, on a également la possibilité de calculer un pourcentage au choix.</p>
@@ -432,7 +546,7 @@
 							</div>
 						</div>
 						<!------------ Landing page ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top show-more">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-imc px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">Page d'accueil</h4>
@@ -496,7 +610,7 @@
 								</ul>
 							</div>
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity">
-								<div class="description-imc px-4 py-4 text-lg-end">
+								<div class="description-imc px-4 py-4">
 									<h4 class="almost-bold">Jeu du Plus ou Moins</h4>
 									<p>Projet Personnel, c'est un jeu en JavaScript, le but est de trouver un nombre entre 1 et 100 généré par l'ordinateur en dix tentatives. Le joueur marque 1 point pour chaque nombre qu'il a trouvé, si il échoue l'ordinateur marque 1 point.</p>
 									<p>Il y a plusieurs parties du jeu qui sont dynamiques, l'objectif était de réaliser un projet pour travailler sur les aspects du DOM en JavaScript.</p>
@@ -579,7 +693,7 @@
 								</ul>
 							</div>
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity">
-								<div class="description-univers-running px-4 py-4 text-lg-end">
+								<div class="description-univers-running px-4 py-4">
 									<h4 class="almost-bold">Univers-Running</h4>
 									<p>Voici mon premier projet, j'ai décidé de réaliser un site vitrine statique, une charte graphique ainsi que les maquettes du site.</p>
 									<p>C'est un site sur l'univers de la course à pied, on y retrouve des conseils, des informations et des actualités.</p>
