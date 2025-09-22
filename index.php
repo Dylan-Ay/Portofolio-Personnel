@@ -729,32 +729,32 @@
 								<div class="row mt-5 justify-content-center">
 									<div class="col-lg-4 mb-4">
 										<label for="name" class="form-label light-bold">Nom et Prénom <span class="red">*</span></label>
-										<input type="text" name="name" class="form-control py-3" id="name" required="required">
+										<input type="text" name="name" class="form-control py-3" id="name">
 									</div>
 									<div class="col-lg-4">
 										<label for="email" class="form-label light-bold">Adresse mail <span class="red">*</span></label>
-										<input type="email" name="email" class="form-control py-3" id="email" required="required">
-									<?php echo $errorMail; ?>
+										<input type="email" name="email" class="form-control py-3" id="email" >
+									<?php echo $errorMail ?? '';?>
 									</div>
 								</div>
 								<div class="row mt-4 justify-content-center">	
 									<div class="col-lg-4">			
 										<label for="phone" class="form-label light-bold">Téléphone</label>
 										<input dir="ltr" name="phone" type="number" id="phone" class="form-control py-3 no-arrow" >
-										<?php echo $errorNumber; ?>
+										<?php echo $errorNumber ?? ''; ?>
 									</div>
 									<div class="col-lg-4"></div>
 								</div>
 								<div class="row mt-4 justify-content-center">
 									<div class="col-lg-8">
 										<label for="message" class="form-label light-bold">Message <span class="red">*</span></label>
-										<textarea class="form-control" name="message" id="message" rows="7" required="required"></textarea>	
+										<textarea class="form-control" name="message" id="message" rows="7"></textarea>	
 										<input type="text" id="website" name="website"/>
 									</div>
 								</div>
 								<div class="row justify-content-center">
 									<div class=" col-lg-3">
-										<?php echo $error; ?>
+										<?php echo $error ?? ''; ?>
 										<p class="mt-3 ms-1 almost-bold">Champs requis <span class="red">*</span></p>
 									</div>
 									<div class="col-lg-5"></div>
@@ -791,7 +791,7 @@
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-lg-4 d-flex">
-						<p class="light-bold madeby mx-auto">© 2022 - Réalisé par Dylan Ayache - Tous droits réservés.</p>
+						<p class="light-bold madeby mx-auto">© 2025 - Réalisé par Dylan Ayache - Tous droits réservés.</p>
 					</div>
 				</div>
 			</div>
