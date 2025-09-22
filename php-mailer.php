@@ -13,14 +13,14 @@ try {
     
     // Paramètres SMTP
     $mail->isSMTP();
-    $mail->Host = getenv('SMTP_HOST');
-    $mail->Username = getenv('SMTP_USER');
-    $mail->Password = getenv('SMTP_PASS');
-    $mail->Port = getenv('SMTP_PORT');
+    $mail->Host       = getenv('SMTP_HOST');
     $mail->SMTPAuth   = true;
-    $mail->SMTPDebug = 2;
-    $mail->Debugoutput = "html";
+    $mail->Username   = getenv('SMTP_USER');
+    $mail->Password   = getenv('SMTP_PASS');
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port       = getenv('SMTP_PORT') ?: 587;
+    $mail->SMTPDebug  = 2;
+    $mail->Debugoutput = 'html';
     
     return $mail;
 } catch (Exception $e) {
