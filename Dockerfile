@@ -9,12 +9,12 @@ RUN apt-get update && apt-get install -y \
 # Installer composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# Copier ton projet
-COPY . /var/www/html/
-
 WORKDIR /var/www/html/
 
-# Installer PHPMailer via composer
-RUN composer require phpmailer/phpmailer
+# Copier les fichiers du projet
+COPY . /var/www/html/
+
+# Installer les dépendances PHP (dont PHPMailer) à partir de composer.json
+RUN composer install --no-dev --optimize-autoloader
 
 EXPOSE 80
