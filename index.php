@@ -729,11 +729,11 @@
 								<div class="row mt-5 justify-content-center">
 									<div class="col-lg-4 mb-4">
 										<label for="name" class="form-label light-bold">Nom et Prénom <span class="red">*</span></label>
-										<input type="text" name="name" class="form-control py-3" id="name">
+										<input type="text" name="name" class="form-control py-3" id="name" required>
 									</div>
 									<div class="col-lg-4">
 										<label for="email" class="form-label light-bold">Adresse mail <span class="red">*</span></label>
-										<input type="email" name="email" class="form-control py-3" id="email" >
+										<input type="email" name="email" class="form-control py-3" id="email" required>
 									<?php echo $errorMail ?? '';?>
 									</div>
 								</div>
@@ -748,7 +748,7 @@
 								<div class="row mt-4 justify-content-center">
 									<div class="col-lg-8">
 										<label for="message" class="form-label light-bold">Message <span class="red">*</span></label>
-										<textarea class="form-control" name="message" id="message" rows="7"></textarea>	
+										<textarea class="form-control" name="message" id="message" rows="7" required></textarea>	
 										<input type="text" id="website" name="website"/>
 									</div>
 								</div>
