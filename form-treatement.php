@@ -18,7 +18,7 @@
             '<p>
                 <b>Nom : </b>' . $_POST['name'] . '<br>
                 <b>Téléphone : </b>' . $_POST['phone'] . '<br>
-                <b>Destinataire : </b>' . $_POST['email'] . '<br>
+                <b>Email : </b>' . $_POST['email'] . '<br>
                 <b>Message : </b> <p>' . $_POST['message'] . 
             '</p></p>';
         } else {

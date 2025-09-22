@@ -3,7 +3,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 $mail = new PHPMailer(true);
 
@@ -13,13 +13,12 @@ try {
     
     // Paramètres SMTP
     $mail->isSMTP();
-
     $mail->Host       = $_ENV['SMTP_HOST'];
     $mail->SMTPAuth   = true;
-    $mail->Username   = $ENV['SMTP_USER'];
-    $mail->Password   = $ENV['SMTP_PASS'];
+    $mail->Username   = $_ENV['SMTP_USER'];
+    $mail->Password   = $_ENV['SMTP_PASS'];
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port       = $ENV['SMTP_PORT'] ?: 587;
+    $mail->Port       = $_ENV['SMTP_PORT'] ?: 587;
     
     return $mail;
 } catch (Exception $e) {
