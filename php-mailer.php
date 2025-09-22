@@ -18,6 +18,8 @@ try {
     $mail->Password = getenv('SMTP_PASS');
     $mail->Port = getenv('SMTP_PORT');
     $mail->SMTPAuth   = true;
+    $mail->SMTPDebug = 2;
+    $mail->Debugoutput = "html";
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     
     return $mail;
