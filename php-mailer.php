@@ -19,9 +19,7 @@ try {
     $mail->Password   = getenv('SMTP_PASS');
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = getenv('SMTP_PORT') ?: 587;
-    $mail->SMTPDebug  = 2;
-    $mail->Debugoutput = 'html';
-    
+
     return $mail;
 } catch (Exception $e) {
     throw new Exception("Erreur config mailer : ". $e->getMessage());
