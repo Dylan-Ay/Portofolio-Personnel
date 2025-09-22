@@ -13,12 +13,13 @@ try {
     
     // Paramètres SMTP
     $mail->isSMTP();
-    $mail->Host       = 'smtp.gmail.com';
+
+    $mail->Host       = $_ENV['SMTP_HOST'];
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'dylan.developpeur@gmail.com';
-    $mail->Password   = 'pjmdzgsvnnwloiab';
-    $mail->SMTPSecure = 'tls';
-    $mail->Port       = 587;
+    $mail->Username   = $ENV['SMTP_USER'];
+    $mail->Password   = $ENV['SMTP_PASS'];
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port       = $ENV['SMTP_PORT'] ?: 587;
     
     return $mail;
 } catch (Exception $e) {
