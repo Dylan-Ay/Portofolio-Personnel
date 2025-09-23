@@ -40,13 +40,12 @@
 		<!------------ Including PHP for contact section ------------>
 		<?php include('form-treatement.php');?>
 		<header>
-			<div id="Accueil"></div>
 			<div id="menu" class="animation-nav">
 				<!------------  Navbar ----------->
 				<div class="container ">
 					<nav class="navbar py-0 px-0 navbar-expand-lg">
-						<a href="https://dylanayache.com/">
-							<img src="icones/logo.svg" class="animation-nav" alt="Logo Portfolio Dylan Ayache Développeur Web">
+						<a href="/">
+							<img src="icones/logo.svg" class="animation-nav" alt="Logo Portfolio Dylan Ayache Développeur Fullstack">
 						</a>
 						<button class="navbar-toggler animation-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
@@ -54,22 +53,22 @@
 						<div class="collapse navbar-collapse navigation justify-content-end" id="navbarTogglerDemo02">
 							<ul class="navbar-nav animation-nav col-12 col-xl-auto justify-content-evenly justify-content-xl-end align-items-center align-items-lg-start">
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link" href="#Accueil">Accueil</a>
+									<a class="nav-link simple-link" href="#introduction">Accueil</a>
 								</li>
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link" href="#A-Propos">A Propos</a>
+									<a class="nav-link simple-link" href="#about">A Propos</a>
 								</li>
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link" href="#Compétences">Compétences</a>
+									<a class="nav-link simple-link" href="#skills">Compétences</a>
 								</li>
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link" href="#Réalisations">Réalisations</a>
+									<a class="nav-link simple-link" href="#works">Réalisations</a>
 								</li>
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link simple-link  pb-2" href="#Contact">Contact</a>
+									<a class="nav-link simple-link  pb-2" href="#contact">Contact</a>
 								</li>
 								<li class="nav-item mx-xl-3">
-									<a class="nav-link cv px-4 px-lg-4 my-3 my-lg-0" href="cv.pdf" target="_blank" download>Mon CV</a>
+									<a class="nav-link cv px-4 px-lg-4 my-3 my-lg-0" href="/cv.pdf" target="_blank" >Mon CV</a>
 								</li>
 							</ul>
 						</div>
@@ -86,7 +85,8 @@
 									<h1 class="resize-name"><span class="semi-bold">Bonjour, je m'appelle</span> <strong>Dylan Ayache</strong></h1>
 								</div>
 								<div class="animation-introduction-2">
-									<p class="mt-3 mb-4">Je me forme actuellement au métier de Développeur Web et je suis disponible pour réaliser votre <strong class="regular">site internet</strong>.</p>
+									<p class="mt-3 mb-4">Je suis Développeur Fullstack, bienvenue sur mon Portfolio.
+									</p>
 								</div>
 							</div>
 							<div class="animation-introduction-2">
@@ -107,12 +107,11 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">En formation Bac +2 jusqu'au 22 Décembre 2022, <span class="bold"> je suis à la recherche d'une alternance du 16/01/2023 au 14/06/2024</span> pour préparer un Bac +3 «Concepteur Développeur d'Applications». Je suis également ouvert à d'autres opportunités.
+							<p class="mx-auto ps-2 pe-2">En préparation d'une Licence Profesionnelle à l'UHA de Mulhouse, <span class="bold">  je suis à la recherche d'un stage du 07 Avril au 06 Juillet 2026.</span>
 							<br>					
-							En parallèle je suis disponible pour réaliser votre <strong class="regular">site internet</strong>.
+							En parallèle je suis disponible pour réaliser vos projets, n'hésitez pas à me contacter.
 							</p>
 							
-							<div id="A-Propos"></div>
 							<div class="card-footer pt-4 pb-3"></div>
 						</div>
 					</div>	
@@ -128,7 +127,7 @@
 							<div class="col-12 col-lg-7 mb-4 scroll-in js-opacity">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
-									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 27 ans et je suis actuellement en formation de Développeur Web et Web Mobile en vue d'obtenir un Bac +2.</p>
+									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 30 ans et je suis actuellement en formation de Développeur Web et Web Mobile en vue d'obtenir un Bac +2.</p>
 										
 									<p>Mon intérêt pour l'informatique et les nouvelles technologies a commencé depuis jeune. 
 									Après mon bac j'ai commencé à faire des tutoriels sur OpenClassroom puis j'ai monté
@@ -156,7 +155,6 @@
 							<div class="col-10 col-md-8 col-lg-5 col-xl-4 d-flex scroll-in js-opacity">
 								<img class="img-fluid photo-personelle" src="images/photo-personnelle.svg" alt="Création de site web par un développeur">
 							</div>
-							<div id="Compétences"></div>
 						</div>
 					</div>
 				</div>
@@ -292,7 +290,6 @@
 								</div>
 							</div>
 						</div>
-						<div id="Réalisations"></div>
 					</div>
 				</div>
 			</section>
@@ -715,12 +712,11 @@
 								<button id="show-more-btn" class="btn-contact px-4 py-3">Afficher Plus</button>
 							</div>
 						</div>
-						<span id="Contact"></span>
 					</div>
 				</div>
 			</section>
 			<!------------  Contact ----------->
-			<section id=contact>
+			<section id="contact">
 				<div class="container py-5">
 					<div class="row py-5 justify-content-center">
 						<div class="col-11 col-sm-10 col-md-9 col-lg-12 scroll-in js-opacity">

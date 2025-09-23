@@ -42,7 +42,7 @@ $transition-icon-hover: scale(1.15);
     font-family: $secondary_font;
 }
 @mixin button-hover-introduction{
-    box-shadow: inset 10.5em 0 0 0 #FFFFFF;
+    box-shadow: inset -10.5em 0 0 0 #FFFFFF;
     color: $primary-text-color;
     @media screen and  (max-width: 425px){
         box-shadow: none;
@@ -387,11 +387,6 @@ h1{
         animation: reveal .8s cubic-bezier(.215,.61,.355,1) .25s backwards;
         @media (min-width: 1400px){
             width: 630px;
-        }
-    }
-    & .margin-contact{
-        @media (min-width: 992px){
-            margin-left: 19px;
         }
     }
     & .row-intro-mt{
