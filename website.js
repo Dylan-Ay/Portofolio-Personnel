@@ -123,3 +123,18 @@ function displayContent(){
 btnShowMore.addEventListener('click', displayContent);
 
 //******************************************************
+const navBar = document.querySelector('#menu');
+let lastScroll = 0;
+
+window.addEventListener('scroll', () => {
+  const currentScroll = window.scrollY;
+
+    if (currentScroll > lastScroll) {
+        navBar.classList.add('d-none');
+        navBar.style.top = 0;
+    } else {
+        navBar.classList.remove('d-none');
+    }
+
+    lastScroll = currentScroll;
+})

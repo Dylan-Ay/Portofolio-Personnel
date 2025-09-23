@@ -4,20 +4,20 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="robots" content="index,follow">
-		<meta name="description" content="Développeur Web situé à Colmar, Création de Site internet et Application web. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="description" content="Développeur Fullstack situé à Colmar, Création de Site internet et Application web. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
 		<!-- Open Graph protocol -->
-		<meta property="og:title" content="Dylan Ayache - Création Site internet Colmar - Portfolio" />
-		<meta property="og:description" content="Développeur Web situé à Colmar, Création de Site internet et Application web. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
+		<meta property="og:title" content="Dylan Ayache - Développeur Fullstack - Portfolio" />
+		<meta property="og:description" content="Développeur Fullstack situé à Colmar, Création de Site internet et Application web. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.dylanayache.com/" />
-        <meta property="og:image" content="https://www.dylanayache.com/images/illustration-welco.svg" />
+        <meta property="og:url" content="https://dylanayache-portfolio.onrender.com/" />
+        <meta property="og:image" content="https://dylanayache-portfolio.onrender.com/images/illustration-welco.svg" />
         <!-- Twitter card tags-->
         <meta name="twitter:card" content="website" />
         <meta name="twitter:site" content="@DylanAy_Dev" />
-        <meta name="twitter:title" content="Dylan Ayache - Création Site internet Colmar - Portfolio" />
-        <meta name="twitter:description" content="Développeur Web situé à Colmar, Création de Site internet et Application web. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
-        <meta name="twitter:image" content="https://www.dylanayache.com/images/illustration-welco.svg" />
+        <meta name="twitter:title" content="Dylan Ayache - Développeur Fullstack - Portfolio" />
+        <meta name="twitter:description" content="Développeur Fullstack situé à Colmar, Création de Site internet et Application web. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
+        <meta name="twitter:image" content="https://dylanayache-portfolio.onrender.com/images/illustration-welco.svg" />
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEPWV5WQT0"></script>
@@ -34,14 +34,14 @@
 		<!-- Personnal CSS -->
 		<link rel="stylesheet" type="text/css" href="portfolio.css">
 		<link rel="icon" href="icones/logo-title.ico" type="image/icon">
-		<title>Dylan Ayache - Création Site internet Colmar et Application web - Portfolio</title>
+		<title>Dylan Ayache - Développeur Fullstack - Portfolio</title>
 	</head> 
 	<body>
 		<!------------ Including PHP for contact section ------------>
 		<?php include('form-treatement.php');?>
 		<header>
 			<div id="Accueil"></div>
-			<div id="menu">
+			<div id="menu" class="animation-nav">
 				<!------------  Navbar ----------->
 				<div class="container ">
 					<nav class="navbar py-0 px-0 navbar-expand-lg">
