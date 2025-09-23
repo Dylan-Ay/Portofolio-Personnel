@@ -390,6 +390,16 @@ h1 {
   filter: drop-shadow(1px 1px 1px black);
   transform: scale(1.15);
 }
+#about .git-link {
+  width: 50px;
+  height: 49px;
+  transition: 0.15s ease-in-out;
+  transition: transform 0.2s;
+}
+#about .git-link:hover {
+  filter: drop-shadow(1px 1px 1px black);
+  transform: scale(1.15);
+}
 
 /* <------- SKILLS ------->  */
 #skills h2:after {

@@ -127,11 +127,12 @@
 							<div class="col-12 col-lg-7 mb-4 scroll-in js-opacity">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
-									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 30 ans et je suis actuellement en formation de Développeur Web et Web Mobile en vue d'obtenir un Bac +2.</p>
+									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 30 ans et je prépare actuellement une 
+										<span class="semi-bold">Licence Professionnelle en développement informatique à l'UHA de Mulhouse.</span>
+									</p>
 										
-									<p>Mon intérêt pour l'informatique et les nouvelles technologies a commencé depuis jeune. 
-									Après mon bac j'ai commencé à faire des tutoriels sur OpenClassroom puis j'ai monté
-									mon premier PC, ce qui a conforté mon idée de travailler dans le domaine du numérique.</p>
+									<p>Mon intérêt pour l'informatique et les nouvelles technologies a commencé étant jeune. 
+									Après mon bac j'ai commencé à apprendre la programmation de manière autodicacte en ligne. Puis j'ai suivi des cours sur OpenClassroom tout ceci a conforté mon idée de travailler dans le domaine du numérique. Ne réussisant pas à trouver une alternance à ce moment là dans le développement informatique, je me suis mis à travailler.</p>
 									
 									<p>Grâce à mes compétences personnelles et mon autodidactisme j'ai décroché un premier emploi 
 									en tant que Technicien Informatique itinérant.
@@ -139,17 +140,29 @@
 									Technicien Helpdesk / Gestionnaire de parc informatique.
 									J'ai travaillé au total 3 ans en tant que Technicien Informatique.</p>
 										
-									<p>Durant le confinement je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
-									donné envie de redécouvrir le Développement Web. C'est pour cela qu'aujourd'hui j'aimerais obtenir un diplôme dans ce domaine. Je m'autoforme au métier de Développeur Web depuis Octobre 2021 et j'ai intégré une formation en Mars 2022 pour préparer le diplome de «Développeur Web et Web Mobile» j'ai déjà quelques <a href="#Réalisations" class="semi-bold simple-link codecademy">projets à mon actif.</a> Mon objectif est de travailler en tant que Développeur Full Stack.</p>
+									<p>En 2021 je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
+									donné envie de redécouvrir le Développement Informatique.</p>  
+
+									<p>J'ai obtenu un titre profesionnel de Développeur Web et Web Mobile en 2022 (Bac+2), à la suite de cela j'ai travaillé comme Développeur Fullstack de Mars 2023 à Septembre 2024.</p>
+
+									<p>Aujourd'hui je poursuis ma montée en compétences et je continue de me perfectionner à travers des 
+										<a href="#works" class="semi-bold simple-link codecademy">projets personnels.</a>
+									</p>
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
 									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
 									<p><span class="bold">Espagnol</span> : Niveau B2 (Avancé)</p>
-									<a href="https://www.linkedin.com/in/dylan-ay/" target="_blank">
-										<img src="icones/linkedin.svg" class="linkedin-icon me-2" alt="linkedin dylan ayache">
-									</a>
-									<a href="#Contact">
-										<img src="icones/mail.svg" class="mail-icon" alt="icon mail">
-									</a>
+
+									<div class="d-flex gap-2">
+										<a href="https://www.linkedin.com/in/dylan-ay/" target="_blank">
+											<img src="icones/linkedin.svg" class="linkedin-icon" alt="linkedin dylan ayache">
+										</a>
+										<a href="#contact">
+											<img src="icones/mail.svg" class="mail-icon" alt="icon mail">
+										</a>
+										<a href="https://github.com/Dylan-Ay" target="_blank">
+											<img src="icones/github.svg" class="git-link" alt="icon github">
+										</a>
+									</div>
 								</div>
 							</div>
 							<div class="col-10 col-md-8 col-lg-5 col-xl-4 d-flex scroll-in js-opacity">
