@@ -266,7 +266,12 @@ h1 {
   z-index: 1;
 }
 #menu img {
-  height: 100px;
+  height: 95px;
+}
+@media screen and (max-width: 768px) {
+  #menu img {
+    height: 80px;
+  }
 }
 #menu a {
   color: #FFFFFF;
@@ -306,7 +311,7 @@ h1 {
   }
 }
 #introduction .row-intro-mt {
-  margin-top: 160px;
+  margin-top: 145px;
 }
 @media (max-width: 991px) {
   #introduction .illustration-welcome-desktop {

@@ -362,7 +362,10 @@ h1{
     z-index: 1;
 
     & img{
-        height: 100px;
+        height: 95px;
+        @media screen and (max-width: 768px){
+            height: 80px;
+        }
     }
 
     & a{
@@ -395,7 +398,7 @@ h1{
         }
     }
     & .row-intro-mt{
-        margin-top: 160px
+        margin-top: 145px
     }
     & .illustration-welcome-desktop{
         @media (max-width: 991px) {
