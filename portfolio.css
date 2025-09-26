@@ -5,6 +5,13 @@
 /* <------- Buttons -------> */
 /* <------- Hover nav-bar ------->*/
 /* <------- General settings ------->*/
+.zoomin {
+  transition: transform 0.4s;
+}
+.zoomin:hover {
+  transform: scale(1.1);
+}
+
 a {
   text-decoration: none !important;
   color: #424b54;
@@ -352,7 +359,7 @@ h1 {
   content: "";
   position: absolute;
   border-bottom: 2px solid #fa3333;
-  width: 30%;
+  width: 25%;
   height: 58%;
   display: inline;
   margin-left: 0.5em;
@@ -406,7 +413,7 @@ h1 {
   content: "";
   position: absolute;
   border-bottom: 2px solid #fa3333;
-  width: 30%;
+  width: 25%;
   height: 58%;
   display: inline;
   margin-left: 0.5em;
@@ -415,9 +422,6 @@ h1 {
   #skills h2:after {
     width: 20%;
   }
-}
-#skills .progress-bar {
-  background-color: #fa3333;
 }
 #skills .border-bottom {
   border-bottom: 3px solid #424b54 !important;
@@ -444,56 +448,24 @@ h1 {
   box-shadow: inset 16.8em 0 0 0 #FFFFFF;
   color: #3b3735;
 }
-#skills .list-icones .code-cademy {
-  transition: transform 0.2s;
-  width: 60%;
+#skills .skills-content {
+  gap: 10px;
 }
-#skills .list-icones .code-cademy:hover {
-  transform: scale(1.2);
+#skills .skills-content .skill-card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-color: #727a83;
 }
-@media (max-width: 991.5px) {
-  #skills .list-icones .code-cademy {
-    width: 45%;
-  }
+#skills .skills-content a {
+  color: white;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
 }
-@media (max-width: 575px) {
-  #skills .list-icones .code-cademy {
-    width: 65%;
-  }
-}
-#skills .list-icones .openclassrooms {
-  width: 80%;
-  transition: transform 0.2s;
-}
-#skills .list-icones .openclassrooms:hover {
-  transform: scale(1.2);
-}
-@media (max-width: 991.5px) {
-  #skills .list-icones .openclassrooms {
-    width: 70%;
-  }
-}
-@media (max-width: 575px) {
-  #skills .list-icones .openclassrooms {
-    width: 85%;
-  }
-}
-#skills .list-icones .mentor, #skills .list-icones .freecodecamp {
-  width: 65%;
-  transition: transform 0.2s;
-}
-#skills .list-icones .mentor:hover, #skills .list-icones .freecodecamp:hover {
-  transform: scale(1.2);
-}
-@media (max-width: 991.5px) {
-  #skills .list-icones .mentor, #skills .list-icones .freecodecamp {
-    width: 55%;
-  }
-}
-@media (max-width: 575px) {
-  #skills .list-icones .mentor, #skills .list-icones .freecodecamp {
-    width: 74%;
-  }
+#skills .skills-content img {
+  width: 22px;
+  height: 22px;
 }
 
 /* <------- WORKS ------->  */
@@ -507,7 +479,7 @@ h1 {
   content: "";
   position: absolute;
   border-bottom: 2px solid #fa3333;
-  width: 30%;
+  width: 25%;
   height: 58%;
   display: inline;
   margin-left: 0.5em;
@@ -534,7 +506,7 @@ h1 {
   content: "";
   position: absolute;
   border-bottom: 2px solid #fa3333;
-  width: 30%;
+  width: 25%;
   height: 58%;
   display: inline;
   margin-left: 0.5em;

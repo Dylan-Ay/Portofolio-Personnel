@@ -124,7 +124,7 @@
 				<div class="container-fluid mt-2">
 					<div class="container py-5">
 						<div class="row py-5 justify-content-center justify-content-lg-between">
-							<div class="col-12 col-lg-7 mb-4 scroll-in js-opacity">
+							<div class="col-12 col-lg-7 scroll-in js-opacity">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
 									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 30 ans et je prépare actuellement une 
@@ -165,7 +165,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-10 col-md-8 col-lg-5 col-xl-4 d-flex scroll-in js-opacity">
+							<div class="col-10 col-md-8 col-lg-5 col-xl-4 d-flex scroll-in js-opacity mt-4 mt-md-0">
 								<img class="img-fluid photo-personelle" src="images/photo-personnelle.svg" alt="Création de site web par un développeur">
 							</div>
 						</div>
@@ -175,130 +175,167 @@
 			<!------------  Skills ----------->
 			<section id="skills">
 				<div class="container py-5">
-					<div class="row py-5 justify-content-center justify-content-lg-around justify-content-xxl-between px-1">
-						<div class="col-12 col-lg-6 scroll-in js-opacity">
-							<h2 class="position-relative bold">Mes Compétences</h2>
-							<p class="mt-4">
-							J'ai déjà réalisé plusieurs projets, mon but est de réaliser à chaque fois un nouveau projet pour valider ce que j'ai pu apprendre.</p>
-
-							<p>Voici un aperçu de mon niveau, pour chaque compétence que j'ai pu apprendre :</p>
-							<h4 class="almost-bold mt-4 mb-3">Développement :</h4>
-							<!------------  Developpement Progress Bars ----------->
-							<div class="border-bottom pb-5">
-								<div class="language-percentage d-flex justify-content-between">
-									<span class="light-bold">HTML5, CSS3, Sass, Bootstrap <span class="light-italic"></span></span>
-									<span class="light-bold">85%</span>
+					<div class="row py-5 scroll-in js-opacity">
+						<h2 class="position-relative bold">Mes Compétences</h2>
+						<p class="mt-3">
+						Mon but est de réaliser à chaque fois un nouveau projet pour mettre en oeuvre ce que j'ai pu apprendre.</p>
+						<div class="border-bottom pb-5 d-flex flex-column flex-lg-row">
+							<div class="col-12 col-lg-6">
+								<h4 class="almost-bold mt-4 mb-3">Développement Front-end :</h4>
+								<!------------  Developpement Front-end Skills ----------->
+								<div class="d-flex flex-wrap skills-content">
+									<div class="skill-card rounded-3 zoomin zoomin">
+										<a href="https://react.dev/" target="_blank">
+											<img src="/icones/skills/react-logo.svg" alt="logo react">
+											React
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin zoomin">
+										<a href="https://www.typescriptlang.org/" target="_blank">
+											<img src="/icones/skills/typescript-logo.svg" alt="logo typescript">
+											TypeScript
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://tailwindcss.com/" target="_blank">
+											<img src="/icones/skills/tailwind-logo.svg" alt="logo tailwind">
+											Tailwind
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://sass-lang.com/" target="_blank">
+											<img src="/icones/skills/sass-logo.svg" alt="logo sass">
+											Sass
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://getbootstrap.com/" target="_blank">
+											<img src="/icones/skills/Bootstrap_logo.svg" alt="logo bootstrap">
+											Bootstrap
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+											<img src="/icones/skills/javascript-logo.svg" alt="logo javascript">
+											JavaScript
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://jquery.com/" target="_blank">
+											<img src="/icones/skills/jquery-logo.svg" alt="logo jquery">
+											jQuery
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://nextjs.org/" target="_blank">
+											<img src="/icones/skills/nextjs-logo.svg" alt="logo next">
+											Next
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://www.python.org/" target="_blank">
+											<img src="/icones/skills/python-logo.svg" alt="logo python">
+											Python
+										</a>
+									</div>
 								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
-								</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">Conceptualisation MCD/MLD</span>
-									<span class="light-bold">80%</span>
-								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-								</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">MySQL, phpMyAdmin</span>
-									<span class="light-bold">80%</span>
-								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-								</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">PHP 7</span>
-									<span class="light-bold">75%</span>
-								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
-								</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">Symfony 5</span>
-									<span class="light-bold">70%</span>
-								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
-								</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">JavaScript, JSON</span>
-									<span class="light-bold">60%</span>
-								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
-								</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">Laravel 9 (Dans le cadre de mon stage)</span>
-									<span class="light-bold">En cours..</span>
-								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+								<p class="light-bold-italic mt-5 mb-3">Futures compétences en vue d'acquisition :</p>
+								<div class="d-flex flex-wrap skills-content">
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://dev.java/learn/" target="_blank">
+											<img src="/icones/skills/java-logo.svg" alt="logo java">
+											Java
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://reactnative.dev/" target="_blank">
+											<img src="/icones/skills/react-logo.svg" alt="logo react">
+											React Native
+										</a>
+									</div>
 								</div>
 							</div>
-							<!------------  Graphism Progress Bars ----------->
-							<div class="scroll-in js-opacity">
-								<h4 class="almost-bold pt-5 mb-3">Graphisme et SEO :</h4>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">Adobe XD, Figma</span>
-									<span class="light-bold">80%</span>
-								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-								</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-										<span class="light-bold">SEO <span class="light-italic"></span></span>
-										<span class="light-bold">65%</span>
+							<div class="col-12 col-lg-6 scroll-in js-opacity pb-5">
+								<h4 class="almost-bold mt-5 mt-lg-4 mb-3">Développement Back-end :</h4>
+								<!------------  Developpement Back-end Skills ----------->
+								<div class="d-flex flex-wrap skills-content">
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://symfony.com/" target="_blank">
+											<img src="/icones/skills/symfony-logo.svg" alt="logo symfony">
+											Symfony 6
+										</a>
 									</div>
-									<div class="progress mt-1">
-										<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://www.php.net/" target="_blank">
+											<img src="/icones/skills/php-logo.svg" alt="logo php">
+											PHP 8
+										</a>
 									</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">Photoshop</span>
-									<span class="light-bold">60%</span>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://graphql.org/" target="_blank">
+											<img src="/icones/skills/graphql-logo.svg" alt="logo graphql">
+											GraphQL
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://fr.wordpress.org/" target="_blank">
+											<img src="/icones/skills/wp-logo.svg" alt="logo worpress">
+											Wordpress
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://www.mysql.com/" target="_blank">
+											<img src="/icones/skills/mysql-logo.svg" alt="logo mysql">
+											MySQL
+										</a>
+									</div>
 								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
-								</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">Illustrator</span>
-									<span class="light-bold">60%</span>
-								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
-								</div>
-								<div class="language-percentage d-flex justify-content-between mt-2">
-									<span class="light-bold">InDesign</span>
-									<span class="light-bold">40%</span>
-								</div>
-								<div class="progress mt-1">
-									<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
-								</div>
-								<p class="light-bold-italic mt-2">(Des nouvelles compétences vont s'ajouter et  les barres de progression vont augmenter au fur et à mesure de ma formation).</p>
 							</div>
 						</div>
-						<!------------  Learning supports ----------->
-						<div class="col-11 col-lg-5 mt-4 mt-lg-3 scroll-in js-opacity">
-							<h4 class="almost-bold pt-5 mb-3">Supports d'apprentissage :</h4>
-							<p class="mb-5">Je m'autoforme en utilisant les applications ci-dessous:</p>
-							<div class="list-icones">
-								<div class="mb-5">
-									<a href="https://www.codecademy.com/profiles/Dylan68" target="_blank">
-										<img src="icones/codeacademy.svg" class="code-cademy" alt="icone codecademy">
+						<div class="col-12 col-lg-6 scroll-in js-opacity">
+							<h4 class="almost-bold pt-5 mb-3">Autres :</h4>
+							<!------------ Others Skills ----------->
+							<div class="d-flex flex-wrap skills-content">
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://www.docker.com/" target="_blank">
+										<img src="/icones/skills/docker-logo.svg" alt="logo docker">
+										Docker
 									</a>
 								</div>
-								<div class="mb-5 ms-md-5">
-									<a href="https://openclassrooms.com/fr/" class="ms-md-5 ps-5" target="_blank">
-										<img src="icones/openclassrooms.svg" class="openclassrooms" alt="icone openclassrooms">
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://git-scm.com/" target="_blank">
+										<img src="/icones/skills/git-logo.svg" alt="logo git">
+										Git
 									</a>
 								</div>
-								<div class="mb-5">
-									<a href="https://www.frontendmentor.io/profile/Dylan-Ay" target="_blank">
-										<img src="icones/mentor.svg" class="mentor" alt="icone frond-end mentor">
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://vercel.com/" target="_blank">
+										<img src="/icones/skills/vercel-logo.svg" alt="logo vercel">
+										Vercel
 									</a>
 								</div>
-								<div class="ms-md-5">
-									<a href="https://www.freecodecamp.org/learn" class="ms-5 ps-5" target="_blank">
-										<img src="icones/freecodecamp.svg" class="freecodecamp" alt="icone freecodecamp">
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://render.com/" target="_blank">
+										<img src="/icones/skills/render-logo.svg" alt="logo render">
+										Render
+									</a>
+								</div>
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://tagmanager.google.com/" target="_blank">
+										<img src="/icones/skills/gt-logo.svg" alt="logo google tag manager">
+										Google Tag Manager
+									</a>
+								</div>
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://www.figma.com/fr-fr/" target="_blank">
+										<img src="/icones/skills/figma-logo.svg" alt="logo Figma">
+										Figma
+									</a>
+								</div>
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://helpx.adobe.com/uk/support/xd.html" target="_blank">
+										<img src="/icones/skills/adobexd-logo.svg" alt="logo Adobe XD">
+										Adobe XD
 									</a>
 								</div>
 							</div>
@@ -345,7 +382,7 @@
 										<img src="icones/symfony-icon.svg" alt="icone symfony" class="dev-icon mx-3">
 									</li>
 									<li>
-										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
 									</li>
 									<li>
 										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
@@ -396,7 +433,7 @@
 										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 mx-3">
 									</li>
 									<li>
-										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
 									</li>
 									<li>
 										<img src="icones/icon-sql.svg" alt="icone mysql" class=" dev-icon me-4 sql-icon">
@@ -437,7 +474,7 @@
 										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
 									</li>
 									<li>
-										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
 									</li>
 									<li>
 										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon me-4 sql-icon">
@@ -476,7 +513,7 @@
 										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
 									</li>
 									<li>
-										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
 									</li>
 									<li>
 										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon me-4 sql-icon">
@@ -649,7 +686,7 @@
 										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
 									</li>
 									<li>
-										<img src="icones/icon-php.svg" alt="icone php" class="dev-icon me-4 php-icon">
+										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
 									</li>
 									<li>
 										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon me-3 mt-2">
