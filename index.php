@@ -138,14 +138,14 @@
 									en tant que Technicien Informatique itinérant.
 									A la suite de cette première expérience, j'ai décroché un second emploi en tant que 
 									Technicien Helpdesk / Gestionnaire de parc informatique.
-									J'ai travaillé au total 3 ans en tant que Technicien Informatique.</p>
+									<span class="semi-bold">J'ai travaillé au total 3 ans en tant que Technicien Informatique.</span></p>
 										
 									<p>En 2021 je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
 									donné envie de redécouvrir le Développement Informatique.</p>  
 
-									<p>J'ai obtenu un titre profesionnel de Développeur Web et Web Mobile en 2022 (Bac+2), à la suite de cela j'ai travaillé comme Développeur Fullstack de Mars 2023 à Septembre 2024.</p>
+									<p>J'ai obtenu un titre profesionnel de Développeur Web et Web Mobile en 2022 (Bac+2), à la suite de cela <span class="semi-bold">j'ai travaillé comme Développeur Fullstack de Mars 2023 à Septembre 2024 chez un média.</span></p>
 
-									<p>Aujourd'hui je poursuis ma montée en compétences et je continue de me perfectionner à travers des 
+									<p>Aujourd'hui je poursuis ma montée en compétences en licence professionnelle et je continue de me perfectionner et de mettre en oeuvre mes capacités à travers des 
 										<a href="#works" class="semi-bold simple-link codecademy">projets personnels.</a>
 									</p>
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
