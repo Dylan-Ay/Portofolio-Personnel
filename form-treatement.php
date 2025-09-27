@@ -11,7 +11,7 @@
         $error = "";
         $errorNumber = "";
         $errorMail = "";
-        $redirectToContactForm = "<script>window.location.replace('/index.php#Contact')</script>";
+        $redirectToContactForm = "<script>window.location.replace('/')</script>";
 
     // Récupération des informations du message pour mise en forme par mail.
         if(!empty($_POST['message'])){
@@ -52,6 +52,7 @@
                 echo '<script>alert("Votre message a bien été envoyé, je vous répondrai sous peu 😊.")</script>';
             } else {
                 $error = "Message non envoyé. Erreur SendGrid: " . $response->statusCode();
+                echo $redirectToContactForm;
             }
             } catch (Exception $e) {
                 $error = "Message non envoyé. Exception SendGrid: " . $e->getMessage();
