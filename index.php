@@ -327,7 +327,7 @@
 								</div>
 								<div class="skill-card rounded-3 zoomin">
 									<a href="https://www.figma.com/fr-fr/" target="_blank">
-										<img src="/icones/skills/figma-logo.svg" alt="logo Figma">
+										<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="logo Figma">
 										Figma
 									</a>
 								</div>
