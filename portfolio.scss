@@ -352,6 +352,9 @@ h1{
 /* <------- Start of the settings per sections ------->  */
 /* <------- MENU ------->  */
 #menu{
+    & .nav-item{
+        z-index: 100;
+    }
     font-family: $secondary_font;
     font-size: 20px;
     background-color: $primary-color;

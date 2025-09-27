@@ -11,7 +11,7 @@
         $error = "";
         $errorNumber = "";
         $errorMail = "";
-        $redirectToContactForm = "<script>window.location.replace('/')</script>";
+        $redirectToContactForm = "<script>window.location.replace('https://dylanayache-portfolio.onrender.com/')</script>";
 
     // Récupération des informations du message pour mise en forme par mail.
         if(!empty($_POST['message'])){
