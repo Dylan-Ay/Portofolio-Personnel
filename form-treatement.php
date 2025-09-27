@@ -1,5 +1,6 @@
 <?php
-    require('php-mailer.php');
+    require __DIR__ . '/vendor/autoload.php';
+    use SendGrid\Mail\Mail;
 
     // Si conditions remplies le mail est envoyé, sinon afficher une erreur
     if ($_SERVER["REQUEST_METHOD"] === "POST"){
@@ -16,10 +17,10 @@
         if(!empty($_POST['message'])){
             $message = 
             '<p>
-                <b>Nom : </b>' . $_POST['name'] . '<br>
-                <b>Téléphone : </b>' . $_POST['phone'] . '<br>
-                <b>Email : </b>' . $_POST['email'] . '<br>
-                <b>Message : </b> <p>' . $_POST['message'] . 
+                <b>Nom : </b>' . htmlspecialchars($_POST['name']) . '<br>
+                <b>Téléphone : </b>' . htmlspecialchars($_POST['phone']) . '<br>
+                <b>Email : </b>' . htmlspecialchars($_POST['email']) . '<br>
+                <b>Message : </b> <p>' . nl2br(htmlspecialchars($_POST['message'])) . 
             '</p></p>';
         } else {
             $error = '<p class="red almost-bold mt-2">Veuillez remplir tous les champs requis.</p>';
@@ -36,25 +37,24 @@
         // Sinon Si les champs name, email et messages ne sont pas vides afficher une alerte message envoyé.
         } else if ( !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["message"]) && (empty($_POST['website'])) ){
             try {
-            // Adresse validée par SendGrid
-            $mail->setFrom('dylan.developpeur@gmail.com', 'Portfolio');
+            $emailSendGrid = new Mail();
+            
+            $emailSendGrid->setFrom('dylan.developpeur@gmail.com', 'Portfolio');
+            $emailSendGrid->setSubject("Message provenant du Portfolio de la part de $email");
+            $emailSendGrid->addTo("dylan.developpeur@gmail.com", "Dylan");
+            $emailSendGrid->setReplyTo($email, $name);
+            $emailSendGrid->addContent("text/mail", $message);
+            
+            $sendgrid = new \SendGrid(getenv('SENDGRID_API_KEY'));
+            $response = $sendgrid->send($emailSendGrid);
 
-            // Destinataire
-            $mail->addReplyTo($email, $name);
-
-            // Adresse où je reçois le mail
-            $mail->addAddress('dylan.developpeur@gmail.com');
-
-            // Contenu
-            $mail->isHTML(true);
-            $mail->Subject = 'Message provenant du PortFolio de la part de '. $_POST['email'];
-            $mail->CharSet = "UTF-8";
-            $mail->Body    = $message;
-
-            $mail->send();
-            echo '<script>alert("Votre message a bien été envoyé, je vous répondrai sous peu 😊.")</script>';
+            if ($response->statusCode() >= 200 && $response->statusCode() < 300) {
+                echo '<script>alert("Votre message a bien été envoyé, je vous répondrai sous peu 😊.")</script>';
+            } else {
+                $error = "Message non envoyé. Erreur SendGrid: " . $response->statusCode();
+            }
             } catch (Exception $e) {
-                $error = "Message non envoyé. Erreur: {$mail->ErrorInfo}";
+                $error = "Message non envoyé. Exception SendGrid: " . $e->getMessage();
             }
         }
     }
