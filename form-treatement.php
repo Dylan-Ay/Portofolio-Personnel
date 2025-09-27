@@ -15,13 +15,12 @@
 
     // Récupération des informations du message pour mise en forme par mail.
         if(!empty($_POST['message'])){
-            $message = 
-            '<p>
-                <b>Nom : </b>' . htmlspecialchars($_POST['name']) . '<br>
-                <b>Téléphone : </b>' . htmlspecialchars($_POST['phone']) . '<br>
-                <b>Email : </b>' . htmlspecialchars($_POST['email']) . '<br>
-                <b>Message : </b> <p>' . nl2br(htmlspecialchars($_POST['message'])) . 
-            '</p></p>';
+            $message = '
+            <p><b>Nom :</b> ' . htmlspecialchars($_POST['name']) . '</p>
+            <p><b>Téléphone :</b> ' . htmlspecialchars($_POST['phone']) . '</p>
+            <p><b>Email :</b> ' . htmlspecialchars($_POST['email']) . '</p>
+            <p><b>Message :</b><br>' . nl2br(htmlspecialchars($_POST['message'])) . '</p>
+            ';
         } else {
             $error = '<p class="red almost-bold mt-2">Veuillez remplir tous les champs requis.</p>';
         }
@@ -43,7 +42,8 @@
             $emailSendGrid->setSubject("Message provenant du Portfolio de la part de $email");
             $emailSendGrid->addTo("dylan.developpeur@gmail.com", "Dylan");
             $emailSendGrid->setReplyTo($email, $name);
-            $emailSendGrid->addContent("text/mail", $message);
+            $emailSendGrid->addContent("text/plain", strip_tags($message));
+            $email->addContent("text/html", $message);
             
             $sendgrid = new \SendGrid(getenv('SENDGRID_API_KEY'));
             $response = $sendgrid->send($emailSendGrid);
