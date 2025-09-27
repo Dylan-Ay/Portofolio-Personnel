@@ -36,8 +36,13 @@
         // Sinon Si les champs name, email et messages ne sont pas vides afficher une alerte message envoyé.
         } else if ( !empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["message"]) && (empty($_POST['website'])) ){
             try {
+            // Adresse validée par SendGrid
+            $mail->setFrom('dylan.developpeur@gmail.com', 'Portfolio');
+
             // Destinataire
-            $mail->setFrom($email, $name);
+            $mail->addReplyTo($email, $name);
+
+            // Adresse où je reçois le mail
             $mail->addAddress('dylan.developpeur@gmail.com');
 
             // Contenu
