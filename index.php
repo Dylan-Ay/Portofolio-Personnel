@@ -50,7 +50,7 @@
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse navigation justify-content-end" id="navbarTogglerDemo02">
-							<ul class="navbar-nav animation-nav col-12 col-xl-auto justify-content-evenly justify-content-xl-end align-items-center align-items-lg-start">
+							<ul class="navbar-nav col-12 col-xl-auto justify-content-evenly justify-content-xl-end align-items-center align-items-lg-start">
 								<li class="nav-item mx-xl-3">
 									<a class="nav-link simple-link" href="#introduction">Accueil</a>
 								</li>
