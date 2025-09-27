@@ -94,7 +94,7 @@
 							</div>
 							<div class="animation-introduction-4">
 								<p class="text-center text-lg-start mt-4 margin-contact">
-									<a class="px-4 py-3 btn-contact" href="#Contact">Contactez-moi</a>
+									<a class="px-4 py-3 btn-contact" href="#contact">Contactez-moi</a>
 								</p>
 							</div>
 						</div>

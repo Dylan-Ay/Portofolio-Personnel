@@ -16,10 +16,10 @@
     // Récupération des informations du message pour mise en forme par mail.
         if(!empty($_POST['message'])){
             $message = '
-            <p><b>Nom :' . htmlspecialchars($_POST['name']) . '</p>
-            <p><b>Téléphone :' . htmlspecialchars($_POST['phone']) . '</p>
-            <p><b>Email :' . htmlspecialchars($_POST['email']) . '</p>
-            <p><b>Message :</b><br>' . nl2br(htmlspecialchars($_POST['message'])) . '</p>
+            <p><b>Nom : </b>' . htmlspecialchars($_POST['name']) . '</p>
+            <p><b>Téléphone : </b>' . htmlspecialchars($_POST['phone']) . '</p>
+            <p><b>Expéditeur : </b>' . htmlspecialchars($_POST['email']) . '</p>
+            <p><b>Message :</b><br> ' . nl2br(htmlspecialchars($_POST['message'])) . '</p>
             ';
         } else {
             $error = '<p class="red almost-bold mt-2">Veuillez remplir tous les champs requis.</p>';
