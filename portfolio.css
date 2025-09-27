@@ -5,10 +5,6 @@
 /* <------- Buttons -------> */
 /* <------- Hover nav-bar ------->*/
 /* <------- General settings ------->*/
-.nav-hidden {
-  display: none;
-}
-
 .zoomin {
   transition: transform 0.4s;
 }
@@ -268,9 +264,6 @@ h1 {
   right: 0;
   left: 0;
   z-index: 1;
-}
-#menu .nav-item {
-  z-index: 100;
 }
 #menu img {
   height: 95px;

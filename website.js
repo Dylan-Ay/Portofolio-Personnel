@@ -130,15 +130,15 @@ window.addEventListener('scroll', () => {
   const currentScroll = window.scrollY;
 
     if (currentScroll <= 0) {
-      navBar.classList.remove('nav-hidden');
+      navBar.classList.remove('d-none');
       lastScroll = 0;
       return;
     }
 
     if (currentScroll > lastScroll) {
-        navBar.classList.add('nav-hidden');
+        navBar.classList.add('d-none');
     } else {
-        navBar.classList.remove('nav-hidden');
+        navBar.classList.remove('d-none');
     }
 
     lastScroll = currentScroll;
