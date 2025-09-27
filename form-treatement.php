@@ -50,6 +50,7 @@
 
             if ($response->statusCode() >= 200 && $response->statusCode() < 300) {
                 echo '<script>alert("Votre message a bien été envoyé, je vous répondrai sous peu 😊.")</script>';
+                echo $redirectToContactForm;
             } else {
                 $error = "Message non envoyé. Erreur SendGrid: " . $response->statusCode();
                 echo $redirectToContactForm;

@@ -37,7 +37,6 @@
 		<title>Dylan Ayache - Développeur Fullstack - Portfolio</title>
 	</head> 
 	<body>
-		<!------------ Including PHP for contact section ------------>
 		<?php include('form-treatement.php');?>
 		<header>
 			<div id="menu" class="animation-nav">

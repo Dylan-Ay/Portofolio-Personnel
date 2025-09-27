@@ -5,6 +5,10 @@
 /* <------- Buttons -------> */
 /* <------- Hover nav-bar ------->*/
 /* <------- General settings ------->*/
+.nav-hidden {
+  display: none;
+}
+
 .zoomin {
   transition: transform 0.4s;
 }
