@@ -174,7 +174,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 .btn-contact:hover {
-  box-shadow: inset -10.5em 0 0 0 #FFFFFF;
+  box-shadow: inset 11em 0px 0 0 #FFFFFF;
   color: #3b3735;
 }
 @media screen and (max-width: 425px) {

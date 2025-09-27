@@ -44,7 +44,7 @@ $skills-card-bs: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0
     font-family: $secondary_font;
 }
 @mixin button-hover-introduction{
-    box-shadow: inset -10.5em 0 0 0 #FFFFFF;
+    box-shadow: inset 11em 0px 0 0 #FFFFFF;
     color: $primary-text-color;
     @media screen and  (max-width: 425px){
         box-shadow: none;
