@@ -16,9 +16,9 @@
     // Récupération des informations du message pour mise en forme par mail.
         if(!empty($_POST['message'])){
             $message = '
-            <p><b>Nom :</b> ' . htmlspecialchars($_POST['name']) . '</p>
-            <p><b>Téléphone :</b> ' . htmlspecialchars($_POST['phone']) . '</p>
-            <p><b>Email :</b> ' . htmlspecialchars($_POST['email']) . '</p>
+            <p><b>Nom :' . htmlspecialchars($_POST['name']) . '</p>
+            <p><b>Téléphone :' . htmlspecialchars($_POST['phone']) . '</p>
+            <p><b>Email :' . htmlspecialchars($_POST['email']) . '</p>
             <p><b>Message :</b><br>' . nl2br(htmlspecialchars($_POST['message'])) . '</p>
             ';
         } else {
