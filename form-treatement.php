@@ -43,7 +43,7 @@
             $emailSendGrid->addTo("dylan.developpeur@gmail.com", "Dylan");
             $emailSendGrid->setReplyTo($email, $name);
             $emailSendGrid->addContent("text/plain", strip_tags($message));
-            $email->addContent("text/html", $message);
+            $emailSendGrid->addContent("text/html", $message);
             
             $sendgrid = new \SendGrid(getenv('SENDGRID_API_KEY'));
             $response = $sendgrid->send($emailSendGrid);
