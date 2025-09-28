@@ -130,15 +130,17 @@ window.addEventListener('scroll', () => {
   const currentScroll = window.scrollY;
 
     if (currentScroll <= 0) {
-      navBar.classList.remove('d-none');
       lastScroll = 0;
       return;
     }
 
     if (currentScroll > lastScroll) {
-        navBar.classList.add('d-none');
+      navBar.classList.remove('animation-nav-out');
+      navBar.classList.add('animation-nav-in');
+      
     } else {
-        navBar.classList.remove('d-none');
+      navBar.classList.add('animation-nav-out');
+      navBar.classList.remove('animation-nav-in'); 
     }
 
     lastScroll = currentScroll;

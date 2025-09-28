@@ -39,14 +39,14 @@
 	<body>
 		<?php include('form-treatement.php');?>
 		<header>
-			<div id="menu" class="animation-nav">
+			<div id="menu" class="animation-nav-out">
 				<!------------  Navbar ----------->
 				<div class="container ">
 					<nav class="navbar py-0 px-0 navbar-expand-lg">
 						<a href="/">
-							<img src="icones/logo.svg" class="animation-nav" alt="Logo Portfolio Dylan Ayache Développeur Fullstack">
+							<img src="icones/logo.svg" class="animation-nav-out" alt="Logo Portfolio Dylan Ayache Développeur Fullstack">
 						</a>
-						<button class="navbar-toggler animation-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+						<button class="navbar-toggler animation-nav-out" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse navigation justify-content-end" id="navbarTogglerDemo02">
@@ -106,9 +106,11 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">En préparation d'une Licence Profesionnelle à l'UHA de Mulhouse, <span class="bold">  je suis à la recherche d'un stage du 07 Avril au 06 Juillet 2026.</span>
+							<p class="mx-auto ps-2 pe-2">En préparation d'une Licence Profesionnelle en développement informatique à l'UHA de Mulhouse, je suis à la recherche d'un stage du 07 Avril au 06 Juillet 2026. 
+							<br>
+							<span class="semi-bold">Je reste ouvert à toute proposition d'emploi.</span>
 							<br>					
-							En parallèle je suis disponible pour réaliser vos projets, n'hésitez pas à me contacter.
+							Je suis également disponible pour réaliser vos projets, n'hésitez pas à me contacter 😊.
 							</p>
 							
 							<div class="card-footer pt-4 pb-3"></div>
@@ -142,7 +144,7 @@
 									<p>En 2021 je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
 									donné envie de redécouvrir le Développement Informatique.</p>  
 
-									<p>J'ai obtenu un titre profesionnel de Développeur Web et Web Mobile en 2022 (Bac+2), à la suite de cela <span class="semi-bold">j'ai travaillé comme Développeur Fullstack de Mars 2023 à Septembre 2024 chez un média.</span></p>
+									<p>J'ai obtenu un titre profesionnel de Développeur Web et Web Mobile en 2022 (Bac+2), à la suite de cela <span class="semi-bold">j'ai travaillé comme Développeur Fullstack de Mars 2023 à Septembre 2024 chez un média.</span> Je code depuis fin 2021.</p>
 
 									<p>Aujourd'hui je poursuis ma montée en compétences en licence professionnelle et je continue de me perfectionner et de mettre en oeuvre mes capacités à travers des 
 										<a href="#works" class="semi-bold simple-link codecademy">projets personnels.</a>
@@ -196,6 +198,12 @@
 										</a>
 									</div>
 									<div class="skill-card rounded-3 zoomin">
+										<a href="https://nextjs.org/" target="_blank">
+											<img src="/icones/skills/nextjs-logo.svg" alt="logo next">
+											Next
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
 										<a href="https://tailwindcss.com/" target="_blank">
 											<img src="/icones/skills/tailwind-logo.svg" alt="logo tailwind">
 											Tailwind
@@ -223,12 +231,6 @@
 										<a href="https://jquery.com/" target="_blank">
 											<img src="/icones/skills/jquery-logo.svg" alt="logo jquery">
 											jQuery
-										</a>
-									</div>
-									<div class="skill-card rounded-3 zoomin">
-										<a href="https://nextjs.org/" target="_blank">
-											<img src="/icones/skills/nextjs-logo.svg" alt="logo next">
-											Next
 										</a>
 									</div>
 									<div class="skill-card rounded-3 zoomin">
@@ -317,6 +319,12 @@
 									<a href="https://render.com/" target="_blank">
 										<img src="/icones/skills/render-logo.svg" alt="logo render">
 										Render
+									</a>
+								</div>
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://www.cypress.io/" target="_blank">
+										<img src="/icones/skills/cypress-logo.svg" alt="logo cypress.io">
+										Cypress
 									</a>
 								</div>
 								<div class="skill-card rounded-3 zoomin">
