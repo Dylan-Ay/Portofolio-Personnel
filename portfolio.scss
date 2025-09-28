@@ -644,6 +644,11 @@ h1{
         }
     }
     & .description-fiches-films{
+        @media screen and (min-width: 768px) {
+            max-height: 650px;
+        }
+        max-height: 580px;
+        overflow: auto;
         @include description-works();
         margin-top: 7%;
         @media (max-width: 991.5px){

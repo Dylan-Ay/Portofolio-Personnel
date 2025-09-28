@@ -354,13 +354,95 @@
 			<section id="works">
 				<div class="container-fluid">
 					<div class="container  py-5">
-						<!------------ App-Centre de formation ----------->
+						<!------------ App E-commerce ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5">
 						<h2 class="position-relative bold">Mes Réalisations</h2>
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-fiches-films px-4 py-4 text-lg-start">
+									<h4 class="almost-bold">App Ecommerce</h4>
+									<p>Projet personnel, c'est un site Ecommerce réalisé avec Symfony 6.</p>
+									<p>Le projet comporte les fonctionnalités clés d'un site de vente en ligne avec une architecture MVC. Les fonctionnalités sont : </p>
+									<ul class="d-flex gap-3 flex-column">
+										<li>
+											Une page affiche dynamiquement une liste de produits selon leurs catégories, leurs créateurs, ainsi qu'une page dédiée aux nouveautés et aux promotions. Un système de pagination est intégré avec <a href="https://github.com/KnpLabs/KnpPaginatorBundle" target="_blank"><strong>KnpPaginator</strong></a>
+										</li>
+										<li>
+											Une page affiche dynamiquement les détails d'un produit, où l'utilisateur peut ajouter le produit à son panier en sélectionnant une taille et une quantité valide. Il existe également une option pour ajouter le produit aux favoris, avec une requête 
+											<a href="https://developer.mozilla.org/fr/docs/Glossary/AJAX" target="_blank"><strong>AJAX</strong></a> afin d'améliorer l'expérience utilisateur (UX)
+										</li>
+										<li>
+											Authentification et inscription des utilisateurs, avec l'utilisation d'une regex pour le mot de passe suivant les recommandations de l'<a href="https://owasp.org/" target="_blank"><strong>OWASP</strong></a>, et un champ « honeypot » pour prévenir les attaques automatisées de type bot. Un e-mail est envoyé à l'utilisateur pour confirmer son compte
+										</li>
+										<li>
+											Accès à différentes pages de compte utilisateur pour le suivi des commandes, la modification des informations personnelles ou la gestion des adresses
+										</li>
+										<li>
+											Un système de panier est implémenté, permettant aux utilisateurs d'ajouter, supprimer ou gérer les quantités de produits avant de valider leur commande. Toutes les interactions se font via des requêtes AJAX pour améliorer l'UX
+										</li>
+										<li>
+											Un système de paiement est implémenté, permettant à l'utilisateur de choisir une adresse de livraison et de facturation existante ou d'en créer une nouvelle, de sélectionner un mode de paiement, et de visualiser un récapitulatif des produits avant de confirmer l'achat
+										</li>
+										<li>
+											Une fois la commande confirmée, une page de succès s'affiche et une confirmation de commande est envoyée par e-mail
+										</li>
+										<li>
+											Plusieurs vulnérabilités sont prises en compte, notamment SQL Injection, CSRF et XSS. Des vérifications supplémentaires redirigent vers une page 404 si un utilisateur n'est pas autorisé à effectuer une action ou à accéder à un contenu donné
+										</li>
+										<li>
+											Une barre de recherche permet de chercher par créateur, catégorie, nom de produit, ou une combinaison de deux mots-clés
+										</li>
+										<li>
+											Un tableau de bord d'administration permet au propriétaire du site de gérer librement les produits, les utilisateurs, le stock, les tailles, les variantes disponibles, etc
+										</li>
+										<li>
+											Le projet est entièrement responsive
+										</li>
+									</ul>
+									<p class="semi-bold text-end">Janvier 2023 à aujourd'hui</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/App-Ecommerce-Symfony-6-Showcase" target="_blank">
+										<img src="icones/github.svg" alt="icon github" class="me-2">
+									</a>
+									<a href="https://app-ecommerce-symfony-6.onrender.com/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icon link">
+									</a>
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+								<img src="images/app-ecommerce.png" alt="photo projet app e-commerce" class="works-preview-left mt-4 img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start">
+									<li>
+										<img src="icones/skills/symfony-logo.svg" alt="icone symfony" class="dev-icon mx-3">
+									</li>
+									<li>
+										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
+									</li>
+									<li>
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+									</li>
+									<li>
+										<img src="icones/icon-jquery.svg" alt="icone jquery" class="dev-icon me-4" style="width: 75px;">
+									</li>
+									<li>
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
+									</li>
+									<li>
+										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon me-4 sql-icon">
+									</li>
+									<li>
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!------------ App-Centre de formation ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
+								<div class="description-fiches-films px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">App Centre de Formation</h4>
-									<p>Projet de formation, c'est un intranet de gestion de tâches administratives d'un centre de formation.</p>
+									<p>Projet de formation, c'est un intranet de gestion de tâches administratives d'un centre de formation réalisé en Symfony 5.</p>
 									<p>Le projet permet à un centre de formation de gérer les stagiaires inscrits et les sessions de formations. Les fonctionalités sont :</p>
 
 									<ul class="d-flex gap-3 flex-column">
@@ -386,7 +468,7 @@
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
 									<li>
-										<img src="icones/symfony-icon.svg" alt="icone symfony" class="dev-icon mx-3">
+										<img src="icones/skills/symfony-logo.svg" alt="icone symfony" class="dev-icon mx-3">
 									</li>
 									<li>
 										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
@@ -405,7 +487,7 @@
 						</div>
 						<!------------ App Forum ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
-							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-sneakers px-4 py-4">
 									<h4 class="almost-bold">App Forum</h4>
 									<p>Projet de formation, c'est un Forum de discussion.</p>
@@ -453,7 +535,7 @@
 						</div>
 						<!------------ Fiches-Films ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5 row-border-top">
-							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
 								<div class="description-fiches-films px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">Fiches Films</h4>
 									<p>Projet de formation, c'est un projet regroupant divers informations sur le Cinéma.</p>
@@ -489,47 +571,8 @@
 								</ul>
 							</div>
 						</div>
-
-						<!------------ E-commerce Sneakers ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
-							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
-								<div class="description-sneakers px-4 py-4">
-									<h4 class="almost-bold">Sneakers</h4>
-									<p>Projet Personnel, c'est un projet E-commerce qui est en pause.</p>
-									<p>A ce jour le projet contient la création, la suppresion et la connexion de compte d'un utilisateur. Ainsi que la gestion d'un produit dans le panier. L'affichage d'un produit en détail et de la liste des produits. Il est réalisé en PHP POO avec une base de données crée via phpMyAdmin et une architecture MVC. La faille XSS, l'injection SQL ainsi que l'anti-spam sur les formulaires sont gérés sur ce projet.</p>
-									<p class="semi-bold text-end">Avril 2022</p>
-								</div>
-								<div class="git-link me-3 mt-2 text-end">
-									<a href="https://github.com/Dylan-Ay/App-Ecommerce" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-										<img src="icones/extern-link.svg" alt="icon link">
-								</div>
-							</div>	
-							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/sneakers.jpg" alt="photo projet Le-commerce" class="works-preview-right mt-4 img-fluid">
-								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
-									<li>
-										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
-									</li>
-									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon mx-4">
-									</li>
-									<li>
-										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
-									</li>
-									<li>
-										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
-									</li>
-									<li>
-										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon me-4 sql-icon">
-									</li>
-								</ul>
-							</div>
-						</div>
 						<!------------ Gallery JS Vanilla ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top show-more">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-imc px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">Galerie Photo</h4>
@@ -563,7 +606,7 @@
 							</div>
 						</div>
 						<!------------ Calculateur Tip ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-border-top pb-5">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-border-top pb-5 show-more">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
 								<div class="description-imc px-4 py-4">
 									<h4 class="almost-bold">Calculateur de tip</h4>
