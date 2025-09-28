@@ -125,9 +125,13 @@ btnShowMore.addEventListener('click', displayContent);
 //******************************************************
 const navBar = document.querySelector('#menu');
 let lastScroll = 0;
+let scrollTimeout;
 
 window.addEventListener('scroll', () => {
-  const currentScroll = window.scrollY;
+  clearTimeout(scrollTimeout);
+
+  scrollTimeout = setTimeout(() => {
+    const currentScroll = window.scrollY;
 
     if (currentScroll <= 0) {
       lastScroll = 0;
@@ -137,11 +141,11 @@ window.addEventListener('scroll', () => {
     if (currentScroll > lastScroll) {
       navBar.classList.remove('animation-nav-out');
       navBar.classList.add('animation-nav-in');
-      
     } else {
       navBar.classList.add('animation-nav-out');
       navBar.classList.remove('animation-nav-in'); 
     }
 
     lastScroll = currentScroll;
-})
+  }, 100)
+});

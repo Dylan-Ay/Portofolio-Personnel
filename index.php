@@ -354,7 +354,7 @@
 			<section id="works">
 				<div class="container-fluid">
 					<div class="container  py-5">
-						<!------------ App-Entreprise ----------->
+						<!------------ App-Centre de formation ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5">
 						<h2 class="position-relative bold">Mes Réalisations</h2>
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
