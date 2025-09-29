@@ -376,7 +376,7 @@ h1{
     & img{
         height: 95px;
         @media screen and (max-width: 768px){
-            height: 80px;
+            height: 60px;
         }
     }
 
@@ -387,6 +387,13 @@ h1{
         background-color: #FFFFFF;
         border-radius: $border-radius-button;
         height: 56px;
+        @media screen and (max-width: 768px){
+            height: unset;
+            padding: 7px;
+        }
+        & :focus, &:hover{
+            box-shadow: none;
+        }
     }
     & .navbar .navbar-toggler-icon {
         background-image: url(icones/burger.svg);
@@ -411,6 +418,9 @@ h1{
     }
     & .row-intro-mt{
         margin-top: 145px;
+        @media screen and (max-width: 768px){
+            margin-top: 90px;
+        }
     }
     & .illustration-welcome-desktop{
         @media (max-width: 991px) {
