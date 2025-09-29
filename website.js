@@ -129,14 +129,16 @@ let scrollTimeout;
 
 window.addEventListener('scroll', () => {
   clearTimeout(scrollTimeout);
+  const currentScroll = window.scrollY;
+
+  if (currentScroll <= 0) {
+    lastScroll = 0;
+    navBar.classList.add('animation-nav-out');
+    navBar.classList.remove('animation-nav-in'); 
+    return;
+  }
 
   scrollTimeout = setTimeout(() => {
-    const currentScroll = window.scrollY;
-
-    if (currentScroll <= 0) {
-      lastScroll = 0;
-      return;
-    }
 
     if (currentScroll > lastScroll) {
       navBar.classList.remove('animation-nav-out');
@@ -147,5 +149,5 @@ window.addEventListener('scroll', () => {
     }
 
     lastScroll = currentScroll;
-  }, 100)
+  }, 50)
 });
