@@ -158,10 +158,10 @@
 											<img src="icones/linkedin.svg" class="linkedin-icon" alt="linkedin dylan ayache">
 										</a>
 										<a href="#contact">
-											<img src="icones/mail.svg" class="mail-icon" alt="icon mail">
+											<img src="icones/mail.svg" class="mail-icon" alt="icone mail">
 										</a>
 										<a href="https://github.com/Dylan-Ay" target="_blank">
-											<img src="icones/github.svg" class="git-link" alt="icon github">
+											<img src="icones/github.svg" class="git-link" alt="icone github">
 										</a>
 									</div>
 								</div>
@@ -374,25 +374,25 @@
 											Authentification et inscription des utilisateurs, avec l'utilisation d'une regex pour le mot de passe suivant les recommandations de l'<a href="https://owasp.org/" target="_blank"><strong>OWASP</strong></a>, et un champ « honeypot » pour prévenir les attaques automatisées de type bot. Un e-mail est envoyé à l'utilisateur pour confirmer son compte
 										</li>
 										<li>
-											Accès à différentes pages de compte utilisateur pour le suivi des commandes, la modification des informations personnelles ou la gestion des adresses
+											Accès à différentes pages de compte utilisateur pour le suivi des commandes, la modification des informations personnelles et la gestion des adresses
 										</li>
 										<li>
 											Un système de panier est implémenté, permettant aux utilisateurs d'ajouter, supprimer ou gérer les quantités de produits avant de valider leur commande. Toutes les interactions se font via des requêtes AJAX pour améliorer l'UX
 										</li>
 										<li>
-											Un système de paiement est implémenté, permettant à l'utilisateur de choisir une adresse de livraison et de facturation existante ou d'en créer une nouvelle, de sélectionner un mode de paiement, et de visualiser un récapitulatif des produits avant de confirmer l'achat
+											Un système de paiement est implémenté, permettant à l'utilisateur de choisir une adresse de livraison et de facturation existante ou d'en créer une nouvelle, de sélectionner un mode de paiement, et de visualiser un récapitulatif des produits avant de confirmer l'achat. La logique est en place, à l'avenir un module Stripe sera ajouté
 										</li>
 										<li>
 											Une fois la commande confirmée, une page de succès s'affiche et une confirmation de commande est envoyée par e-mail
 										</li>
 										<li>
-											Plusieurs vulnérabilités sont prises en compte, notamment SQL Injection, CSRF et XSS. Des vérifications supplémentaires redirigent vers une page 404 si un utilisateur n'est pas autorisé à effectuer une action ou à accéder à un contenu donné
+											Plusieurs vulnérabilités sont prises en compte, notamment l'injection SQL, le CSRF et le XSS. Des vérifications supplémentaires redirigent vers une page 404 si un utilisateur n'est pas autorisé à effectuer une action ou à accéder à un contenu donné
 										</li>
 										<li>
 											Une barre de recherche permet de chercher par créateur, catégorie, nom de produit, ou une combinaison de deux mots-clés
 										</li>
 										<li>
-											Un tableau de bord d'administration permet au propriétaire du site de gérer librement les produits, les utilisateurs, le stock, les tailles, les variantes disponibles, etc
+											Un back-office complet permet au propriétaire du site de gérer librement les produits, les utilisateurs, le stock, les tailles, les variantes disponibles, le statut des commandes, celui-ci est implémenté via <a href="https://github.com/EasyCorp/EasyAdminBundle" target="_blank"><strong>EasyAdminBundle</strong></a>
 										</li>
 										<li>
 											Le projet est entièrement responsive
@@ -402,10 +402,10 @@
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/App-Ecommerce-Symfony-6-Showcase" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
+										<img src="icones/github.svg" alt="icone github" class="me-2">
 									</a>
 									<a href="https://app-ecommerce-symfony-6.onrender.com/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
+										<img src="icones/extern-link.svg" alt="icone link">
 									</a>
 								</div>
 							</div>	
@@ -442,7 +442,7 @@
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
 								<div class="description-fiches-films px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">App Centre de Formation</h4>
-									<p>Projet de formation, c'est un intranet de gestion de tâches administratives d'un centre de formation réalisé en Symfony 5.</p>
+									<p>Projet de formation, c'est un intranet de gestion de tâches administratives d'un centre de formation réalisé avec Symfony 5.</p>
 									<p>Le projet permet à un centre de formation de gérer les stagiaires inscrits et les sessions de formations. Les fonctionalités sont :</p>
 
 									<ul class="d-flex gap-3 flex-column">
@@ -458,13 +458,12 @@
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/App-Symfony-Gestion-Centre-de-Formation" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
+										<img src="icones/github.svg" alt="icone github">
 									</a>
-										<img src="icones/extern-link.svg" alt="icon link">
 								</div>
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/app-centre-formation.jpg" alt="photo projet fiches-films" class="works-preview-left mt-4 img-fluid">
+								<img src="images/app-centre-formation.jpg" alt="photo projet fiches-films" class="works-preview-right mt-4 img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
 									<li>
@@ -506,13 +505,12 @@
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/App-Forum" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
+										<img src="icones/github.svg" alt="icone github">
 									</a>
-										<img src="icones/extern-link.svg" alt="icon link">
 								</div>
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/app-forum.jpg" alt="photo projet Le-commerce" class="works-preview-right mt-4 img-fluid">
+								<img src="images/app-forum.jpg" alt="photo projet Le-commerce" class="works-preview-left mt-4 img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
 									<li>
@@ -544,13 +542,12 @@
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/App-Fiches-films" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
+										<img src="icones/github.svg" alt="icone github">
 									</a>
-										<img src="icones/extern-link.svg" alt="icon link">
 								</div>
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/fiches-films.jpg" alt="photo projet fiches-films" class="works-preview-left mt-4 img-fluid">
+								<img src="images/fiches-films.jpg" alt="photo projet fiches-films" class="works-preview-right mt-4 img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start">
 									<li>
@@ -582,10 +579,7 @@
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/Gallery" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-									<a href="https://pictures-gallery-js.netlify.app/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
+										<img src="icones/github.svg" alt="icone github">
 									</a>
 								</div>
 							</div>	
@@ -616,10 +610,7 @@
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/Tip-calculator-app-Front-end-Mentor" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-									<a href="https://tip-calculator-frontend-mentor-challenge.netlify.app/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
+										<img src="icones/github.svg" alt="icone github" class="me-2">
 									</a>
 								</div>
 							</div>	
@@ -653,10 +644,7 @@
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/Blogr-landing-page-Front-end-Mentor" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-									<a href="https://landing-page-frontend-mentor-challenge.netlify.app/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
+										<img src="icones/github.svg" alt="icone github">
 									</a>
 								</div>
 							</div>	
@@ -715,10 +703,7 @@
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/Plus-ou-moins" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-									<a href="https://jeu-plus-ou-moins.netlify.app/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
+										<img src="icones/github.svg" alt="icone github">
 									</a>
 								</div>
 							</div>
@@ -752,10 +737,7 @@
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/Calculateur-IMC" target="_blank">
-										<img src="icones/github.svg" alt="icon github" class="me-2">
-									</a>
-									<a href="https://calculateur-imc.go.yo.fr/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
+										<img src="icones/github.svg" alt="icone github">
 									</a>
 								</div>
 							</div>
@@ -798,10 +780,7 @@
 								</div>
 								<div class="git-link me-3 mt-2 text-end">
 									<a href="https://github.com/Dylan-Ay/Univers-Running" target="_blank">
-										<img src="icones/github.svg" alt="github dylan ayache" class="me-2">
-									</a>
-									<a href="https://univers-running.go.yj.fr/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icon link">
+										<img src="icones/github.svg" alt="icone github">
 									</a>
 								</div>
 							</div>
