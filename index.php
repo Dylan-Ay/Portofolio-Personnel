@@ -840,7 +840,7 @@
 							<form method="post" name="contact-form" action="index.php">
 								<div class="row mt-5 justify-content-center">
 									<div class="col-lg-4 mb-4">
-										<label for="name" class="form-label light-bold">Nom et Prénom <span class="red">*</span></label>
+										<label for="name" class="form-label light-bold">Prénom et Nom<span class="red">*</span></label>
 										<input type="text" name="name" class="form-control py-3" id="name" required>
 									</div>
 									<div class="col-lg-4">

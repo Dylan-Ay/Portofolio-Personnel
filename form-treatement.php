@@ -38,7 +38,7 @@
             try {
             $emailSendGrid = new Mail();
             
-            $emailSendGrid->setFrom('dylan.developpeur@gmail.com', 'Portfolio de Dylan Ayache');
+            $emailSendGrid->setFrom('dylan.developpeur@gmail.com', 'Dylan Ayache - Portfolio');
             $emailSendGrid->setSubject("Message provenant du Portfolio de la part de $email");
             $emailSendGrid->addTo("dylan.developpeur@gmail.com", "Dylan");
             $emailSendGrid->setReplyTo($email, $name);
