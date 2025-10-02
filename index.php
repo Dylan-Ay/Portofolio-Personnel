@@ -412,27 +412,24 @@
 							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/app-ecommerce.png" alt="photo projet app e-commerce" class="works-preview-left mt-4 img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
-										<img src="icones/skills/symfony-logo.svg" alt="icone symfony" class="dev-icon mx-3">
+										<img src="icones/skills/symfony-logo.svg" alt="icone symfony" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon">
 									</li>
 									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon sql-icon">
 									</li>
 									<li>
-										<img src="icones/icon-jquery.svg" alt="icone jquery" class="dev-icon me-4" style="width: 75px;">
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
+										<img src="icones/icon-jquery.svg" alt="icone jquery" class="dev-icon" style="width: 75px;">
 									</li>
 									<li>
-										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon me-4 sql-icon">
-									</li>
-									<li>
-										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon sass-icon">
 									</li>
 								</ul>
 							</div>
@@ -465,21 +462,18 @@
 							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/app-centre-formation.jpg" alt="photo projet fiches-films" class="works-preview-right mt-4 img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
-										<img src="icones/skills/symfony-logo.svg" alt="icone symfony" class="dev-icon mx-3">
+										<img src="icones/skills/symfony-logo.svg" alt="icone symfony" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon">
 									</li>
 									<li>
-										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
+										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon sql-icon">
 									</li>
 									<li>
-										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon me-4 sql-icon">
-									</li>
-									<li>
-										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon sass-icon">
 									</li>
 								</ul>
 							</div>
@@ -512,21 +506,18 @@
 							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/app-forum.jpg" alt="photo projet Le-commerce" class="works-preview-left mt-4 img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
-										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon">
 									</li>
 									<li>
-										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 mx-3">
+										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon php-icon">
 									</li>
 									<li>
-										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
+										<img src="icones/icon-sql.svg" alt="icone mysql" class=" dev-icon sql-icon">
 									</li>
 									<li>
-										<img src="icones/icon-sql.svg" alt="icone mysql" class=" dev-icon me-4 sql-icon">
-									</li>
-									<li>
-										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon sass-icon">
 									</li>
 								</ul>
 							</div>
@@ -549,21 +540,21 @@
 							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/fiches-films.jpg" alt="photo projet fiches-films" class="works-preview-right mt-4 img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
 										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon mx-4">
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon mt-2 me-3">
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon">
 									</li>
 									<li>
-										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
+										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon php-icon">
 									</li>
 									<li>
-										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon me-4 sql-icon">
+										<img src="icones/icon-sql.svg" alt="icone mysql" class="dev-icon sql-icon">
 									</li>
 								</ul>
 							</div>
@@ -586,15 +577,15 @@
 							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/gallery.jpg" alt="pictures gallery javascript" class="works-preview-left img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
 										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon">
 									</li>
 								</ul>
 							</div>
@@ -617,18 +608,18 @@
 							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/calculateur-tip.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
 										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon sass-icon">
 									</li>
 								</ul>
 							</div>
@@ -651,21 +642,21 @@
 							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/landing-page.jpg" alt="jeu du plus ou moins" class="works-preview-left img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
 										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon sass-icon">
 									</li>
 									<li>
-										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class=" bootstrap-icon mt-2 me-3">
+										<img src="icones/icon-bootstrap.svg" alt="icone bootstrap" class="bootstrap-icon">
 									</li>
 								</ul>
 							</div>
@@ -675,22 +666,22 @@
 							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<img src="images/plus-ou-moins.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
 										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon me-4">
+										<img src="icones/javascript.svg" alt="icone javascript" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon me-3 mt-2 sass-icon">
+										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon sass-icon">
 									</li>
 									
 									<li>
-										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon me-3 mt-2">
+										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon">
 									</li>
 								</ul>
 							</div>
@@ -713,18 +704,18 @@
 							<div class="col-12 col-md-11 col-lg-6 order-0 order-lg-1 project-image">
 								<img src="images/calculateur-imc.jpg" alt="calculateur imc" class="works-preview-left img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
 										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon mx-4">
+										<img src="icones/css3.svg" alt="icone css 3" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon me-4 php-icon">
+										<img src="icones/skills/php-logo.svg" alt="icone php" class="dev-icon php-icon">
 									</li>
 									<li>
-										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon me-3 mt-2">
+										<img src="icones/icon-xd.svg" alt="icone adobe xd " class="graph-icon">
 									</li>
 								</ul>
 							</div>
@@ -747,7 +738,7 @@
 							<div class="col-12 col-md-11 col-lg-6 project-image">
 										<img src="images/univers-running.png" alt="univers running picture" class="works-preview-right img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
-								<ul class="list-unstyled text-center text-md-start">
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
 										<img src="icones/html5.svg" alt="icone html 5" class="dev-icon">
 									</li>
@@ -850,7 +841,7 @@
 			<div class="container-fluid py-3">
 				<div class="row justify-content-center">
 					<div class="col-lg-2">
-						<ul class="list-unstyled d-flex pt-5 justify-content-center ps-4">
+						<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseliner ps-4">
 							<li>
 								<a href="https://www.linkedin.com/in/dylan-ay/" target="_blank">
 									<img src="icones/linkedin-white.svg" alt="linkedin dylan ayache">

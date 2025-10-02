@@ -551,14 +551,13 @@ h1 {
 }
 #works .dev-icon {
   width: 54px;
-  height: 76px;
 }
 #works .graph-icon {
   width: 61px;
   height: 61px;
 }
 #works .bootstrap-icon {
-  width: 76px;
+  width: 65px;
 }
 #works .git-link img {
   width: 40px;
@@ -580,31 +579,32 @@ h1 {
 }
 #works .php-icon {
   width: 100px;
-  height: 48px;
 }
 #works .sass-icon {
-  width: 84px;
-  height: 63px;
+  width: 80px;
 }
 #works .sql-icon {
   width: 124px;
-  height: 62px;
 }
 #works .works-preview-right {
   border-radius: 15px;
   transition: box-shadow 200ms ease, transform 200ms ease;
-}
-#works .works-preview-right:hover {
   transform: translate(4px, -4px);
   box-shadow: -8px 8px 0 #655f5f;
+}
+#works .works-preview-right:hover {
+  transform: translate(0px, 0px);
+  box-shadow: unset;
 }
 #works .works-preview-left {
   border-radius: 15px;
   transition: box-shadow 200ms ease, transform 200ms ease;
-}
-#works .works-preview-left:hover {
   transform: translate(4px, -4px);
   box-shadow: 8px 8px 0 #655f5f;
+}
+#works .works-preview-left:hover {
+  transform: translate(0px, 0px);
+  box-shadow: unset;
 }
 #works .description-hotel {
   background-color: hsla(0, 0%, 100%, 0.56);

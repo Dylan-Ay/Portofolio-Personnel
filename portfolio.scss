@@ -145,16 +145,20 @@ $skills-card-bs: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0
 }
 @mixin works-preview-right{
     transition: box-shadow 200ms ease,transform 200ms ease;
+    transform: translate(4px, -4px);
+    box-shadow: -8px 8px 0 #655f5f;
     &:hover{
-        transform: translate(4px, -4px);
-        box-shadow: -8px 8px 0 #655f5f;
+        transform: translate(0px, 0px);
+        box-shadow: unset;
     }
 }
 @mixin works-preview-left{
     transition: box-shadow 200ms ease,transform 200ms ease;
+    transform: translate(4px, -4px);
+    box-shadow: 8px 8px 0 #655f5f;
     &:hover{
-        transform: translate(4px, -4px);
-        box-shadow: 8px 8px 0 #655f5f;
+        transform: translate(0px, 0px);
+        box-shadow: unset;
     }
 }
 @mixin btn-back-to-top{
@@ -587,7 +591,6 @@ h1{
 
     & .dev-icon{
         width: 54px;
-        height: 76px;
     }
 
     & .graph-icon{
@@ -595,7 +598,7 @@ h1{
         height: 61px;
     }
     & .bootstrap-icon{
-        width: 76px;
+        width: 65px;
     }
     & .git-link{
         & img{
@@ -621,15 +624,12 @@ h1{
         
     & .php-icon{
         width: 100px;
-        height: 48px;
     }
     & .sass-icon{
-        width: 84px;
-        height: 63px;
+        width: 80px;
     }
     & .sql-icon{
         width: 124px;
-        height: 62px;
     }
     & .works-preview-right{
         border-radius: $border-radius-works;
