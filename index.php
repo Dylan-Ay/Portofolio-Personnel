@@ -357,7 +357,7 @@
 						<!------------ App E-commerce ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5">
 						<h2 class="position-relative bold">Mes Réalisations</h2>
-							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
 								<div class="description-fiches-films px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">App Ecommerce</h4>
 									<p>Projet personnel, c'est un site Ecommerce réalisé avec Symfony 6.</p>
@@ -410,7 +410,7 @@
 								</div>
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/app-ecommerce.png" alt="photo projet app e-commerce" class="works-preview-left mt-4 img-fluid">
+								<img src="images/app-ecommerce.png" alt="photo projet app e-commerce" class="works-preview-right mt-4 img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
@@ -430,6 +430,52 @@
 									</li>
 									<li>
 										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon sass-icon">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!------------ App plantes ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
+								<div class="description-sneakers px-4 py-4">
+									<h4 class="almost-bold">App Plantes</h4>
+									<p>Projet personnel, initiation à React, TypeScript, Next.js et Tailwind.</p>
+									<p>Le projet est un site de plantes, avec un système de filtre et de tri. Il permet d'obtenir des informations détaillées au sujet de plusieurs types de plantes. Les fonctionnalités sont :</p>
+
+									<ul class="d-flex gap-3 flex-column">
+										<li>Liste des plantes sous forme de card en homepage</li>
+										<li>Système de tri par : Récent, Nom et Popularité</li>
+										<li>Système de filtrage par : Catégories, Arrosage et Exposition</li>
+										<li>Détail d'une plante avec : image, description, caractéristiques et un footer récupérant les plantes de la même catégorie</li>
+										<li>Création de plusieurs composants : ActiveFilter, DropdownFilter, Header, LikeButton, PlantCard, PlantDetail, SeeMoreButton et SelectSort</li>
+									</ul>
+									
+									<p class="semi-bold text-end">Juillet 2023</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/plantes-next-js" target="_blank">
+										<img src="icones/github.svg" alt="icone github">
+									</a>
+									<a href="https://plantes-next-js.netlify.app/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icone link">
+									</a>
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+								<img src="images/app-plantes.png" alt="photo projet Le-commerce" class="works-preview-left mt-4 img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
+									<li>
+										<img src="icones/skills/react-logo.svg" alt="icone react" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/typescript-logo.svg" alt="icone typescript" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/nextjs-logo.svg" alt="icone next js" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/tailwind-logo.svg" alt="icone tailwind" class="dev-icon">
 									</li>
 								</ul>
 							</div>
@@ -484,7 +530,7 @@
 								<div class="description-sneakers px-4 py-4">
 									<h4 class="almost-bold">App Forum</h4>
 									<p>Projet de formation, c'est un Forum de discussion.</p>
-									<p class="pb-4">Le projet a été réalisé avec un Framework maison, basé sur Symfony avec un design pattern en MVC. La base de données est en SQL et faite avec phpMyAdmin. Les fonctionalités sont :</p>
+									<p>Le projet a été réalisé avec un Framework maison, basé sur Symfony avec un design pattern en MVC. La base de données est en SQL et faite avec phpMyAdmin. Les fonctionalités sont :</p>
 
 									<ul class="d-flex gap-3 flex-column">
 										<li>Créer un nouveau sujet de discussion dans une catégorie avec un titre et un message</li>
@@ -526,7 +572,7 @@
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5 row-border-top">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
 								<div class="description-fiches-films px-4 py-4 text-lg-start">
-									<h4 class="almost-bold">Fiches Films</h4>
+									<h4 class="almost-bold">App Fiches Films</h4>
 									<p>Projet de formation, c'est un projet regroupant divers informations sur le Cinéma.</p>
 									<p>Le projet contient la création, la suppresion et la modification d'un film. On peut également consulter les listes d'acteurs, de réalisateurs, de films et de genres. Il est réalisé en PHP POO avec une base de données crée via phpMyAdmin et une architecture MVC.</p>
 									<p class="semi-bold text-end">Juin 2022</p>
