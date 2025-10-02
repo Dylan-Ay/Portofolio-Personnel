@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "functions": {
+    "form-treatement.php": {
+      "runtime": "vercel-php@0.6.0"
+    },
+    "index.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    { "src": "/form-treatement.php", "dest": "/form-treatement.php" },
+    { "src": "/index.php", "dest": "/index.php" }
+  ]
+}
