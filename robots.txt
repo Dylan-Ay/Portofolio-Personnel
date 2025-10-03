@@ -1,2 +1,7 @@
 User-agent: *
 Disallow: /cv.pdf
+Disallow: /form-treatment.php
+Disallow: /*.yml$
+Disallow: /*.json$
+Disallow: /*.lock$
+Disallow: /docker/
