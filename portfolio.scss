@@ -379,7 +379,7 @@ h1{
 
     & img{
         height: 95px;
-        @media screen and (max-width: 768px){
+        @media screen and (max-width: 991.5px){
             height: 60px;
         }
     }
@@ -390,12 +390,9 @@ h1{
     & .navbar-toggler{
         background-color: #FFFFFF;
         border-radius: $border-radius-button;
-        height: 56px;
-        @media screen and (max-width: 768px){
-            height: unset;
-            padding: 7px;
-        }
-        & :focus, &:hover{
+        padding: 7px;
+        
+        &:focus, &:hover{
             box-shadow: none;
         }
     }

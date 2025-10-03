@@ -279,7 +279,7 @@ h1 {
 #menu img {
   height: 95px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991.5px) {
   #menu img {
     height: 60px;
   }
@@ -290,15 +290,9 @@ h1 {
 #menu .navbar-toggler {
   background-color: #FFFFFF;
   border-radius: 45px;
-  height: 56px;
+  padding: 7px;
 }
-@media screen and (max-width: 768px) {
-  #menu .navbar-toggler {
-    height: unset;
-    padding: 7px;
-  }
-}
-#menu .navbar-toggler :focus, #menu .navbar-toggler:hover {
+#menu .navbar-toggler:focus, #menu .navbar-toggler:hover {
   box-shadow: none;
 }
 #menu .navbar .navbar-toggler-icon {
