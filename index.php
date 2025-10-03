@@ -335,7 +335,7 @@
 								</div>
 								<div class="skill-card rounded-3 zoomin">
 									<a href="https://www.figma.com/fr-fr/" target="_blank">
-										<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="logo Figma">
+										<img src="icones/skills/figma-logo.svg" alt="logo Figma">
 										Figma
 									</a>
 								</div>
@@ -621,7 +621,7 @@
 								</div>
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/gallery.jpg" alt="pictures gallery javascript" class="works-preview-left img-fluid">
+								<img src="images/gallery.JPG" alt="pictures gallery javascript" class="works-preview-left img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
@@ -652,7 +652,7 @@
 								</div>
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="images/calculateur-tip.jpg" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
+								<img src="images/calculateur-tip.JPG" alt="jeu du plus ou moins" class="works-preview-right img-fluid">
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
