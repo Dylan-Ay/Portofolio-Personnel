@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
 	<head>
+		<title>Dylan Ayache - Développeur Fullstack - Portfolio</title>
+		<link rel="canonical" href="https://dylanayache-portfolio.onrender.com/"/>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,7 +36,6 @@
 		<!-- Personnal CSS -->
 		<link rel="stylesheet" type="text/css" href="portfolio.css">
 		<link rel="icon" href="icones/logo-title.ico" type="image/icon">
-		<title>Dylan Ayache - Développeur Fullstack - Portfolio</title>
 	</head> 
 	<body>
 		<?php include('form-treatement.php');?>
