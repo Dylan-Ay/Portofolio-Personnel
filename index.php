@@ -396,6 +396,9 @@
 											Un back-office complet permet au propriétaire du site de gérer librement les produits, les utilisateurs, le stock, les tailles, les variantes disponibles, le statut des commandes, celui-ci est implémenté via <a href="https://github.com/EasyCorp/EasyAdminBundle" target="_blank"><strong>EasyAdminBundle</strong></a>
 										</li>
 										<li>
+											Utilisation de Docker et du serveur d'applications moderne FrankenPHP
+										</li>
+										<li>
 											Le projet est entièrement responsive
 										</li>
 									</ul>
@@ -431,6 +434,9 @@
 									</li>
 									<li>
 										<img src="icones/icon-sass.svg" alt="icone sass" class="dev-icon sass-icon">
+									</li>
+									<li>
+										<img src="icones/docker-logo-blue.svg" alt="icone docker" class="dev-icon sql-icon">
 									</li>
 								</ul>
 							</div>

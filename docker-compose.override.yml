@@ -1,8 +1,6 @@
 services:
   php:
     ports:
-      - "8081:80"
+      - "8082:80"
     volumes:
       - .:/var/www/html
-    env_file:
-      - .env
