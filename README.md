@@ -3,7 +3,7 @@
 ## The Project
 
 Personnal Portfolio created a few years ago. Last update : September 2025<br><br>
-On this portfolio you will find many informations about who I am, how and why I started to develop applications, my personnal projects etcetera. Enjoy !
+On this portfolio you will find many informations about who I am, how and why I started to develop applications, my personnal projects and what stacks I have been using for now. Enjoy !
 
 **Stacks used :**
 - PHP 8
