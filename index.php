@@ -399,6 +399,9 @@
 											Utilisation de Docker et du serveur d'applications moderne FrankenPHP
 										</li>
 										<li>
+											Utilisation de <a href="https://cloudinary.com/" target="_blank"><strong>Cloudinary</strong></a> pour l'hébergement des images
+										</li>
+										<li>
 											Le projet est entièrement responsive
 										</li>
 									</ul>
