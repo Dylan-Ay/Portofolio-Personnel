@@ -9,13 +9,12 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/html
 
-# Copier uniquement composer.json et composer.lock d'abord
-COPY composer.json composer.lock ./
+# Copier uniquement composer files d'abord pour installer les dépendances
+COPY composer.json composer.lock /var/www/html/
 
-# Installer les dépendances PHP (PHPMailer sera inclus ici)
 RUN composer install --no-dev --optimize-autoloader
 
-# Copier ensuite le reste du projet
+# Puis copier le reste du code
 COPY . /var/www/html
 
 EXPOSE 80
