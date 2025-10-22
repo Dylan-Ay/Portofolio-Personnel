@@ -2,5 +2,3 @@ services:
   php:
     ports:
       - "8082:80"
-    volumes:
-      - .:/var/www/html
