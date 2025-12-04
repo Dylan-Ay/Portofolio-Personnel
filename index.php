@@ -2,7 +2,7 @@
 <html lang="fr-FR">
 	<head>
 		<title>Dylan Ayache - Développeur Fullstack - Portfolio</title>
-		<link rel="canonical" href="https://dylanayache-portfolio.onrender.com/"/>
+		<link rel="canonical" href="https://dylanayache-portfolio.up.railway.app/" />
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,14 +12,14 @@
 		<meta property="og:title" content="Dylan Ayache - Développeur Fullstack - Portfolio" />
 		<meta property="og:description" content="Développeur Fullstack situé à Colmar, Création de Site internet et Application web. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://dylanayache-portfolio.onrender.com/" />
-        <meta property="og:image" content="https://dylanayache-portfolio.onrender.com/images/illustration-welco.svg" />
+        <meta property="og:url" content="https://dylanayache-portfolio.up.railway.app/" />
+        <meta property="og:image" content="https://dylanayache-portfolio.up.railway.app/images/photo-personnelle.svg" />
         <!-- Twitter card tags-->
         <meta name="twitter:card" content="website" />
         <meta name="twitter:site" content="@DylanAy_Dev" />
         <meta name="twitter:title" content="Dylan Ayache - Développeur Fullstack - Portfolio" />
         <meta name="twitter:description" content="Développeur Fullstack situé à Colmar, Création de Site internet et Application web. Je vous invite à découvrir mon Portfolio. A bientôt :-) !" />
-        <meta name="twitter:image" content="https://dylanayache-portfolio.onrender.com/images/illustration-welco.svg" />
+        <meta name="twitter:image" content="https://dylanayache-portfolio.up.railway.app/images/photo-personnelle.svg" />
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEPWV5WQT0"></script>
