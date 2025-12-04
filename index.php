@@ -240,6 +240,18 @@
 											Python
 										</a>
 									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://www.electronjs.org/" target="_blank">
+											<img src="/icones/skills/electron-logo.svg" alt="logo electron.js">
+											Electron.js
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://mellowdevs.medium.com/web-components-using-vanilla-js-f7af00834caa" target="_blank">
+											<img src="/icones/skills/web-components-logo.svg" alt="logo web-components">
+											Web-Components
+										</a>
+									</div>
 								</div>
 								<p class="light-bold-italic mt-5 mb-3">Futures compétences en vue d'acquisition :</p>
 								<div class="d-flex flex-wrap skills-content">
@@ -291,6 +303,12 @@
 											MySQL
 										</a>
 									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://nodejs.org/en" target="_blank">
+											<img src="/icones/skills/node-logo.svg" alt="logo node.js">
+											Node.js
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -320,6 +338,12 @@
 									<a href="https://render.com/" target="_blank">
 										<img src="/icones/skills/render-logo.svg" alt="logo render">
 										Render
+									</a>
+								</div>
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://railway.com/" target="_blank">
+										<img src="/icones/skills/railway-logo.svg" alt="logo railway">
+										Railway
 									</a>
 								</div>
 								<div class="skill-card rounded-3 zoomin">
@@ -355,9 +379,61 @@
 			<section id="works">
 				<div class="container-fluid">
 					<div class="container  py-5">
+						<!------------ App Météo ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center py-5">
+							<h2 class="position-relative bold">Mes Réalisations</h2>
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
+								<div class="description-fiches-films px-4 py-4">
+									<h4 class="almost-bold">App Météo</h4>
+									<p>Projet de licence : une application de bureau avec Electron.js, Tailwind, Web Components et deux API.</p>
+									<p>Le projet est une application de données météorologiques qui utilise principalement <a href="https://openweathermap.org/" target="_blank"><strong>OpenWeather</strong></a> pour la météo et <a href="https://www.geoapify.com/" target="_blank"><strong>Geoapify</strong></a> pour afficher une liste de villes selon la recherche effectuée. Les fonctionnalités sont :</p>
+
+									<ul class="d-flex gap-3 flex-column">
+										<li>Rechercher n'importe quelle ville dans le monde grâce à l'API Geoapify. Une fois la ville sélectionnée, vous obtiendrez les prévisions météorologiques de cette dernière.</li>
+										<li>Affichage des informations météorologiques actuelles et sur 24 heures comprenant : la température, la température ressentie, l'icône de la météo, la vitesse du vent, le taux d'humidité, la pression atmosphérique, les heures de lever et de coucher de soleil ainsi qu'une description de la météo du jour.</li>
+										<li>Les données sont enregistrées dans la mémoire locale de votre navigateur afin de pouvoir être affichées lors de la prochaine utilisation de l'application.</li>
+										<li>Vous pouvez accéder à l'historique des villes recherchées directement sous la barre de recherche. Ces éléments sont cliquables et vous permettent d'afficher rapidement les prévisions météorologiques de la ville sélectionnée.</li>
+										<li>Météo quotidienne pour les 7 prochains jours de la ville sélectionnée : la température maximale, la température minimale, l'icône de la météo, le lever et coucher du soleil.</li>
+										<li>J'ai également créé un thème sombre que vous pouvez activer à l'aide du bouton situé dans le coin supérieur droit de l'application.</li>
+										<li>Il y a également deux indicateurs santé: la qualité de l'air allant de 1 à 5 et l'indice UV allant de 1 à 12. Selon le niveau de chacun de ces critères, un conseil personnalisé est affiché suivant les recommandations de l'OMS.</li>
+										<li>Un cache a été implémenté pour éviter l'excès d'appels API.</li>
+									</ul>
+									
+									<p class="semi-bold text-end">Décembre 2025</p>
+								</div>
+								<div class="git-link me-3 mt-2 text-end">
+									<a href="https://github.com/Dylan-Ay/App-meteo" target="_blank">
+										<img src="icones/github.svg" alt="icone github">
+									</a>
+									<!-- <a href="https://plantes-next-js.netlify.app/" target="_blank">
+										<img src="icones/extern-link.svg" alt="icone link">
+									</a> -->
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+								<img src="images/app-meteo.PNG" alt="photo projet app-météo" class="works-preview-left mt-4 img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
+									<li>
+										<img src="icones/skills/electron-logo.svg" alt="icone electron" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/web-components-logo.svg" alt="icone web-components" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/javascript-logo.svg" alt="icone javascript" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/tailwind-logo.svg" alt="icone tailwind" class="dev-icon" style="margin-right: -15px;">
+									</li>
+									<li>
+										<img src="icones/skills/api-logo.svg" alt="icone api" style="width: 75px;">
+									</li>
+								</ul>
+							</div>
+						</div>
 						<!------------ App E-commerce ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5">
-						<h2 class="position-relative bold">Mes Réalisations</h2>
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt row-border-top pb-5">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
 								<div class="description-fiches-films px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">App Ecommerce</h4>
@@ -579,7 +655,7 @@
 							</div>
 						</div>
 						<!------------ Fiches-Films ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5 row-border-top">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center pt-5 pb-5 row-border-top show-more">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
 								<div class="description-fiches-films px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">App Fiches Films</h4>
@@ -835,7 +911,7 @@
 						<!------------ Bouton 'afficher plus' ----------->
 						<div class="row">
 							<div class="col-12 text-center">
-								<button id="show-more-btn" class="btn-contact px-4 py-3">Afficher Plus</button>
+								<button id="show-more-btn" class="btn-contact px-4 py-3">Anciens projets</button>
 							</div>
 						</div>
 					</div>
@@ -897,7 +973,7 @@
 			<div class="container-fluid py-3">
 				<div class="row justify-content-center">
 					<div class="col-lg-2">
-						<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseliner ps-4">
+						<ul class="list-unstyled text-center text-md-start d-flex flex-wrap align-items-baseline justify-content-center">
 							<li>
 								<a href="https://www.linkedin.com/in/dylan-ay/" target="_blank">
 									<img src="icones/linkedin-white.svg" alt="linkedin dylan ayache">
