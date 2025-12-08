@@ -384,7 +384,7 @@
 							<h2 class="position-relative bold">Mes Réalisations</h2>
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-fiches-films px-4 py-4">
-									<h4 class="almost-bold">App Météo</h4>
+									<h4 class="almost-bold">Ma Météo</h4>
 									<p>Projet de licence : une application de bureau avec Electron.js, Tailwind, Web Components et deux API.</p>
 									<p>Le projet est une application de données météorologiques qui utilise principalement <a href="https://openweathermap.org/" target="_blank"><strong>OpenWeather</strong></a> pour la météo et <a href="https://www.geoapify.com/" target="_blank"><strong>Geoapify</strong></a> pour afficher une liste de villes selon la recherche effectuée. Les fonctionnalités sont :</p>
 
@@ -401,13 +401,13 @@
 									
 									<p class="semi-bold text-end">Décembre 2025</p>
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
-									<a href="https://github.com/Dylan-Ay/App-meteo" target="_blank">
-										<img src="icones/github.svg" alt="icone github">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
+									<a href="https://github.com/Dylan-Ay/Ma-Meteo" target="_blank">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
-									<!-- <a href="https://plantes-next-js.netlify.app/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icone link">
-									</a> -->
+									<a href="https://github.com/Dylan-Ay/Ma-Meteo/releases/download/v1.0/Ma-Meteo.zip">
+										<img src="icones/download.svg" alt="download icon" title="Télécharger">
+									</a>
 								</div>
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
@@ -483,12 +483,12 @@
 									</ul>
 									<p class="semi-bold text-end">Janvier 2023 à aujourd'hui</p>
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/App-Ecommerce-Symfony-6-Showcase" target="_blank">
-										<img src="icones/github.svg" alt="icone github" class="me-2">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
 									<a href="https://app-ecommerce-symfony-6-production.up.railway.app/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icone link">
+										<img src="icones/extern-link.svg" alt="icone link" title="Démo du Projet">
 									</a>
 								</div>
 							</div>	
@@ -538,12 +538,12 @@
 									
 									<p class="semi-bold text-end">Juillet 2023</p>
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/plantes-next-js" target="_blank">
-										<img src="icones/github.svg" alt="icone github">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
 									<a href="https://plantes-next-js.netlify.app/" target="_blank">
-										<img src="icones/extern-link.svg" alt="icone link">
+										<img src="icones/extern-link.svg" alt="icone link" title="Démo du Projet">
 									</a>
 								</div>
 							</div>	
@@ -585,9 +585,9 @@
 
 									<p class="semi-bold text-end">Aout 2022</p>
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/App-Symfony-Gestion-Centre-de-Formation" target="_blank">
-										<img src="icones/github.svg" alt="icone github">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
 								</div>
 							</div>	
@@ -629,9 +629,9 @@
 									
 									<p class="semi-bold text-end">Juillet 2022</p>
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/App-Forum" target="_blank">
-										<img src="icones/github.svg" alt="icone github">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
 								</div>
 							</div>	
@@ -663,9 +663,9 @@
 									<p>Le projet contient la création, la suppresion et la modification d'un film. On peut également consulter les listes d'acteurs, de réalisateurs, de films et de genres. Il est réalisé en PHP POO avec une base de données crée via phpMyAdmin et une architecture MVC.</p>
 									<p class="semi-bold text-end">Juin 2022</p>
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/App-Fiches-films" target="_blank">
-										<img src="icones/github.svg" alt="icone github">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
 								</div>
 							</div>	
@@ -700,9 +700,9 @@
 									<p>Cette galerie comporte plusieurs fonctionalités, dans un premier temps il y a un filtre qui affiche les photos selon une catégorie sélectionée. Ensuite il y a une modal qui permet d'afficher la photo en grand quand on clique dessus. Enfin il y a un slider qui permet de naviguer entre les différentes photos.</p>
 									<p class="semi-bold text-end">Mars 2022</p>
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/Gallery" target="_blank">
-										<img src="icones/github.svg" alt="icone github">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
 								</div>
 							</div>	
@@ -731,9 +731,9 @@
 									<p>L'objectif était de réaliser un calculateur de tip (pourboire) en JavaScript. Il permet de calculer le montant d'un tip par personne ainsi que le montant total (facture + tip) par personne. Il y a des pourcentages de tips prédéfinis, on a également la possibilité de calculer un pourcentage au choix.</p>
 									<p class="semi-bold text-end">Mars 2022</p>
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/Tip-calculator-app-Front-end-Mentor" target="_blank">
-										<img src="icones/github.svg" alt="icone github" class="me-2">
+										<img src="icones/github.svg" alt="icone github" class="me-2" title="Répertoire GitHub">
 									</a>
 								</div>
 							</div>	
@@ -765,9 +765,9 @@
 									<p>L'objectif était de réaliser une page ayant des éléments à superposer et d'utiliser mes acquis en JavaScript pour créer les animations de la barre de navigation.</p>
 									<p class="semi-bold text-end">Février 2022</p>
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/Blogr-landing-page-Front-end-Mentor" target="_blank">
-										<img src="icones/github.svg" alt="icone github">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
 								</div>
 							</div>	
@@ -824,9 +824,9 @@
 									<p>Il y a plusieurs parties du jeu qui sont dynamiques, l'objectif était de réaliser un projet pour travailler sur les aspects du DOM en JavaScript.</p>
 									<p class="semi-bold text-end">Février 2022</p>
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/Plus-ou-moins" target="_blank">
-										<img src="icones/github.svg" alt="icone github">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
 								</div>
 							</div>
@@ -858,9 +858,9 @@
 									<p>Pour l'instant ce projet est fini mais une suite lui sera donnée plus tard, en y intégrant d'autres calculateurs santé.</p>
 									<p class="semi-bold text-end">Janvier 2022</p>							
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/Calculateur-IMC" target="_blank">
-										<img src="icones/github.svg" alt="icone github">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
 								</div>
 							</div>
@@ -901,9 +901,9 @@
 									<p>C'est un site sur l'univers de la course à pied, on y retrouve des conseils, des informations et des actualités.</p>
 									<p class="semi-bold text-end">Novembre 2021</p>
 								</div>
-								<div class="git-link me-3 mt-2 text-end">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/Univers-Running" target="_blank">
-										<img src="icones/github.svg" alt="icone github">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
 								</div>
 							</div>
