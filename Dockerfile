@@ -1,34 +1,34 @@
-# Stage 1: Base PHP Apache
+# Étape 1 : image PHP + Apache
 FROM php:8.2-apache
 
-# Installer les dépendances
+# Installer les outils nécessaires
 RUN apt-get update && apt-get install -y \
-    git \
-    unzip \
+        git \
+        unzip \
     && rm -rf /var/lib/apt/lists/*
 
 # Copier Composer depuis l'image officielle
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# Définir le dossier de travail
+# Définir le répertoire de travail
 WORKDIR /var/www/html
 
-# Copier les fichiers Composer et installer les dépendances
+# Copier les fichiers Composer pour installer les dépendances
 COPY composer.json composer.lock ./
+
+# Installer les dépendances PHP
 RUN composer install --no-dev --optimize-autoloader
 
-# Copier le reste de l'application
+# Copier tout le code source
 COPY . /var/www/html
 
-# Désactiver tous les MPM et activer prefork
+# Configurer Apache : forcer l'utilisation du MPM prefork
 RUN a2dismod mpm_event mpm_worker mpm_prefork || true \
+    && rm -f /etc/apache2/mods-enabled/mpm_*.load \
     && a2enmod mpm_prefork
 
-# Supprimer tous les fichiers de configuration MPM activés pour éviter les conflits
-RUN rm -f /etc/apache2/mods-enabled/mpm_*.load
-
-# Afficher les modules Apache pour debug (optionnel)
-RUN echo "=== APACHE MODULES ===" && apachectl -M && echo "=== APACHE CONFIG FILES ===" && find /etc/apache2 -type f -maxdepth 3
-
-# Lancer Apache en foreground
-CMD ["apache2-foreground"]
+# Afficher les modules et la config Apache pour debug
+RUN echo "=== APACHE MODULES ===" \
+    && apachectl -M \
+    && echo "=== APACHE CONFIG FILES ===" \
+    && find /etc/apache2 -type f -maxdepth 3
