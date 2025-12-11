@@ -22,13 +22,16 @@ RUN composer install --no-dev --optimize-autoloader
 # Copier tout le code source
 COPY . /var/www/html
 
-# Configurer Apache : forcer l'utilisation du MPM prefork
-RUN a2dismod mpm_event mpm_worker mpm_prefork || true \
-    && rm -f /etc/apache2/mods-enabled/mpm_*.load \
+# Configurer Apache pour forcer MPM prefork
+RUN a2dismod mpm_event mpm_worker || true \
     && a2enmod mpm_prefork
 
-# Afficher les modules et la config Apache pour debug
-RUN echo "=== APACHE MODULES ===" \
-    && apachectl -M \
-    && echo "=== APACHE CONFIG FILES ===" \
-    && find /etc/apache2 -type f -maxdepth 3
+# Copier le script d'entrée qui force MPM prefork au runtime
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
+# Remplacer l'entrypoint pour forcer prefork
+ENTRYPOINT ["docker-entrypoint.sh"]
+
+# Exposer le port Apache
+EXPOSE 80
