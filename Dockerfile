@@ -14,8 +14,9 @@ RUN composer install --no-dev --optimize-autoloader
 
 COPY . /var/www/html
 
-# 🛠️ FIX Railway – Empêche le chargement multiple des MPM
 RUN a2dismod mpm_event mpm_worker || true \
     && a2enmod mpm_prefork
 
 EXPOSE 80
+
+CMD ["apache2-foreground"]
