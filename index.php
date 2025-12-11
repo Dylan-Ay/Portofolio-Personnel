@@ -235,12 +235,6 @@
 										</a>
 									</div>
 									<div class="skill-card rounded-3 zoomin">
-										<a href="https://www.python.org/" target="_blank">
-											<img src="/icones/skills/python-logo.svg" alt="logo python">
-											Python
-										</a>
-									</div>
-									<div class="skill-card rounded-3 zoomin">
 										<a href="https://www.electronjs.org/" target="_blank">
 											<img src="/icones/skills/electron-logo.svg" alt="logo electron.js">
 											Electron.js
@@ -307,6 +301,12 @@
 										<a href="https://nodejs.org/en" target="_blank">
 											<img src="/icones/skills/node-logo.svg" alt="logo node.js">
 											Node.js
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://www.python.org/" target="_blank">
+											<img src="/icones/skills/python-logo.svg" alt="logo python">
+											Python
 										</a>
 									</div>
 								</div>
