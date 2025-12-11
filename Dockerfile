@@ -9,13 +9,13 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/html
 
-# Copier uniquement composer.json et composer.lock d'abord
 COPY composer.json composer.lock ./
-
-# Installer les dépendances PHP (PHPMailer sera inclus ici)
 RUN composer install --no-dev --optimize-autoloader
 
-# Copier ensuite le reste du projet
 COPY . /var/www/html
+
+# 🛠️ FIX Railway – Empêche le chargement multiple des MPM
+RUN a2dismod mpm_event mpm_worker || true \
+    && a2enmod mpm_prefork
 
 EXPOSE 80
