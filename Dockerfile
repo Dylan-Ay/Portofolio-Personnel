@@ -20,4 +20,9 @@ RUN grep -R "LoadModule" -n /var/www/html || true
 RUN a2dismod mpm_event mpm_worker || true \
     && a2enmod mpm_prefork
 
+RUN echo "=== APACHE MODULES ===" \
+&& apachectl -M \
+&& echo "=== APACHE CONFIG FILES ===" \
+&& find /etc/apache2 -type f -maxdepth 3
+
 EXPOSE 80
