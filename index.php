@@ -154,7 +154,7 @@
 									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
 									<p><span class="bold">Espagnol</span> : Niveau B2 (Avancé)</p>
 
-									<div class="d-flex justify-content-between">
+									<div class="d-flex justify-content-between flex-md-row flex-column gap-3 align-items-lg-center">
 										<div class="d-flex gap-2">
 											<a href="https://www.linkedin.com/in/dylan-ay/" target="_blank">
 												<img src="icones/linkedin.svg" class="linkedin-icon" alt="linkedin dylan ayache">
@@ -168,13 +168,13 @@
 										</div>
 										<div>
 											<a href="https://www.codewars.com/users/Dylan-Ay" target="_blank">
-												<img src="https://www.codewars.com/users/Dylan-Ay/badges/large"/>
+												<img src="https://www.codewars.com/users/Dylan-Ay/badges/large" class="img-fluid">
 											</a>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-10 col-md-8 col-lg-5 col-xl-4 d-flex scroll-in js-opacity mt-4 mt-md-0">
+							<div class="col-10 col-md-8 col-lg-5 col-xl-4 d-flex scroll-in js-opacity mt-4 mt-lg-0">
 								<img class="img-fluid photo-personelle" src="images/photo-personnelle.svg" alt="Création de site web par un développeur">
 							</div>
 						</div>
