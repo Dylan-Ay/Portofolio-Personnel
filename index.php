@@ -107,9 +107,9 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">En préparation d'une Licence Profesionnelle en développement informatique à l'UHA de Mulhouse, je suis à la recherche d'un stage du 07 Avril au 06 Juillet 2026. 
+							<p class="mx-auto ps-2 pe-2">En préparation d'une Licence Profesionnelle en développement informatique à l'UHA de Mulhouse, <span class="semi-bold">je suis à la recherche d'un stage non rémunéré du 07 Avril au 06 Juillet 2026.</span> 
 							<br>
-							<span class="semi-bold">Je reste ouvert à toute proposition d'emploi.</span>
+							Je reste ouvert à toute proposition d'emploi.
 							<br>					
 							Je suis également disponible pour réaliser vos projets, n'hésitez pas à me contacter 😊.
 							</p>
@@ -134,7 +134,7 @@
 									</p>
 										
 									<p>Mon intérêt pour l'informatique et les nouvelles technologies a commencé étant jeune. 
-									Après mon bac j'ai commencé à apprendre la programmation de manière autodicacte en ligne. Puis j'ai suivi des cours sur OpenClassroom tout ceci a conforté mon idée de travailler dans le domaine du numérique. Ne réussisant pas à trouver une alternance à ce moment là dans le développement informatique, je me suis mis à travailler.</p>
+									Après mon bac j'ai commencé à apprendre la programmation de manière autodicacte en ligne. Puis j'ai suivi des cours sur OpenClassroom tout ceci a conforté mon idée de travailler dans le domaine du numérique. Ne réussissant pas à trouver une alternance à ce moment là dans le développement informatique, je me suis mis à travailler.</p>
 									
 									<p>Grâce à mes compétences personnelles et mon autodidactisme j'ai décroché un premier emploi 
 									en tant que Technicien Informatique itinérant.
@@ -145,7 +145,7 @@
 									<p>En 2021 je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
 									donné envie de redécouvrir le Développement Informatique.</p>  
 
-									<p>J'ai obtenu un titre profesionnel de Développeur Web et Web Mobile en 2022 (Bac+2), à la suite de cela <span class="semi-bold">j'ai travaillé comme Développeur Fullstack de Mars 2023 à Septembre 2024 chez un média.</span> Je code depuis fin 2021.</p>
+									<p>J'ai obtenu un titre professionnel de Développeur Web et Web Mobile en 2022 (Bac+2), à la suite de cela <span class="semi-bold">j'ai travaillé comme Développeur Fullstack de Mars 2023 à Septembre 2024 chez un média.</span> Je code depuis fin 2021.</p>
 
 									<p>Aujourd'hui je poursuis ma montée en compétences en licence professionnelle et je continue de me perfectionner et de mettre en oeuvre mes capacités à travers des 
 										<a href="#works" class="semi-bold simple-link codecademy">projets personnels.</a>
@@ -154,16 +154,23 @@
 									<p><span class="bold">Anglais</span> : Niveau B2 (Avancé)</p>
 									<p><span class="bold">Espagnol</span> : Niveau B2 (Avancé)</p>
 
-									<div class="d-flex gap-2">
-										<a href="https://www.linkedin.com/in/dylan-ay/" target="_blank">
-											<img src="icones/linkedin.svg" class="linkedin-icon" alt="linkedin dylan ayache">
-										</a>
-										<a href="#contact">
-											<img src="icones/mail.svg" class="mail-icon" alt="icone mail">
-										</a>
-										<a href="https://github.com/Dylan-Ay" target="_blank">
-											<img src="icones/github.svg" class="git-link" alt="icone github">
-										</a>
+									<div class="d-flex justify-content-between">
+										<div class="d-flex gap-2">
+											<a href="https://www.linkedin.com/in/dylan-ay/" target="_blank">
+												<img src="icones/linkedin.svg" class="linkedin-icon" alt="linkedin dylan ayache">
+											</a>
+											<a href="#contact">
+												<img src="icones/mail.svg" class="mail-icon" alt="icone mail">
+											</a>
+											<a href="https://github.com/Dylan-Ay" target="_blank">
+												<img src="icones/github.svg" class="git-link" alt="icone github">
+											</a>
+										</div>
+										<div>
+											<a href="https://www.codewars.com/users/Dylan-Ay" target="_blank">
+												<img src="https://www.codewars.com/users/Dylan-Ay/badges/large"/>
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -989,7 +996,7 @@
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-lg-4 d-flex">
-						<p class="light-bold madeby mx-auto">© 2025 - Réalisé par Dylan Ayache - Tous droits réservés.</p>
+						<p class="light-bold madeby mx-auto">© 2026 - Réalisé par Dylan Ayache - Tous droits réservés.</p>
 					</div>
 				</div>
 			</div>
