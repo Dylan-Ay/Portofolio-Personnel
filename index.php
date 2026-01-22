@@ -254,12 +254,18 @@
 										</a>
 									</div>
 								</div>
-								<p class="light-bold-italic mt-5 mb-3">Futures compétences en vue d'acquisition :</p>
+								<p class="light-bold-italic mt-5 mb-3">Compétences en cours d'apprentissage :</p>
 								<div class="d-flex flex-wrap skills-content">
 									<div class="skill-card rounded-3 zoomin">
 										<a href="https://dev.java/learn/" target="_blank">
 											<img src="/icones/skills/java-logo.svg" alt="logo java">
 											Java
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://spring.io/" target="_blank">
+											<img src="/icones/skills/spring-logo.svg" alt="logo spring">
+											Spring Boot
 										</a>
 									</div>
 									<div class="skill-card rounded-3 zoomin">
@@ -302,6 +308,12 @@
 										<a href="https://www.mysql.com/" target="_blank">
 											<img src="/icones/skills/mysql-logo.svg" alt="logo mysql">
 											MySQL
+										</a>
+									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://www.datacamp.com/blog/data-modeling" target="_blank">
+											<img src="/icones/skills/data-modeling-logo.svg" alt="logo data modeling">
+											Data Modeling
 										</a>
 									</div>
 									<div class="skill-card rounded-3 zoomin">
