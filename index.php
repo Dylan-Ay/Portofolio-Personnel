@@ -199,6 +199,12 @@
 											React
 										</a>
 									</div>
+									<div class="skill-card rounded-3 zoomin">
+										<a href="https://reactnative.dev/" target="_blank">
+											<img src="/icones/skills/react-logo.svg" alt="logo react">
+											React Native
+										</a>
+									</div>
 									<div class="skill-card rounded-3 zoomin zoomin">
 										<a href="https://www.typescriptlang.org/" target="_blank">
 											<img src="/icones/skills/typescript-logo.svg" alt="logo typescript">
@@ -208,7 +214,7 @@
 									<div class="skill-card rounded-3 zoomin">
 										<a href="https://nextjs.org/" target="_blank">
 											<img src="/icones/skills/nextjs-logo.svg" alt="logo next">
-											Next
+											Next.js
 										</a>
 									</div>
 									<div class="skill-card rounded-3 zoomin">
@@ -254,7 +260,15 @@
 										</a>
 									</div>
 								</div>
-								<p class="light-bold-italic mt-5 mb-3">Compétences en cours d'apprentissage :</p>
+								<!-- <p class="light-bold-italic mt-5 mb-3">Compétences en cours d'apprentissage :</p>
+								<div class="d-flex flex-wrap skills-content">
+									
+									
+								</div> -->
+							</div>
+							<div class="col-12 col-lg-6 scroll-in js-opacity pb-5">
+								<h4 class="almost-bold mt-5 mt-lg-4 mb-3">Développement Back-end :</h4>
+								<!------------  Developpement Back-end Skills ----------->
 								<div class="d-flex flex-wrap skills-content">
 									<div class="skill-card rounded-3 zoomin">
 										<a href="https://dev.java/learn/" target="_blank">
@@ -268,18 +282,6 @@
 											Spring Boot
 										</a>
 									</div>
-									<div class="skill-card rounded-3 zoomin">
-										<a href="https://reactnative.dev/" target="_blank">
-											<img src="/icones/skills/react-logo.svg" alt="logo react">
-											React Native
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-lg-6 scroll-in js-opacity pb-5">
-								<h4 class="almost-bold mt-5 mt-lg-4 mb-3">Développement Back-end :</h4>
-								<!------------  Developpement Back-end Skills ----------->
-								<div class="d-flex flex-wrap skills-content">
 									<div class="skill-card rounded-3 zoomin">
 										<a href="https://symfony.com/" target="_blank">
 											<img src="/icones/skills/symfony-logo.svg" alt="logo symfony">
