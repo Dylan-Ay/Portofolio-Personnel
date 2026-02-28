@@ -502,7 +502,7 @@
 											Le projet est entièrement responsive
 										</li>
 									</ul>
-									<p class="semi-bold text-end">Janvier 2023 à aujourd'hui</p>
+									<p class="semi-bold text-end">Janvier 2023</p>
 								</div>
 								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/App-Ecommerce-Symfony-6-Showcase" target="_blank">
