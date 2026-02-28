@@ -107,7 +107,7 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">En préparation d'une Licence Profesionnelle en développement informatique à l'UHA de Mulhouse, <span class="semi-bold">je suis à la recherche d'un stage non rémunéré du 07 Avril au 06 Juillet 2026.</span> 
+							<p class="mx-auto ps-2 pe-2">En fin de Licence Profesionnelle en développement informatique à l'UHA de Mulhouse, <span class="semi-bold">je suis à la recherche d'une alternance pour préparer un master à compter de Septembre 2026.</span> 
 							<br>
 							Je reste ouvert à toute proposition d'emploi.
 							<br>					
