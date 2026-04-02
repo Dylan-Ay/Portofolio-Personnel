@@ -107,13 +107,8 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">En fin de Licence Profesionnelle en développement informatique à l'UHA de Mulhouse, <span class="semi-bold">je suis à la recherche d'une alternance pour préparer un master à compter de Septembre 2026.</span> 
-							<br>
-							Je reste ouvert à toute proposition d'emploi.
-							<br>					
-							Je suis également disponible pour réaliser vos projets, n'hésitez pas à me contacter 😊.
+							<p class="mx-auto ps-2 pe-2">Actuellement en stage de fin d'études dans le cadre de ma Licence Profesionnelle en développement logiciel à l'UHA de Mulhouse, <span class="semi-bold">je suis à la recherche d'une alternance pour préparer un master à compter de Septembre 2026.</span> 
 							</p>
-							
 							<div class="card-footer pt-4 pb-3"></div>
 						</div>
 					</div>	
@@ -129,12 +124,11 @@
 							<div class="col-12 col-lg-7 scroll-in js-opacity">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
-									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 30 ans et je prépare actuellement une 
-										<span class="semi-bold">Licence Professionnelle en développement informatique à l'UHA de Mulhouse.</span>
+									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 30 ans et je prépare actuellement une <span class="semi-bold">Licence Professionnelle en développement logiciel à l'UHA de Mulhouse. Je suis dans la phase finale de mon cursus.</span>
 									</p>
 										
 									<p>Mon intérêt pour l'informatique et les nouvelles technologies a commencé étant jeune. 
-									Après mon bac j'ai commencé à apprendre la programmation de manière autodicacte en ligne. Puis j'ai suivi des cours sur OpenClassroom tout ceci a conforté mon idée de travailler dans le domaine du numérique. Ne réussissant pas à trouver une alternance à ce moment là dans le développement informatique, je me suis mis à travailler.</p>
+									Après mon bac j'ai commencé à apprendre la programmation de manière autodicacte en ligne. Puis j'ai suivi des cours sur OpenClassroom tout ceci a conforté mon idée de travailler dans le domaine du numérique. Ne réussissant pas à trouver une alternance à ce moment là dans le développement informatique pour préparer un Bac +2, je me suis mis à travailler.</p>
 									
 									<p>Grâce à mes compétences personnelles et mon autodidactisme j'ai décroché un premier emploi 
 									en tant que Technicien Informatique itinérant.
@@ -145,9 +139,16 @@
 									<p>En 2021 je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
 									donné envie de redécouvrir le Développement Informatique.</p>  
 
-									<p>J'ai obtenu un titre professionnel de Développeur Web et Web Mobile en 2022 (Bac+2), à la suite de cela <span class="semi-bold">j'ai travaillé comme Développeur Fullstack de Mars 2023 à Septembre 2024 chez un média.</span> Je code depuis fin 2021.</p>
+									<h4 class="semi-bold">Mon parcours en tant que Développeur</h4>
+									<ul class="d-flex gap-2 flex-column">
+										<li><span class="semi-bold">2021</span> : Autoformation via OpenClassroom</li>
+										<li><span class="semi-bold">2022</span> : Obtention du titre professionnel de Développeur Web et Web Mobile (Bac +2)
+										</li>
+										<li><span class="semi-bold"> 2023 - 2024</span> : Développeur Fullstack dans une entreprise de médias</li>
+										<li><span class="semi-bold"> 2025 - 2026</span> : Préparation d'une licence pro mention métiers de l'informatique : conception, développement et test de logiciels (Bac +3)</li>
+									</ul>
 
-									<p>Aujourd'hui je poursuis ma montée en compétences en licence professionnelle et je continue de me perfectionner et de mettre en oeuvre mes capacités à travers des 
+									<p>Aujourd'hui je poursuis ma montée en compétences en licence professionnelle, je continue de me perfectionner et de mettre en oeuvre mes acquis à travers des 
 										<a href="#works" class="semi-bold simple-link codecademy">projets personnels.</a>
 									</p>
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
@@ -186,11 +187,11 @@
 				<div class="container py-5">
 					<div class="row py-5 scroll-in js-opacity">
 						<h2 class="position-relative bold">Mes Compétences</h2>
-						<p class="mt-3">
-						Mon but est de réaliser à chaque fois un nouveau projet pour mettre en oeuvre ce que j'ai pu apprendre.</p>
+						<p class="mt-3 fst-italic">
+						J'ai principalement travaillé sur des applications web et mobiles, avec une approche fullstack.</p>
 						<div class="border-bottom pb-5 d-flex flex-column flex-lg-row">
 							<div class="col-12 col-lg-6">
-								<h4 class="almost-bold mt-4 mb-3">Développement Front-end :</h4>
+								<h4 class="almost-bold mt-4 mb-3">Front-end :</h4>
 								<!------------  Developpement Front-end Skills ----------->
 								<div class="d-flex flex-wrap skills-content">
 									<div class="skill-card rounded-3 zoomin zoomin">
@@ -212,9 +213,9 @@
 										</a>
 									</div>
 									<div class="skill-card rounded-3 zoomin">
-										<a href="https://nextjs.org/" target="_blank">
-											<img src="/icones/skills/nextjs-logo.svg" alt="logo next">
-											Next.js
+										<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+											<img src="/icones/skills/javascript-logo.svg" alt="logo javascript">
+											JavaScript
 										</a>
 									</div>
 									<div class="skill-card rounded-3 zoomin">
@@ -236,21 +237,9 @@
 										</a>
 									</div>
 									<div class="skill-card rounded-3 zoomin">
-										<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-											<img src="/icones/skills/javascript-logo.svg" alt="logo javascript">
-											JavaScript
-										</a>
-									</div>
-									<div class="skill-card rounded-3 zoomin">
 										<a href="https://jquery.com/" target="_blank">
 											<img src="/icones/skills/jquery-logo.svg" alt="logo jquery">
 											jQuery
-										</a>
-									</div>
-									<div class="skill-card rounded-3 zoomin">
-										<a href="https://www.electronjs.org/" target="_blank">
-											<img src="/icones/skills/electron-logo.svg" alt="logo electron.js">
-											Electron.js
 										</a>
 									</div>
 									<div class="skill-card rounded-3 zoomin">
@@ -267,7 +256,7 @@
 								</div> -->
 							</div>
 							<div class="col-12 col-lg-6 scroll-in js-opacity pb-5">
-								<h4 class="almost-bold mt-5 mt-lg-4 mb-3">Développement Back-end :</h4>
+								<h4 class="almost-bold mt-5 mt-lg-4 mb-3">Back-end :</h4>
 								<!------------  Developpement Back-end Skills ----------->
 								<div class="d-flex flex-wrap skills-content">
 									<div class="skill-card rounded-3 zoomin">
@@ -301,12 +290,6 @@
 										</a>
 									</div>
 									<div class="skill-card rounded-3 zoomin">
-										<a href="https://fr.wordpress.org/" target="_blank">
-											<img src="/icones/skills/wp-logo.svg" alt="logo worpress">
-											Wordpress
-										</a>
-									</div>
-									<div class="skill-card rounded-3 zoomin">
 										<a href="https://www.mysql.com/" target="_blank">
 											<img src="/icones/skills/mysql-logo.svg" alt="logo mysql">
 											MySQL
@@ -334,7 +317,7 @@
 							</div>
 						</div>
 						<div class="col-12 col-lg-6 scroll-in js-opacity">
-							<h4 class="almost-bold pt-5 mb-3">Autres :</h4>
+							<h4 class="almost-bold pt-5 mb-3">Outils & DevOps :</h4>
 							<!------------ Others Skills ----------->
 							<div class="d-flex flex-wrap skills-content">
 								<div class="skill-card rounded-3 zoomin">
@@ -344,9 +327,27 @@
 									</a>
 								</div>
 								<div class="skill-card rounded-3 zoomin">
+									<a href="https://www.postman.com" target="_blank">
+										<img src="/icones/skills/postman.svg" alt="logo postman">
+										Postman
+									</a>
+								</div>
+								<div class="skill-card rounded-3 zoomin">
 									<a href="https://git-scm.com/" target="_blank">
 										<img src="/icones/skills/git-logo.svg" alt="logo git">
 										Git
+									</a>
+								</div>
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://zustand-demo.pmnd.rs" target="_blank">
+										<img src="/icones/skills/zustand.svg" alt="logo zustand">
+										Zustand
+									</a>
+								</div>
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://developer.android.com/studio?hl=fr" target="_blank">
+										<img src="/icones/skills/android-studio.svg" alt="logo android studio">
+										Android Studio
 									</a>
 								</div>
 								<div class="skill-card rounded-3 zoomin">
@@ -374,6 +375,12 @@
 									</a>
 								</div>
 								<div class="skill-card rounded-3 zoomin">
+									<a href="https://fr.wordpress.org/" target="_blank">
+										<img src="/icones/skills/wp-logo.svg" alt="logo worpress">
+										Wordpress
+									</a>
+								</div>
+								<div class="skill-card rounded-3 zoomin">
 									<a href="https://tagmanager.google.com/" target="_blank">
 										<img src="/icones/skills/gt-logo.svg" alt="logo google tag manager">
 										Google Tag Manager
@@ -389,6 +396,31 @@
 									<a href="https://helpx.adobe.com/uk/support/xd.html" target="_blank">
 										<img src="/icones/skills/adobexd-logo.svg" alt="logo Adobe XD">
 										Adobe XD
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-6 scroll-in js-opacity">
+							<h4 class="almost-bold pt-5 mb-3">Applications & Cross-platform :</h4>
+							<!------------ Others Skills ----------->
+							<div class="d-flex flex-wrap skills-content">
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://nextjs.org/" target="_blank">
+										<img src="/icones/skills/nextjs-logo.svg" alt="logo next">
+										Next.js
+									</a>
+								</div>
+								<div class="skill-card rounded-3 zoomin">
+									<a href="https://expo.dev" target="_blank">
+										<img src="/icones/skills/expo.svg" alt="logo expo">
+										Expo
+									</a>
+								</div>
+								<div class="skill-card rounded-3 zoomin" data-toggle="tooltip" data-placement="bottom" title="Apps Desktop avec Node.js
+								">
+									<a href="https://www.electronjs.org/" target="_blank">
+										<img src="/icones/skills/electron-logo.svg" alt="logo electron.js">
+										Electron.js
 									</a>
 								</div>
 							</div>

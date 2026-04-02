@@ -1,3 +1,6 @@
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 // Quand on clique sur un link de la nav-bar, la navbar se cache sur mobile uniquement
 $(document).ready(function(){
