@@ -139,7 +139,7 @@
 									<p>En 2021 je me suis replongé dans les tutoriels OpenClassroom, ce qui m'a 
 									donné envie de redécouvrir le Développement Informatique.</p>  
 
-									<h4 class="semi-bold">Mon parcours en tant que Développeur</h4>
+									<h4 class="bold">Mon parcours en tant que Développeur : </h4>
 									<ul class="d-flex gap-2 flex-column">
 										<li><span class="semi-bold">2021</span> : Autoformation via OpenClassroom</li>
 										<li><span class="semi-bold">2022</span> : Obtention du titre professionnel de Développeur Web et Web Mobile (Bac +2)
@@ -188,7 +188,7 @@
 					<div class="row py-5 scroll-in js-opacity">
 						<h2 class="position-relative bold">Mes Compétences</h2>
 						<p class="mt-3 fst-italic">
-						J'ai principalement travaillé sur des applications web et mobiles, avec une approche fullstack.</p>
+						Mon expérience se concentre sur le développement d’applications web et mobiles, en adoptant une approche fullstack.</p>
 						<div class="border-bottom pb-5 d-flex flex-column flex-lg-row">
 							<div class="col-12 col-lg-6">
 								<h4 class="almost-bold mt-4 mb-3">Front-end :</h4>
