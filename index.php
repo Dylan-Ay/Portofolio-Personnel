@@ -432,9 +432,155 @@
 			<section id="works">
 				<div class="container-fluid">
 					<div class="container  py-5">
-						<!------------ App Météo ----------->
+						<!------------ App Visit My Cities ----------->
 						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center py-5">
 							<h2 class="position-relative bold">Mes Réalisations</h2>
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
+								<div class="description-fiches-films px-4 py-4">
+									<h4 class="almost-bold">Visit My Cities</h4>
+									<!-- <p>Projet de licence : une application de bureau avec Electron.js, Tailwind, Web Components et deux API.</p> -->
+									<p>En construction..</p>
+
+									<!-- <ul class="d-flex gap-3 flex-column">
+										<li>Rechercher n'importe quelle ville dans le monde grâce à l'API Geoapify. Une fois la ville sélectionnée, vous obtiendrez les prévisions météorologiques de cette dernière.</li>
+										<li>Affichage des informations météorologiques actuelles et sur 24 heures comprenant : la température, la température ressentie, l'icône de la météo, la vitesse du vent, le taux d'humidité, la pression atmosphérique, les heures de lever et de coucher de soleil ainsi qu'une description de la météo du jour.</li>
+										<li>Les données sont enregistrées dans la mémoire locale de votre navigateur afin de pouvoir être affichées lors de la prochaine utilisation de l'application.</li>
+										<li>Vous pouvez accéder à l'historique des villes recherchées directement sous la barre de recherche. Ces éléments sont cliquables et vous permettent d'afficher rapidement les prévisions météorologiques de la ville sélectionnée.</li>
+										<li>Météo quotidienne pour les 7 prochains jours de la ville sélectionnée : la température maximale, la température minimale, l'icône de la météo, le lever et coucher du soleil.</li>
+										<li>J'ai également créé un thème sombre que vous pouvez activer à l'aide du bouton situé dans le coin supérieur droit de l'application.</li>
+										<li>Il y a également deux indicateurs santé: la qualité de l'air allant de 1 à 5 et l'indice UV allant de 1 à 12. Selon le niveau de chacun de ces critères, un conseil personnalisé est affiché suivant les recommandations de l'OMS.</li>
+										<li>Un cache a été implémenté pour éviter l'excès d'appels API.</li>
+									</ul> -->
+									
+									<p class="semi-bold text-end">Janvier 2026</p>
+								</div>
+								<!-- <div class="git-link d-flex justify-content-end mt-2 gap-2">
+									<a href="https://github.com/Dylan-Ay/Ma-Meteo" target="_blank">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
+									</a>
+									<a href="https://github.com/Dylan-Ay/Ma-Meteo/releases/download/v1.0/Ma-Meteo.zip">
+										<img src="icones/download.svg" alt="download icon" title="Télécharger">
+									</a>
+								</div> -->
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+								<img src="https://cdn.prod.website-files.com/643149de01d4474ba64c7cdc/65428da5c4c1a2b9740cc088_20231101-ImageNonDisponible-v1.jpg" alt="photo projet app-météo" class="works-preview-left mt-4 img-fluid">
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
+									<!-- <li>
+										<img src="icones/skills/electron-logo.svg" alt="icone electron" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/web-components-logo.svg" alt="icone web-components" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/javascript-logo.svg" alt="icone javascript" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/tailwind-logo.svg" alt="icone tailwind" class="dev-icon" style="margin-right: -15px;">
+									</li>
+									<li>
+										<img src="icones/skills/api-logo.svg" alt="icone api" style="width: 75px;">
+									</li> -->
+								</ul>
+							</div>
+						</div>
+						<!------------ App 2048 ----------->
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-border-top pb-5">
+							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
+								<div class="description-fiches-films px-4 py-4">
+									<h4 class="almost-bold">Jeu 2048</h4>
+									<p>Projet de licence : Application mobile du célèbre jeu 2048 avec <a class="semi-bold" target="_blank" href="https://reactnative.dev"> React Native</a>.</p>
+									<p>Le jeu 2048 est un jeu de réflexion à un seul joueur conçu par le développeur web italien Gabriele Cirulli. L'objectif du jeu est de fusionner des tuiles de mêmes valeurs sur une grille de 16 cases afin de former le numéro 2048, cependant, on peut continuer à jouer au jeu après avoir atteint l'objectif, en créant des tuiles avec des nombres plus importants. Les fonctionnalités sont :</p>
+
+									<ul class="d-flex gap-3 flex-column">
+										<li>Initialisation du plateau de jeu avec une grille 4x4</li> 
+										<li>Génération de deux tuiles aléatoires (2 ou 4) générées au début du jeu et après chaque mouvement</li>
+										<li>Déplacement des tuiles dans quatre directions : gauche, droite, haut et bas</li>
+										<li>Mécanisme de coulissement qui déplace les tuiles jusqu'à ce qu'elles atteignent un obstacle</li>
+										<li>Système de fusion pour les tuiles adjacentes de même valeur</li>
+										<li>Les tuiles fusionnées doublent de valeur et ne fusionnent qu'une seule fois par mouvement</li>
+										<li>Système de score qui accumule des points en fonction des tuiles fusionnées, un meilleur score est également présent</li>
+										<li>Détection d'une partie gagnée ou perdue</li>
+										<li>Plusieurs alertes ont été mises en place : lors de la victoire, lors de la défaite et lorsqu'on veut recommencer une partie </li>
+										<li>Boutons d'actions : "Menu" qui affiche la modal de menu avec les options de navigation, "Annuler" qui permet d'annuler le dernier coup effectué et "Recommencer" qui permet de démarrer une nouvelle partie</li>
+										<li>Persistance des données : grille actuelle, grille précédente, score actuel, score précédent et meilleur score </li>
+										<li>Optimisation des performances de rendu et réduction des problèmes visuels sur mobile</li>
+									</ul>
+									
+									<p class="semi-bold text-end">Avril 2026</p>
+								</div>
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
+									<a href="https://github.com/Dylan-Ay/2048" target="_blank">
+										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
+									</a>
+								</div>
+							</div>	
+							<div class="col-12 col-md-11 col-lg-6 project-image">
+								<div class="embla">
+									<div class="embla__viewport">
+									<div class="embla__container">
+										<div class="embla__slide">
+											<div class="embla__slide__number">
+												<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/game.png" alt="image 1 projet 2048" class="works-preview-right mt-4 h-100" style="width: 280px;">
+											</div>
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/victory.png" alt="image 2 projet 2048" class="works-preview-right mt-4 h-100" style="width: 280px;">
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/lose.png" alt="image 3 projet 2048" class="works-preview-right mt-4 h-100" style="width: 280px;">
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/retry.png" alt="image 4 projet 2048" class="works-preview-right mt-4 h-100" style="width: 280px;">
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/menu.png" alt="image 5 projet 2048" class="works-preview-right mt-4 h-100" style="width: 280px;">
+										</div>
+									</div>
+									</div>
+									<div class="embla__controls">
+									<div class="embla__buttons">
+										<button
+											class="embla__button embla__button--prev embla__button--disabled"
+											type="button"
+										>
+											<svg class="embla__button__svg" viewBox="0 0 532 532">
+											<path
+												fill="currentColor"
+												d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
+											></path>
+											</svg></button
+										><button
+											class="embla__button embla__button--next embla__button--disabled"
+											type="button"
+										>
+											<svg class="embla__button__svg" viewBox="0 0 532 532">
+											<path
+												fill="currentColor"
+												d="M176.34 520.646c-13.793 13.805-36.208 13.805-50.001 0-13.785-13.804-13.785-36.238 0-50.034L330.78 266 126.34 61.391c-13.785-13.805-13.785-36.239 0-50.044 13.793-13.796 36.208-13.796 50.002 0 22.928 22.947 206.395 206.507 229.332 229.454a35.065 35.065 0 0 1 10.326 25.126c0 9.2-3.393 18.26-10.326 25.2-45.865 45.901-206.404 206.564-229.332 229.52Z"
+											></path>
+											</svg>
+										</button>
+									</div>
+									<div class="embla__dots"></div>
+								</div>
+								</div>
+								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
+								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
+									<li>
+										<img src="icones/react-native.png" alt="icone react native" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/zustand.svg" alt="icone zustand" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/expo.svg" alt="icone expo" class="dev-icon">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt row-border-top pb-5">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-fiches-films px-4 py-4">
 									<h4 class="almost-bold">Ma Météo</h4>
@@ -620,7 +766,7 @@
 							</div>
 						</div>
 						<!------------ App-Centre de formation ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top show-more">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-1">
 								<div class="description-fiches-films px-4 py-4 text-lg-start">
 									<h4 class="almost-bold">App Centre de Formation</h4>
@@ -664,7 +810,7 @@
 							</div>
 						</div>
 						<!------------ App Forum ----------->
-						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top">
+						<div class="row justify-content-lg-between project scroll-in js-opacity justify-content-md-center row-pt pb-5 row-border-top show-more">
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-sneakers px-4 py-4">
 									<h4 class="almost-bold">App Forum</h4>
@@ -1051,8 +1197,10 @@
 	    <button type="button" id="btn-back-to-top" class="btn btn-floating btn-sm fade-in-bottom">
 	  		<img src="icones/back-to-top.svg" alt="icone retour haut de page">
 		</button>
+		<script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
 		<script src="bootstrap.bundle.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 		<script src="website.js"></script>
+		<script src="emblaCarousel.js"></script>
 	</body>
 </html>
