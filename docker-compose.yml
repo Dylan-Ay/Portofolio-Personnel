@@ -1,5 +1,5 @@
 services:
-  php:
-    build: .
-    ports:
-      - "80:80"
+   php:
+      build: .
+      ports:
+         - '80:80'

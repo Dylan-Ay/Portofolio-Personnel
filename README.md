@@ -7,12 +7,12 @@ On this portfolio you will find many informations about who I am, how and why I 
 
 ## License ❗
 
-- This portfolio is publicly accessible for viewing purposes only.  
-  
+- This portfolio is publicly accessible for viewing purposes only.
 - All rights are reserved. Reuse of the source code or content is not
-permitted without prior authorization.
+  permitted without prior authorization.
 
 **Stacks used :**
+
 - PHP 8
 - Sass
 - JavaScript

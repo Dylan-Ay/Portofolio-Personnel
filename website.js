@@ -1,69 +1,77 @@
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
+   $('[data-toggle="tooltip"]').tooltip()
 })
 
 // Quand on clique sur un link de la nav-bar, la navbar se cache sur mobile uniquement
-$(document).ready(function(){
-  $('.nav-link').on('click',function() {
-      $('.navbar-collapse').collapse('hide');
-  });
+$(document).ready(function () {
+   $('.nav-link').on('click', function () {
+      $('.navbar-collapse').collapse('hide')
+   })
 
-//******************************************************
+   //******************************************************
 
-//Ajout de la classe active quand on clique
-  $('.nav-link').click(function(){
-      $('.nav-link').removeClass('active');
-      $(this).addClass('active');
-  });
-});
+   //Ajout de la classe active quand on clique
+   $('.nav-link').click(function () {
+      $('.nav-link').removeClass('active')
+      $(this).addClass('active')
+   })
+})
 
 //******************************************************
 
 // Quand l'utilisateur scroll vers le bas de 4900px, le bouton s'affiche
 window.onscroll = function () {
-scrollFunction();
-};
+   scrollFunction()
+}
 
 function scrollFunction() {
-  if ( document.body.scrollTop > 4900 || document.documentElement.scrollTop > 4900 ) {
-      mybutton.style.display = "block";
-  } else {
-      mybutton.style.display = "none";
-  }
+   if (
+      document.body.scrollTop > 4900 ||
+      document.documentElement.scrollTop > 4900
+   ) {
+      mybutton.style.display = 'block'
+   } else {
+      mybutton.style.display = 'none'
+   }
 }
 
 //******************************************************
 
 // Bouton haut de page
-let mybutton = document.getElementById("btn-back-to-top");
+let mybutton = document.getElementById('btn-back-to-top')
 
 function backToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+   document.body.scrollTop = 0
+   document.documentElement.scrollTop = 0
 }
-mybutton.addEventListener("click", backToTop);
+mybutton.addEventListener('click', backToTop)
 
 //******************************************************
 
 // Animations d'apparation des éléments de la page
-const scrollElements = document.querySelectorAll(".scroll-in");
+const scrollElements = document.querySelectorAll('.scroll-in')
 
 scrollElements.forEach((el) => {
-  el.classList.add('js-opacity');
+   el.classList.add('js-opacity')
 })
 
 const elementInViewport = (el, dividend = 1) => {
-  const elementTop = el.getBoundingClientRect().top;
-  return (elementTop <= ((window.innerHeight || document.documentElement.clientHeight) / dividend))
+   const elementTop = el.getBoundingClientRect().top
+   return (
+      elementTop <=
+      (window.innerHeight || document.documentElement.clientHeight) / dividend
+   )
 }
 
 const elementOutofView = (el) => {
-  const elementTop = el.getBoundingClientRect().top;
-  return (elementTop > (window.innerHeight || document.documentElement.clientHeight))
+   const elementTop = el.getBoundingClientRect().top
+   return (
+      elementTop > (window.innerHeight || document.documentElement.clientHeight)
+   )
 }
 
 const displayScrollElement = (element) => {
-  element.classList.add('scrolled')
+   element.classList.add('scrolled')
 }
 
 /*const hideScrollElement = (element) => {
@@ -71,86 +79,85 @@ const displayScrollElement = (element) => {
 }*/
 
 const handleScrollAnimation = () => {
-  scrollElements.forEach((el) => {
-    if (elementInViewport(el, 1.25)) {
-      displayScrollElement(el);
-    } /*else if (elementOutofView(el)) {
+   scrollElements.forEach((el) => {
+      if (elementInViewport(el, 1.25)) {
+         displayScrollElement(el)
+      } /*else if (elementOutofView(el)) {
       hideScrollElement(el)
     }*/
-  })
+   })
 }
 
-var throttleTimer;
+var throttleTimer
 
 const throttle = (callback, time) => {
-  if (throttleTimer) return;
+   if (throttleTimer) return
 
-  throttleTimer = true;
-  setTimeout(() => {
-    callback();
-    throttleTimer = false;
-  }, time);
+   throttleTimer = true
+   setTimeout(() => {
+      callback()
+      throttleTimer = false
+   }, time)
 }
 
-window.addEventListener("scroll", () => {
-  throttle(handleScrollAnimation, 250)
-});
+window.addEventListener('scroll', () => {
+   throttle(handleScrollAnimation, 250)
+})
 
 //******************************************************
 
 // Button show-more
-let btnShowMore = document.getElementById('show-more-btn');
-let moreContent = document.querySelectorAll('.show-more');
-let isDisplayed = false;
+let btnShowMore = document.getElementById('show-more-btn')
+let moreContent = document.querySelectorAll('.show-more')
+let isDisplayed = false
 
-moreContent.forEach(element => {
-  element.style.display = "none";
-});
+moreContent.forEach((element) => {
+   element.style.display = 'none'
+})
 
-function displayContent(){
-  if (isDisplayed === false){
-    moreContent.forEach(element => {
-      element.style.display = "flex";
-      btnShowMore.innerHTML = "Afficher Moins";
-    });
-    isDisplayed = true;
-  }else if (isDisplayed === true){
-    moreContent.forEach(element => {
-      element.style.display = "none";
-      btnShowMore.innerHTML = "Afficher Plus";
-    });
-    isDisplayed = false;
-  }
+function displayContent() {
+   if (isDisplayed === false) {
+      moreContent.forEach((element) => {
+         element.style.display = 'flex'
+         btnShowMore.innerHTML = 'Afficher Moins'
+      })
+      isDisplayed = true
+   } else if (isDisplayed === true) {
+      moreContent.forEach((element) => {
+         element.style.display = 'none'
+         btnShowMore.innerHTML = 'Afficher Plus'
+      })
+      isDisplayed = false
+   }
 }
 
-btnShowMore.addEventListener('click', displayContent);
+btnShowMore.addEventListener('click', displayContent)
 
 //******************************************************
-const navBar = document.querySelector('#menu');
-let lastScroll = 0;
-let scrollTimeout;
+const navBar = document.querySelector('#menu')
+let lastScroll = 0
+let scrollTimeout
 
 window.addEventListener('scroll', () => {
-  clearTimeout(scrollTimeout);
-  const currentScroll = window.scrollY;
+   clearTimeout(scrollTimeout)
+   const currentScroll = window.scrollY
 
-  if (currentScroll <= 0) {
-    lastScroll = 0;
-    navBar.classList.add('animation-nav-out');
-    navBar.classList.remove('animation-nav-in'); 
-    return;
-  }
+   if (currentScroll <= 0) {
+      lastScroll = 0
+      navBar.classList.add('animation-nav-out')
+      navBar.classList.remove('animation-nav-in')
+      return
+   }
 
-  scrollTimeout = setTimeout(() => {
+   scrollTimeout = setTimeout(() => {
+      if (currentScroll > lastScroll) {
+         navBar.classList.remove('animation-nav-out')
+         navBar.classList.add('animation-nav-in')
+      } else {
+         navBar.classList.add('animation-nav-out')
+         navBar.classList.remove('animation-nav-in')
+      }
 
-    if (currentScroll > lastScroll) {
-      navBar.classList.remove('animation-nav-out');
-      navBar.classList.add('animation-nav-in');
-    } else {
-      navBar.classList.add('animation-nav-out');
-      navBar.classList.remove('animation-nav-in'); 
-    }
-
-    lastScroll = currentScroll;
-  }, 50)
-});
+      lastScroll = currentScroll
+   }, 50)
+})
