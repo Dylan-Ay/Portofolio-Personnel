@@ -522,20 +522,20 @@
 									<div class="embla__container">
 										<div class="embla__slide">
 											<div class="embla__slide__number">
-												<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/game.png" alt="image 1 projet 2048" class="works-preview-right mt-4 h-100" style="width: 280px;">
+												<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/game.png" alt="image 1 projet 2048" class="works-preview-right mt-4 h-100">
 											</div>
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/victory.png" alt="image 2 projet 2048" class="works-preview-right mt-4 h-100" style="width: 280px;">
+											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/victory.png" alt="image 2 projet 2048" class="works-preview-right mt-4 h-100">
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/lose.png" alt="image 3 projet 2048" class="works-preview-right mt-4 h-100" style="width: 280px;">
+											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/lose.png" alt="image 3 projet 2048" class="works-preview-right mt-4 h-100">
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/retry.png" alt="image 4 projet 2048" class="works-preview-right mt-4 h-100" style="width: 280px;">
+											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/retry.png" alt="image 4 projet 2048" class="works-preview-right mt-4 h-100">
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/menu.png" alt="image 5 projet 2048" class="works-preview-right mt-4 h-100" style="width: 280px;">
+											<img src="https://github.com/Dylan-Ay/2048/raw/master/assets/screenshots/menu.png" alt="image 5 projet 2048" class="works-preview-right mt-4 h-100">
 										</div>
 									</div>
 									</div>
