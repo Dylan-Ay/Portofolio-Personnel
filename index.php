@@ -454,14 +454,11 @@
 									
 									<p class="semi-bold text-end">Janvier 2026</p>
 								</div>
-								<!-- <div class="git-link d-flex justify-content-end mt-2 gap-2">
-									<a href="https://github.com/Dylan-Ay/Ma-Meteo" target="_blank">
+								<div class="git-link d-flex justify-content-end mt-2 gap-2">
+									<a href="https://github.com/Dylan-Ay/Visit-My-Cities" target="_blank">
 										<img src="icones/github.svg" alt="icone github" title="Répertoire GitHub">
 									</a>
-									<a href="https://github.com/Dylan-Ay/Ma-Meteo/releases/download/v1.0/Ma-Meteo.zip">
-										<img src="icones/download.svg" alt="download icon" title="Télécharger">
-									</a>
-								</div> -->
+								</div>
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
 								<div class="embla">
@@ -530,21 +527,30 @@
 								</div>
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
-									<!-- <li>
-										<img src="icones/skills/electron-logo.svg" alt="icone electron" class="dev-icon">
+									<li>
+										<img src="icones/react-native.png" alt="icone react native" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/skills/web-components-logo.svg" alt="icone web-components" class="dev-icon">
+										<img src="icones/skills/spring-logo.svg" alt="icone spring boot" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/skills/javascript-logo.svg" alt="icone javascript" class="dev-icon">
+										<img src="icones/skills/postman.svg" alt="icone postman" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/skills/tailwind-logo.svg" alt="icone tailwind" class="dev-icon" style="margin-right: -15px;">
+										<img src="icones/skills/zustand.svg" alt="icone zustand" class="dev-icon">
 									</li>
 									<li>
-										<img src="icones/skills/api-logo.svg" alt="icone api" style="width: 75px;">
-									</li> -->
+										<img src="icones/skills/expo.svg" alt="icone expo" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/docker-logo.svg" alt="icone docker" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/mysql-logo.svg" alt="icone mysql" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/android-studio.svg" alt="icone android studio" class="dev-icon">
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -639,6 +645,9 @@
 									</li>
 									<li>
 										<img src="icones/skills/expo.svg" alt="icone expo" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/android-studio.svg" alt="icone android studio" class="dev-icon">
 									</li>
 								</ul>
 							</div>
