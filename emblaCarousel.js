@@ -1,10 +1,10 @@
-window.addEventListener('DOMContentLoaded', () => {
+function initEmblaCarousel(rootNode) {
    const emblaNode = document.querySelector('.embla')
-   const viewportNode = emblaNode.querySelector('.embla__viewport')
+   const viewportNode = rootNode.querySelector('.embla__viewport')
 
-   const prevBtn = emblaNode.querySelector('.embla__button--prev')
-   const nextBtn = emblaNode.querySelector('.embla__button--next')
-   const dotsNode = emblaNode.querySelector('.embla__dots')
+   const prevBtn = rootNode.querySelector('.embla__button--prev')
+   const nextBtn = rootNode.querySelector('.embla__button--next')
+   const dotsNode = rootNode.querySelector('.embla__dots')
 
    const emblaApi = EmblaCarousel(viewportNode, { loop: false })
 
@@ -54,7 +54,14 @@ window.addEventListener('DOMContentLoaded', () => {
    emblaApi.on('init', createDots)
    emblaApi.on('init', updateDots)
    emblaApi.on('select', updateDots)
-
    createDots()
    toggleButtons()
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+   const emblaNodes = document.querySelectorAll('.embla')
+
+   emblaNodes.forEach((emblaNode) => {
+      initEmblaCarousel(emblaNode)
+   })
 })
