@@ -464,7 +464,70 @@
 								</div> -->
 							</div>	
 							<div class="col-12 col-md-11 col-lg-6 project-image">
-								<img src="https://cdn.prod.website-files.com/643149de01d4474ba64c7cdc/65428da5c4c1a2b9740cc088_20231101-ImageNonDisponible-v1.jpg" alt="photo projet app-météo" class="works-preview-left mt-4 img-fluid">
+								<div class="embla">
+									<div class="embla__viewport">
+									<div class="embla__container">
+										<div class="embla__slide">
+											<div class="embla__slide__number">
+												<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/HomeScreen.png" alt="image 2 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+											</div>
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/Explorer.png" alt="image 3 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/CityDetailScreen.png" alt="image 4 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingScreen.png" alt="image 5 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingScreen2.png" alt="image 6 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingScreen3.png" alt="image 7 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingsByCategory.png" alt="image 8 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/Favorites.png" alt="image 9 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/AddBuildingScreen.png" alt="image 10 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+										</div>
+										<div class="embla__slide">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/ProfileScreenLogged.png" alt="image 11 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+										</div>
+									</div>
+									</div>
+									<div class="embla__controls">
+									<div class="embla__buttons">
+										<button
+											class="embla__button embla__button--prev embla__button--disabled"
+											type="button"
+										>
+											<svg class="embla__button__svg" viewBox="0 0 532 532">
+											<path
+												fill="currentColor"
+												d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
+											></path>
+											</svg></button
+										><button
+											class="embla__button embla__button--next embla__button--disabled"
+											type="button"
+										>
+											<svg class="embla__button__svg" viewBox="0 0 532 532">
+											<path
+												fill="currentColor"
+												d="M176.34 520.646c-13.793 13.805-36.208 13.805-50.001 0-13.785-13.804-13.785-36.238 0-50.034L330.78 266 126.34 61.391c-13.785-13.805-13.785-36.239 0-50.044 13.793-13.796 36.208-13.796 50.002 0 22.928 22.947 206.395 206.507 229.332 229.454a35.065 35.065 0 0 1 10.326 25.126c0 9.2-3.393 18.26-10.326 25.2-45.865 45.901-206.404 206.564-229.332 229.52Z"
+											></path>
+											</svg>
+										</button>
+									</div>
+									<div class="embla__dots"></div>
+								</div>
+								</div>
 								<h5 class="position-relative almost-bold mt-4 pt-2 mb-4">Technologies utilisées</h5>
 								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<!-- <li>
