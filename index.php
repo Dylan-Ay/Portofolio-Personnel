@@ -466,35 +466,35 @@
 									<div class="embla__container">
 										<div class="embla__slide">
 											<div class="embla__slide__number">
-												<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/HomeScreen.png" alt="image 2 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+												<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/HomeScreen.png" alt="image 2 projet Visit My Cities" class="works-preview-left mt-4 h-100">
 											</div>
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/Explorer.png" alt="image 3 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/Explorer.png" alt="image 3 projet Visit My Cities" class="works-preview-left mt-4 h-100">
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/CityDetailScreen.png" alt="image 4 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/CityDetailScreen.png" alt="image 4 projet Visit My Cities" class="works-preview-left mt-4 h-100">
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingScreen.png" alt="image 5 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingScreen.png" alt="image 5 projet Visit My Cities" class="works-preview-left mt-4 h-100">
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingScreen2.png" alt="image 6 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingScreen2.png" alt="image 6 projet Visit My Cities" class="works-preview-left mt-4 h-100">
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingScreen3.png" alt="image 7 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingScreen3.png" alt="image 7 projet Visit My Cities" class="works-preview-left mt-4 h-100">
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingsByCategory.png" alt="image 8 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/BuildingsByCategory.png" alt="image 8 projet Visit My Cities" class="works-preview-left mt-4 h-100">
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/Favorites.png" alt="image 9 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/Favorites.png" alt="image 9 projet Visit My Cities" class="works-preview-left mt-4 h-100">
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/AddBuildingScreen.png" alt="image 10 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/AddBuildingScreen.png" alt="image 10 projet Visit My Cities" class="works-preview-left mt-4 h-100">
 										</div>
 										<div class="embla__slide">
-											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/ProfileScreenLogged.png" alt="image 11 projet Visit My Cities" class="works-preview-right mt-4 h-100">
+											<img src="https://github.com/Dylan-Ay/Visit-My-Cities/raw/main/frontend/assets/screenshots/ProfileScreenLogged.png" alt="image 11 projet Visit My Cities" class="works-preview-left mt-4 h-100">
 										</div>
 									</div>
 									</div>
