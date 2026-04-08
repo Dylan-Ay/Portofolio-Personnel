@@ -38,7 +38,7 @@
 		<link rel="icon" href="icones/logo-title.ico" type="image/icon">
 	</head> 
 	<body>
-		<?php include('form-treatement.php');?>
+		<?php include 'form-treatement.php'; ?>
 		<header>
 			<div id="menu" class="animation-nav-out">
 				<!------------  Navbar ----------->
@@ -438,19 +438,22 @@
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-fiches-films px-4 py-4">
 									<h4 class="almost-bold">Visit My Cities</h4>
-									<!-- <p>Projet de licence : une application de bureau avec Electron.js, Tailwind, Web Components et deux API.</p> -->
-									<p>En construction..</p>
-
-									<!-- <ul class="d-flex gap-3 flex-column">
-										<li>Rechercher n'importe quelle ville dans le monde grâce à l'API Geoapify. Une fois la ville sélectionnée, vous obtiendrez les prévisions météorologiques de cette dernière.</li>
-										<li>Affichage des informations météorologiques actuelles et sur 24 heures comprenant : la température, la température ressentie, l'icône de la météo, la vitesse du vent, le taux d'humidité, la pression atmosphérique, les heures de lever et de coucher de soleil ainsi qu'une description de la météo du jour.</li>
-										<li>Les données sont enregistrées dans la mémoire locale de votre navigateur afin de pouvoir être affichées lors de la prochaine utilisation de l'application.</li>
-										<li>Vous pouvez accéder à l'historique des villes recherchées directement sous la barre de recherche. Ces éléments sont cliquables et vous permettent d'afficher rapidement les prévisions météorologiques de la ville sélectionnée.</li>
-										<li>Météo quotidienne pour les 7 prochains jours de la ville sélectionnée : la température maximale, la température minimale, l'icône de la météo, le lever et coucher du soleil.</li>
-										<li>J'ai également créé un thème sombre que vous pouvez activer à l'aide du bouton situé dans le coin supérieur droit de l'application.</li>
-										<li>Il y a également deux indicateurs santé: la qualité de l'air allant de 1 à 5 et l'indice UV allant de 1 à 12. Selon le niveau de chacun de ces critères, un conseil personnalisé est affiché suivant les recommandations de l'OMS.</li>
-										<li>Un cache a été implémenté pour éviter l'excès d'appels API.</li>
-									</ul> -->
+									<p>Projet de licence : Application mobile avec <a class="semi-bold" target="_blank" href="https://reactnative.dev"> React Native</a>, et une API REST en <a class="semi-bold" target="_blank" href="https://spring.io/"> Spring Boot.</a></p>
+									<p>Visit My Cities recense les monuments remarquables de chaque ville. L'application permet à l'utilisateur de planifier ses visites pendant son séjour. Il peut visualiser les lieux selon ses préférences (année de construction, style architectural, catégories). Un utilisateur expert peut ajouter de nouveaux monuments. Chaque monument possède de nombreuses informations utiles pour organiser sa visite. Les fonctionnalités sont :</p>
+									
+									<ul class="d-flex gap-3 flex-column">
+										<li>Afficher une liste de villes et de monuments populaires</li>
+										<li>Afficher une liste de monuments par catégorie</li>
+										<li>Afficher une liste de monuments par ville</li>
+										<li>Afficher les informations détaillées par monument (adresse, horaires, description, informations clés, informations de visite, localisation)</li>
+										<li>Naviguer entre les monuments et les villes dans l’application</li>
+										<li>Avoir une liste de villes et de monuments favoris</li>
+										<li>Afficher une carte avec la localisation du monument</li>
+										<li>Afficher un itinéraire depuis la position actuelle de l'utilisateur jusqu’au monument via Google Maps</li>
+										<li>Afficher un profil utilisateur basique une fois connecté</li>
+										<li>Fonctionnalités de connexion et d’inscription, espace d'administration pour un rôle expert</li>
+										<li>Ajouter de nouveaux monuments via un formulaire</li>
+									</ul>
 									
 									<p class="semi-bold text-end">Janvier 2026</p>
 								</div>
@@ -577,7 +580,7 @@
 										<li>Optimisation des performances de rendu et réduction des problèmes visuels sur mobile</li>
 									</ul>
 									
-									<p class="semi-bold text-end">Avril 2026</p>
+									<p class="semi-bold text-end">Mars 2026</p>
 								</div>
 								<div class="git-link d-flex justify-content-end mt-2 gap-2">
 									<a href="https://github.com/Dylan-Ay/2048" target="_blank">
@@ -1203,7 +1206,7 @@
 									<div class="col-lg-4">
 										<label for="email" class="form-label light-bold">Adresse mail <span class="red">*</span></label>
 										<input type="email" name="email" class="form-control py-3" id="email" required>
-									<?php echo $errorMail ?? '';?>
+									<?php echo $errorMail ?? ''; ?>
 									</div>
 								</div>
 								<div class="row mt-4 justify-content-center">	
