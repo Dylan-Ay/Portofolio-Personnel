@@ -6,6 +6,7 @@
       "rfs": "^9.0.6"
    },
    "devDependencies": {
+      "@prettier/plugin-php": "^0.25.0",
       "prettier": "3.8.1"
    }
 }
