@@ -146,6 +146,7 @@ window.addEventListener('scroll', () => {
       lastScroll = 0
       navBar.classList.add('animation-nav-out')
       navBar.classList.remove('animation-nav-in')
+      navBar.classList.remove('d-none')
       return
    }
 
@@ -153,9 +154,15 @@ window.addEventListener('scroll', () => {
       if (currentScroll > lastScroll) {
          navBar.classList.remove('animation-nav-out')
          navBar.classList.add('animation-nav-in')
+         setTimeout(() => {
+            navBar.classList.add('d-none')
+         }, 600)
       } else {
          navBar.classList.add('animation-nav-out')
          navBar.classList.remove('animation-nav-in')
+         setTimeout(() => {
+            navBar.classList.remove('d-none')
+         }, 600)
       }
 
       lastScroll = currentScroll

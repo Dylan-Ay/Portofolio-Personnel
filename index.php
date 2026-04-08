@@ -255,7 +255,7 @@
 									
 								</div> -->
 							</div>
-							<div class="col-12 col-lg-6 scroll-in js-opacity pb-5">
+							<div class="col-12 col-lg-6 pb-5">
 								<h4 class="almost-bold mt-5 mt-lg-4 mb-3">Back-end :</h4>
 								<!------------  Developpement Back-end Skills ----------->
 								<div class="d-flex flex-wrap skills-content">
