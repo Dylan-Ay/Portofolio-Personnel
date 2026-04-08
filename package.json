@@ -1,4 +1,7 @@
 {
+   "scripts": {
+      "start": "browser-sync start --proxy 'localhost:8082' --files '**/*.php,**/*.css,**/*.js'"
+   },
    "dependencies": {
       "rfs": "^9.0.6"
    },
