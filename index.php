@@ -534,6 +534,9 @@
 										<img src="icones/react-native.png" alt="icone react native" class="dev-icon">
 									</li>
 									<li>
+										<img src="icones/skills/typescript-logo.svg" alt="icone typescript" class="dev-icon">
+									</li>
+									<li>
 										<img src="icones/skills/spring-logo.svg" alt="icone spring boot" class="dev-icon">
 									</li>
 									<li>
