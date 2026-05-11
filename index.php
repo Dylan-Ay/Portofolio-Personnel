@@ -107,7 +107,7 @@
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
 						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">Actuellement en stage de fin d'études dans le cadre de ma Licence Professionnelle en développement logiciel à l'UHA de Mulhouse, <span class="semi-bold">je suis à la recherche d'une alternance pour préparer un master à compter de Septembre 2026.</span> 
+							<p class="mx-auto ps-2 pe-2">Je suis actuellement en stage de fin d'études dans le cadre de ma Licence Professionnelle en développement logiciel à l'UHA de Mulhouse. Je travaille principalement sur de la refonte avec les technologies : <span class="semi-bold">Next.js, React.js, TypeScript, Tailwind, Firebase et WordPress REST API.</span>
 							</p>
 							<div class="card-footer pt-4 pb-3"></div>
 						</div>
@@ -124,7 +124,7 @@
 							<div class="col-12 col-lg-7 scroll-in js-opacity">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
-									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 30 ans et je prépare actuellement une <span class="semi-bold">Licence Professionnelle en développement logiciel à l'UHA de Mulhouse. Je suis dans la phase finale de mon cursus.</span>
+									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 31 ans et je prépare actuellement une <span class="semi-bold">Licence Professionnelle en développement logiciel à l'UHA de Mulhouse.</span> Je suis actuellement en stage, l'étape finale de mon cursus.
 									</p>
 										
 									<p>Mon intérêt pour l'informatique et les nouvelles technologies a commencé étant jeune. 
@@ -438,7 +438,7 @@
 							<div class="col-12 col-md-9 col-lg-5 scroll-in js-opacity order-1 order-lg-0">
 								<div class="description-fiches-films px-4 py-4">
 									<h4 class="almost-bold">Visit My Cities</h4>
-									<p>Projet de licence : Application mobile avec <a class="semi-bold" target="_blank" href="https://reactnative.dev"> React Native</a>, et une API REST en <a class="semi-bold" target="_blank" href="https://spring.io/"> Spring Boot.</a></p>
+									<p>Projet de licence : Application mobile avec <a class="semi-bold" target="_blank" href="https://reactnative.dev"> React Native, TypeScript</a>, et une API REST en <a class="semi-bold" target="_blank" href="https://spring.io/"> Spring Boot.</a></p>
 									<p>Visit My Cities recense les monuments remarquables de chaque ville. L'application permet à l'utilisateur de planifier ses visites pendant son séjour. Il peut visualiser les lieux selon ses préférences (année de construction, style architectural, catégories). Un utilisateur expert peut ajouter de nouveaux monuments. Chaque monument possède de nombreuses informations utiles pour organiser sa visite. Les fonctionnalités sont :</p>
 									
 									<ul class="d-flex gap-3 flex-column">
@@ -645,6 +645,9 @@
 								<ul class="list-unstyled text-center text-md-start d-flex gap-3 flex-wrap align-items-baseline justify-content-center justify-content-lg-start">
 									<li>
 										<img src="icones/react-native.png" alt="icone react native" class="dev-icon">
+									</li>
+									<li>
+										<img src="icones/skills/javascript-logo.svg" alt="icone react native" class="dev-icon">
 									</li>
 									<li>
 										<img src="icones/skills/zustand.svg" alt="icone zustand" class="dev-icon">
