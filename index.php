@@ -105,12 +105,13 @@
 						</div>
 					</div>
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
-						<!-- <div class="col-11 px-0 statut-border">
+						<div class="col-11 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
-							<p class="mx-auto ps-2 pe-2">Je suis actuellement en stage de fin d'études dans le cadre de ma Licence Professionnelle en développement logiciel à l'UHA de Mulhouse. Je travaille principalement sur de la refonte avec les technologies : <span class="semi-bold">Next.js, React.js, TypeScript, Tailwind, Firebase et WordPress REST API.</span>
+							<p class="mx-auto ps-2 pe-2">
+								Récemment titulaire d'une Licence Professionnelle dans le développement logiciel à l'Université de Haute-Alsace, je poursuivrai ma carrière par un Master dans le même domaine en Septembre 2026.
 							</p>
 							<div class="card-footer pt-4 pb-3"></div>
-						</div> -->
+						</div>
 					</div>	
 				</div>
 			</section>
@@ -124,7 +125,7 @@
 							<div class="col-12 col-lg-7 scroll-in js-opacity">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
-									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 31 ans et je prépare actuellement une <span class="semi-bold">Licence Professionnelle en développement logiciel à l'UHA de Mulhouse que je terminerai en Juillet 2026.</span> 
+									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 31 ans et je préparerai un <span class="semi-bold">Mastère Professionnel dans le développement logiciel en alternance à la rentrée 2026.</span> 
 									</p>
 										
 									<p>Mon intérêt pour l'informatique et les nouvelles technologies a commencé étant jeune. 
@@ -145,10 +146,11 @@
 										<li><span class="semi-bold">2022</span> : Obtention du titre professionnel Développeur Web et Web Mobile (Bac +2) et stage de 2 mois
 										</li>
 										<li><span class="semi-bold"> 2023 - 2024</span> : Développeur Fullstack dans une entreprise de médias</li>
-										<li><span class="semi-bold"> 2025 - 2026</span> : Préparation d'une licence pro mention métiers de l'informatique : conception, développement et test de logiciels (Bac +3) et stage de 3 mois</li>
+										<li><span class="semi-bold"> 2025 - 2026</span> : Obtention d'une Licence professionnelle « mention métiers de l'informatique : conception, développement et test de logiciels » (Bac +3) et stage de 3 mois</li>
+										<li><span class="semi-bold"> 2026 - 2028</span> : Préparation d'un Mastère professionnel « Manager en architecture et applications logicielles des SI » en alternance </li>
 									</ul>
 
-									<p>Aujourd'hui je poursuis ma montée en compétences en licence professionnelle, je continue de me perfectionner et de mettre en oeuvre mes acquis à travers des 
+									<p>Je continue de me perfectionner et de mettre en oeuvre mes acquis à travers des 
 										<a href="#works" class="semi-bold simple-link codecademy">projets personnels.</a>
 									</p>
 									<p><span class="bold">Localisation</span> : Colmar, France</p>
