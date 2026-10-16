@@ -105,10 +105,10 @@
 						</div>
 					</div>
 					<div class="row py-5 text-center justify-content-center animation-introduction-4">
-						<div class="col-11 px-0 statut-border">
+						<div class="col-10 px-0 statut-border">
 							<h2 class="bold mt-3">Statut actuel :</h2>
 							<p class="mx-auto ps-2 pe-2">
-								Récemment titulaire d'une Licence Professionnelle dans le développement logiciel à l'Université de Haute-Alsace, je poursuivrai ma carrière par un Master dans le même domaine en Septembre 2026.
+								Titulaire d'une Licence Professionnelle dans le développement logiciel à l'Université de Haute-Alsace, je suis actuellement en alternance pour préparer un master dans le même domaine depuis Octobre 2026.
 							</p>
 							<div class="card-footer pt-4 pb-3"></div>
 						</div>
@@ -125,7 +125,7 @@
 							<div class="col-12 col-lg-7 scroll-in js-opacity">
 								<h2 class="position-relative bold">A Propos de moi</h2>
 								<div class="mt-4 light-bold">
-									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 31 ans et je préparerai un <span class="semi-bold">Mastère Professionnel dans le développement logiciel en alternance à la rentrée 2026.</span> 
+									<p class="mt-4">Bonjour, je m'appelle Dylan Ayache j'ai 31 ans et je suis en alternance en <span class="semi-bold">1ère année de Mastère Professionnel dans le développement logiciel</span> depuis Octobre 2026. 
 									</p>
 										
 									<p>Mon intérêt pour l'informatique et les nouvelles technologies a commencé étant jeune. 
@@ -147,7 +147,7 @@
 										</li>
 										<li><span class="semi-bold"> 2023 - 2024</span> : Développeur Fullstack dans une entreprise de médias</li>
 										<li><span class="semi-bold"> 2025 - 2026</span> : Obtention d'une Licence professionnelle « mention métiers de l'informatique : conception, développement et test de logiciels » (Bac +3) et stage de 3 mois</li>
-										<li><span class="semi-bold"> 2026 - 2028</span> : Préparation d'un Mastère professionnel « Manager en architecture et applications logicielles des SI » en alternance </li>
+										<li><span class="semi-bold"> 2026 - 2028</span> : Préparation d'un Mastère professionnel « Manager en architecture et applications logicielles des SI » (Bac +5) en alternance </li>
 									</ul>
 
 									<p>Je continue de me perfectionner et de mettre en oeuvre mes acquis à travers des 
